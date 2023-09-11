@@ -16,10 +16,11 @@ class MoveWidget extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
           childAspectRatio: 1,
-          mainAxisExtent: size.height / 4,
-          mainAxisSpacing: size.height / 10,
+          // mainAxisExtent: size.height / 3,
+          mainAxisSpacing: size.height / 15,
+          crossAxisSpacing: size.width / 15,
         ),
-        itemCount: 9,
+        itemCount: 6,
         itemBuilder: (context, index) {
           return MoveArrow(index: index);
         },

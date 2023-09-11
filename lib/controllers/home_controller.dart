@@ -1,13 +1,30 @@
+import 'dart:async';
+import 'package:eight_puzzle/engine/game.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  RxList grid = [].obs;
+  Timer? gameTimer;
+  Rx<Duration> gameDuration = Duration.zero.obs;
+
+  final Rx<Game> _game = Game().obs;
+  Game get game => _game.value;
+
+  final RxBool _isSolving = false.obs;
+  bool get isSolving => _isSolving.value;
+  set isSolving(bool value) => _isSolving.value = value;
+
+  final RxBool _isPlaying = false.obs;
+  bool get isPlaying => _isPlaying.value;
+  set isPlaying(bool value) => _isPlaying.value = value;
+
+  RxList<String> moves = <String>[].obs;
+  RxList<String> solution = <String>[].obs;
 
   @override
   void onInit() {
     ServicesBinding.instance.keyboard.addHandler(moveKey);
-    initializeGrid();
+    // Future.delayed(Duration(seconds: 3), () => isSolving = true);
     super.onInit();
   }
 
@@ -17,58 +34,59 @@ class HomeController extends GetxController {
     super.onClose();
   }
 
-  void initializeGrid() {
-    grid.value = List.generate(9, (index) => index).obs;
-    grid.shuffle();
+  void startGame() {
+    isPlaying = true;
+    gameTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      gameDuration.value += const Duration(seconds: 1);
+    });
+    // solution.value = game.solve();
+  }
+
+  void pauseGame() {
+    isPlaying = false;
+    gameTimer?.cancel();
+  }
+
+  void stopGame() {
+    isPlaying = false;
+    gameDuration.value = Duration.zero;
+    gameTimer?.cancel();
   }
 
   void move(String direction) {
-    int index = grid.indexWhere((element) => element == 0);
-    switch (direction) {
-      case "up":
-        if (index > 2) {
-          grid[index] = grid[index - 3];
-          grid[index - 3] = 0;
-        }
-        break;
-      case "down":
-        if (index < 6) {
-          grid[index] = grid[index + 3];
-          grid[index + 3] = 0;
-        }
-        break;
-      case "left":
-        if (index % 3 != 0) {
-          grid[index] = grid[index - 1];
-          grid[index - 1] = 0;
-        }
-        break;
-      case "right":
-        if (index % 3 != 2) {
-          grid[index] = grid[index + 1];
-          grid[index + 1] = 0;
-        }
-        break;
-      default:
+    if (game.move(direction)) {
+      moves.add(direction);
+      if (solution.isNotEmpty) {
+        solution.clear();
+        // solution.removeAt(0);
+      }
+      // solution.value = game.solve();
+    }
+    if (game.checkWin()) {
+      gameTimer?.cancel();
     }
   }
 
   bool moveKey(KeyEvent event) {
-    final key = event.logicalKey.keyLabel;
-    print("Pressed $key");
+    final key = event.logicalKey.keyLabel.toLowerCase();
     if (event is KeyDownEvent) {
+      if (key.contains("arrow")) {
+        move(key.replaceFirst("arrow ", ""));
+      }
       switch (key) {
-        case "Arrow Up":
+        case "w":
           move("up");
           break;
-        case "Arrow Down":
+        case "s":
           move("down");
           break;
-        case "Arrow Left":
+        case "a":
           move("left");
           break;
-        case "Arrow Right":
+        case "d":
           move("right");
+          break;
+        default:
           break;
       }
     }
@@ -76,6 +94,26 @@ class HomeController extends GetxController {
   }
 
   void restart() {
-    initializeGrid();
+    stopGame();
+    game.initializeGrid();
+    moves.clear();
+    startGame();
+  }
+
+  void solve() {
+    isSolving = !isSolving;
+    game.solve().then((value) {
+      solution.value = value;
+      isSolving = !isSolving;
+    });
+  }
+
+  Future<void> autosolve() async {
+    List<String> solution = await game.solve();
+    for (String move in solution) {
+      this.move(move);
+      // sleep(const Duration(seconds: 2));
+      await Future.delayed(const Duration(milliseconds: 750));
+    }
   }
 }

@@ -19,16 +19,12 @@ class MoveArrow extends StatelessWidget {
         icon = const Icon(Icons.keyboard_arrow_left);
         break;
       case 4:
-        direction = "center";
-        icon = const Icon(Icons.circle);
+        direction = "down";
+        icon = const Icon(Icons.keyboard_arrow_down);
         break;
       case 5:
         direction = "right";
         icon = const Icon(Icons.keyboard_arrow_right);
-        break;
-      case 7:
-        direction = "down";
-        icon = const Icon(Icons.keyboard_arrow_down);
         break;
       default:
         direction = "";
@@ -43,7 +39,7 @@ class MoveArrow extends StatelessWidget {
         : Container(
             // margin: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              shape: BoxShape.circle,
+              borderRadius: BorderRadius.circular(16),
               color: getColorScheme(context).surface,
             ),
             alignment: Alignment.center,
@@ -51,7 +47,7 @@ class MoveArrow extends StatelessWidget {
               icon: icon,
               onPressed: () => Get.find<HomeController>().move(direction),
               iconSize:
-                  (screenWidth(context, 5) + screenHeight(context, 5)) / 2,
+                  (screenWidth(context, 10) + screenHeight(context, 5)) / 2,
               color: getColorScheme(context).primary,
               padding: EdgeInsets.zero,
             ),

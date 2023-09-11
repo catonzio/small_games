@@ -1,3 +1,4 @@
+import 'package:eight_puzzle/configs/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -14,19 +15,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Eight Puzzle',
-      theme: ThemeData(
-        colorScheme: const ColorScheme.dark(
-          background: Color(0xFF030811),
-          surface: Color(0xFF26292A),
-          primary: Color.fromARGB(255, 33, 188, 240),
-          secondary: Color(0xFF26292A),
-          onBackground: Colors.white, // const Color(0xFF26292A),
-          onSurface: Colors.white, // const Color(0xFF26292A),
-          onPrimary: Colors.white, // const Color(0xFF26292A),
-          onSecondary: Colors.white, // const Color(0xFF26292A),
-        ),
-        useMaterial3: true,
-      ),
+      theme: buildTheme("light"),
+      darkTheme: buildTheme("dark"),
+      themeMode: ThemeMode.system,
       home: HomePage(),
     );
   }
