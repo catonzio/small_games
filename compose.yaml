@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  eight_puzzle:
+    image: eight_puzzle:1.0
+    container_name: eight_puzzle
+    build:
+      context: .
+    ports:
+      - "2000:80"
