@@ -1,5 +1,9 @@
 version: '3'
 
+networks:
+  network:
+    driver: bridge
+
 services:
 
   eight_puzzle:
