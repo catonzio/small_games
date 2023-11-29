@@ -16,7 +16,7 @@ RUN flutter channel stable
 RUN flutter config --enable-web
 
 RUN mkdir /app/
-COPY . /app/
+COPY ./app /app/
 WORKDIR /app/
 RUN flutter clean
 RUN flutter pub get
