@@ -1,3 +1,5 @@
+docker_logs.txt
+
 # Miscellaneous
 *.class
 *.log
@@ -25,14 +27,14 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
-.flutter-plugins
+app/.flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
 .pub/
 /build/
-.metadata
-pubspeck.lock
+app/.metadata
+app/pubspeck.lock
 
 # Symbolication related
 app.*.symbols

@@ -18,13 +18,15 @@ RUN flutter config --enable-web
 RUN mkdir /app/
 COPY ./app /app/
 WORKDIR /app/
+RUN rm -rf ./build pubspeck.lock .dart_tool/ .metadata
 RUN flutter clean
 RUN flutter pub get
 RUN flutter build web --no-tree-shake-icons
 
 # Stage 2
 FROM nginx:1.21.1-alpine
-COPY --from=build-env /app/build/web /usr/share/nginx/html/eight-puzzle
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-RUN sed -i 's/<base href="\/">/<base href="\/eight-puzzle\/">/g' /usr/share/nginx/html/eight-puzzle/index.html
+COPY --from=build-env /app/build/web /usr/share/nginx/html
+# COPY --from=build-env /app/build/web /usr/share/nginx/html/eight-puzzle
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
+# RUN sed -i 's/<base href="\/">/<base href="\/eight-puzzle\/">/g' /usr/share/nginx/html/eight-puzzle/index.html
 # CMD ["flutter", "run", "-d", "web-server", "--web-port", "8080", "--web-hostname", "0.0.0.0"]

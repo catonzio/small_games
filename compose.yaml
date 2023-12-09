@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 networks:
   network:
@@ -7,9 +7,11 @@ networks:
 services:
 
   eight_puzzle:
-    image: eight_puzzle:1.0
+    image: eight_puzzle:latest
     container_name: eight_puzzle
     build:
       context: .
     ports:
       - "2000:80"
+    networks:
+      - network
