@@ -15,3 +15,7 @@ services:
       - "2000:80"
     networks:
       - network
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/www.danilocatone.com.cer:/etc/nginx/www.danilocatone.com.cer
+      - ./nginx/www.danilocatone.com.key:/etc/nginx/www.danilocatone.com.key

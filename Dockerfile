@@ -21,11 +21,12 @@ WORKDIR /app/
 RUN rm -rf ./build pubspeck.lock .dart_tool/ .metadata
 RUN flutter clean
 RUN flutter pub get
-RUN flutter build web --no-tree-shake-icons
+RUN flutter build web --base-href "/eight-puzzle/"
+# --no-tree-shake-icons
 
 # Stage 2
 FROM nginx:1.21.1-alpine
-COPY --from=build-env /app/build/web /usr/share/nginx/html
+COPY --from=build-env /app/build/web /usr/share/nginx/html/eight-puzzle
 # COPY --from=build-env /app/build/web /usr/share/nginx/html/eight-puzzle
 # COPY nginx.conf /etc/nginx/conf.d/default.conf
 # RUN sed -i 's/<base href="\/">/<base href="\/eight-puzzle\/">/g' /usr/share/nginx/html/eight-puzzle/index.html
