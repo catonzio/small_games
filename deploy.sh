@@ -1,34 +1,35 @@
-IMAGE_NAME="eight_puzzle_fe:1.0"
-CONTAINER_NAME="ep_fe"
-PORT=2000
+#!/bin/bash
 
-if [ $# -eq 1 ]
+
+function usage {
+    echo "Usage: $0 (start|build|restart|stop)"
+    exit 1
+}
+
+if [ $# -ne 1 ]
 then
-	# if there is the flag
-	if [ "$1" == "build" ]
-	then
-		# build the image
-		sudo docker build -t $IMAGE_NAME .
-		# if there are errors
-		if [ $? -ne 0 ]
-		then
-			echo "Error building the image."
-		fi
-	elif [ "$1" == "stop" ]
-	then
-		# stop the container
-		sudo docker stop $CONTAINER_NAME
-		exit 0
-	fi
+    usage
 fi
 
-# if there are no errors in building
-# stop the container
-sudo docker stop $CONTAINER_NAME
-# remove any pre-existing container with same name
-sudo docker rm $CONTAINER_NAME
-# run the container exposing the port
-sudo docker run -d \
-	-p $PORT:80 \
-	--name $CONTAINER_NAME \
-   	$IMAGE_NAME
+if [ $1 = "start" ]
+then
+    docker_command="up -d"
+    action="Deploying"
+elif [ $1 == "build" ]
+then
+    docker_command="up --build -d"
+    action="Building"
+elif [ $1 = "stop" ]
+then
+    docker_command="stop"
+    action="Stopping"
+elif [ $1 = "restart" ]
+then
+    docker_command="restart"
+    action="Restarting"
+else
+    usage
+fi
+
+echo "$action eight-puzzle"
+docker-compose $docker_command > docker_logs.txt
