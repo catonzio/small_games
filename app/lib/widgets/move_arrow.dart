@@ -3,6 +3,7 @@ import 'package:eight_puzzle/utilities/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+// ignore: must_be_immutable
 class MoveArrow extends StatelessWidget {
   final int index;
   late String direction;
@@ -52,6 +53,5 @@ class MoveArrow extends StatelessWidget {
               padding: EdgeInsets.zero,
             ),
           );
-    ;
   }
 }

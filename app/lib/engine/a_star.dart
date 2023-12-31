@@ -104,7 +104,7 @@ class AStar {
     // how cheap a path from start to finish can be if it goes through n.
     Map<State, double> fScore = {};
     fScore[startState] = startState.score();
-    int step = 0;
+    // int step = 0;
     while (openList.isNotEmpty) {
       // print("Step ${++step}");
       // sort the open list by score (lowest to highest)
