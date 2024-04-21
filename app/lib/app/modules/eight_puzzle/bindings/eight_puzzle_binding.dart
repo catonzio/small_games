@@ -7,7 +7,7 @@ class EightPuzzleBinding extends Bindings {
   @override
   void dependencies() {
     GridController gridController = Get.put(GridController());
-    Get.put(EightPuzzleController(gridController: gridController));
+    Get.put(EightPuzzleController(grid: gridController));
     // Get.lazyPut<EightPuzzleController>(
     //   () => EightPuzzleController(),
     // );

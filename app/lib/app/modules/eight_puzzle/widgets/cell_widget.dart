@@ -7,11 +7,13 @@ class CellWidget extends StatelessWidget {
   final Cell cell;
   final bool isLast;
   final double cellSize;
+  final Image image;
 
   const CellWidget(
       {super.key,
       required this.cell,
       required this.cellSize,
+      required this.image,
       this.isLast = false});
 
   @override
@@ -29,22 +31,27 @@ class CellWidget extends StatelessWidget {
             fit: StackFit.expand,
             children: [
               if (!isLast) ...[
-                cell.image,
+                image,
                 Opacity(
-                  opacity: 0.25,
+                  opacity: controller.showNumbers ? 0.25 : 0.1,
                   child: Container(
-                    decoration: BoxDecoration(
-                      border:
-                          Border.all(color: const Color(0xFF050D1A), width: 0),
-                      color: Colors.black,
+                      decoration: BoxDecoration(
+                    color: Colors.black,
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 0,
                     ),
-                  ),
+                  )),
                 ),
               ],
-              Center(
-                child: Text(
-                  isLast ? "" : "${cell.value}",
-                  style: context.textTheme.headlineLarge,
+              AnimatedOpacity(
+                duration: controller.animationController.duration!,
+                opacity: controller.showNumbers ? 1 : 0,
+                child: Center(
+                  child: Text(
+                    isLast ? "" : "${cell.value}",
+                    style: context.textTheme.headlineLarge,
+                  ),
                 ),
               ),
             ],

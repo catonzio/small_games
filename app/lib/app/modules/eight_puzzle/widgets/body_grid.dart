@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/controllers/eight_puzzle_controller.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/grid_widget.dart';
+import 'package:small_games/app/modules/eight_puzzle/widgets/show_numbers_checkbox.dart';
 
 class BodyGrid extends StatelessWidget {
   const BodyGrid({super.key});
@@ -17,66 +17,37 @@ class BodyGrid extends StatelessWidget {
       child: GestureDetector(
         onTap: () => controller.focusNode.requestFocus(),
         child: SizedBox(
-          height: dimension,
+          // height: dimension,
           width: dimension,
-          child: AspectRatio(
-              aspectRatio: 1,
-              child: Obx(
-                () => AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 500),
-                    // transitionBuilder: (child, animation) {
-                    //   return ScaleTransition(
-                    //     scale: animation,
-                    //     child: child,
-                    //   );
-                    // },
-                    child: controller.isLoadingImage || !controller.hasShuffled
-                        ? Image.asset(
-                            key: UniqueKey(),
-                            controller
-                                .imagePath) // const CircularProgressIndicator()
-                        : Focus(
-                            focusNode: controller.focusNode,
-                            onKeyEvent: (node, event) {
-                              Direction? direction = getDirectionFromKey(event);
-                              if (direction != null) {
-                                controller.move(direction);
-                              }
-                              return KeyEventResult.handled;
-                            },
-                            child: GridWidget(
-                              dimension: dimension,
-                            ),
-                          )),
-              )),
+          child: Column(
+            children: [
+              AspectRatio(
+                  aspectRatio: 1,
+                  child: Obx(
+                    () => AnimatedSwitcher(
+                        duration: const Duration(milliseconds: 500),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                                color: const Color(0xFF050D1A), width: 3),
+                          ),
+                          child: controller.isLoadingImage
+                              ? Image.asset(
+                                  key: UniqueKey(), controller.imagePath)
+                              : Focus(
+                                  focusNode: controller.focusNode,
+                                  onKeyEvent: controller.onMove,
+                                  child: GridWidget(
+                                    dimension: dimension,
+                                  ),
+                                ),
+                        )),
+                  )),
+              const ShowNumbersCheckbox(),
+            ],
+          ),
         ),
       ),
     );
   }
-}
-
-Direction? getDirectionFromKey(KeyEvent event) {
-  if (event.runtimeType == KeyDownEvent) {
-    if (event.logicalKey == LogicalKeyboardKey.arrowUp ||
-        event.logicalKey == LogicalKeyboardKey.keyW) {
-      return Direction.up;
-    } else if (event.logicalKey == LogicalKeyboardKey.arrowDown ||
-        event.logicalKey == LogicalKeyboardKey.keyS) {
-      return Direction.down;
-    } else if (event.logicalKey == LogicalKeyboardKey.arrowLeft ||
-        event.logicalKey == LogicalKeyboardKey.keyA) {
-      return Direction.left;
-    } else if (event.logicalKey == LogicalKeyboardKey.arrowRight ||
-        event.logicalKey == LogicalKeyboardKey.keyD) {
-      return Direction.right;
-    }
-  }
-  return null;
-}
-
-enum Direction {
-  up,
-  down,
-  left,
-  right,
 }

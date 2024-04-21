@@ -4,10 +4,10 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart' as mat;
-import 'package:small_games/app/modules/eight_puzzle/models/cell.dart';
 
-Future<List<Cell>> decodeAndCropImage(String imagePath, int imgsInRow) async {
-  final List<Cell> subImages = <Cell>[];
+Future<List<mat.Image>> decodeAndCropImage(
+    String imagePath, int imgsInRow) async {
+  final List<mat.Image> subImages = <mat.Image>[];
   // Load the image using dart:ui
   ui.Image image = await decodeImage(imagePath);
 
@@ -20,7 +20,7 @@ Future<List<Cell>> decodeAndCropImage(String imagePath, int imgsInRow) async {
     for (int j = 0; j < imgsInRow; j++) {
       // Define the rectangle region to crop
       Rect cropRect =
-          Rect.fromLTWH(subWidth * i, subHeight * j, subWidth, subHeight);
+          Rect.fromLTWH(subWidth * j, subHeight * i, subWidth, subHeight);
 
       // Crop the image
       ui.Image croppedImage = await cropImage(image, cropRect);
@@ -28,14 +28,18 @@ Future<List<Cell>> decodeAndCropImage(String imagePath, int imgsInRow) async {
       // Convert the cropped image to bytes
       Uint8List croppedBytes = await imageToByteData(croppedImage);
 
-      subImages.add(Cell(
-          row: j,
-          col: i,
-          value: j * imgsInRow + i + 1,
-          image: mat.Image.memory(
-            croppedBytes,
-            fit: BoxFit.fill,
-          )));
+      subImages.add(mat.Image.memory(
+        croppedBytes,
+        fit: BoxFit.fill,
+      ));
+      // subImages.add(Cell(
+      //     row: j,
+      //     col: i,
+      //     value: j * imgsInRow + i + 1,
+      //     image: mat.Image.memory(
+      //       croppedBytes,
+      //       fit: BoxFit.fill,
+      //     )));
     }
   }
 

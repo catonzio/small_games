@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class Cell {
@@ -10,13 +9,11 @@ class Cell {
   set col(int value) => _col.value = value;
 
   final int value;
-  final Image image;
 
   Cell(
       {required int row,
       required int col,
-      required this.value,
-      required this.image}) {
+      required this.value}) {
     _row = row.obs;
     _col = col.obs;
   }

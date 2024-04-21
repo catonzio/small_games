@@ -30,29 +30,20 @@ class EightPuzzleDesktop extends StatelessWidget {
           ),
         ),
         SizedBox(width: rightWidth, child: _rightWidget()),
-        // Container(
-        //   width: leftWidth,
-        //   child: _leftWidget(),
-        // ),
-        // SizedBox(
-        //   width: centralWidth,
-        //   child: _centralWidget(centralWidth),
-        // ),
-        // SizedBox(
-        //   width: leftWidth,
-        //   child: _rightWidget(),
-        // ),
       ],
     );
   }
 
-  ListView _leftWidget() {
-    return ListView(
-      children: Constants.imagesList
-          .map((e) => ImagePreview(
-                imagePath: e,
-              ))
-          .toList(),
+  Widget _leftWidget() {
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: ListView(
+        children: Constants.imagesList
+            .map((e) => ImagePreview(
+                  imagePath: e,
+                ))
+            .toList(),
+      ),
     );
   }
 
@@ -94,7 +85,7 @@ class GridSizeRadio extends StatelessWidget {
         Text('$numsInRow x $numsInRow ($value)'),
         Obx(() => Radio(
             value: value,
-            groupValue: controller.gridSize,
+            groupValue: controller.grid.gridSize,
             onChanged: (_) {
               controller.setImgsInRowFromGridSize(value);
             }))

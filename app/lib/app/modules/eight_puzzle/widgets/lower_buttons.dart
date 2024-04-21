@@ -12,7 +12,9 @@ class LowerButtons extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         ElevatedButton(
-            onPressed: controller.shuffle, child: const Text('Shuffle')),
+            onPressed: controller.onShuffle, child: const Text('Shuffle')),
+        ElevatedButton(
+            onPressed: controller.onSolve, child: const Text('Solve')),
       ],
     );
   }
