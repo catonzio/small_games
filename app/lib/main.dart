@@ -1,24 +1,30 @@
-import 'package:eight_puzzle/configs/theme.dart';
 import 'package:flutter/material.dart';
+
 import 'package:get/get.dart';
 
-import 'views/home_page/home_page.dart';
+import 'app/routes/app_pages.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const App(),
+  );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class App extends StatelessWidget {
+  const App({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Eight Puzzle',
-      theme: buildTheme("light"),
-      darkTheme: buildTheme("dark"),
+      debugShowCheckedModeBanner: false,
+      title: "SmallGames",
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      home: HomePage(),
+      initialRoute: AppPages.initial,
+      getPages: AppPages.routes,
     );
   }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "eight_puzzle",
-    "short_name": "eight_puzzle",
+    "name": "small_games",
+    "short_name": "small_games",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

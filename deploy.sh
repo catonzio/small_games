@@ -31,5 +31,5 @@ else
     usage
 fi
 
-echo "$action eight-puzzle"
+echo "$action small-games"
 docker-compose $docker_command > docker_logs.txt
