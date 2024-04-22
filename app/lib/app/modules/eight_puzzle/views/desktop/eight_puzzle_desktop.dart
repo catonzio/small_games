@@ -6,6 +6,7 @@ import 'package:small_games/app/modules/eight_puzzle/controllers/eight_puzzle_co
 import 'package:small_games/app/modules/eight_puzzle/widgets/body_grid.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/lower_buttons.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/upper_buttons.dart';
+import 'package:small_games/config/app_colors.dart';
 import 'package:small_games/config/constants.dart';
 
 class EightPuzzleDesktop extends StatelessWidget {
@@ -20,7 +21,7 @@ class EightPuzzleDesktop extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-            color: const Color(0xFF050D1A),
+            color: AppColors.darkBackground,
             width: leftWidth,
             child: _leftWidget()),
         Expanded(

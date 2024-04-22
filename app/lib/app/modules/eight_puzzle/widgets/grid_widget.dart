@@ -16,7 +16,10 @@ class GridWidget extends StatelessWidget {
     return Stack(children: [
       Opacity(
         opacity: 0.3,
-        child: Image.asset(controller.imagePath),
+        child: SizedBox(
+            width: dimension,
+            height: dimension,
+            child: Image.asset(controller.imagePath, fit: BoxFit.fill)),
       ),
       Opacity(
         opacity: 0.4,

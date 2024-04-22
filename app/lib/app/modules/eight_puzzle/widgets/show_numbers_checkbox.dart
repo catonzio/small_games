@@ -8,14 +8,17 @@ class ShowNumbersCheckbox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final EightPuzzleController controller = EightPuzzleController.to;
-    return Row(
-      children: [
-        Obx(() => Checkbox(
-              value: controller.showNumbers,
-              onChanged: (value) => controller.showNumbers = value ?? false,
-            )),
-        const Text("Show numbers"),
-      ],
+    return GestureDetector(
+      onTap: () => controller.showNumbers = !controller.showNumbers,
+      child: Row(
+        children: [
+          Obx(() => Checkbox(
+                value: controller.showNumbers,
+                onChanged: (value) => controller.showNumbers = value ?? false,
+              )),
+          const Text("Show numbers"),
+        ],
+      ),
     );
   }
 }

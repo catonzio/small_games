@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:small_games/config/themes.dart';
 
 import 'app/routes/app_pages.dart';
 
@@ -20,9 +21,9 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "SmallGames",
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.system,
+      theme: Themes.getTheme(),
+      // darkTheme: ThemeData.dark(),
+      // themeMode: ThemeMode.system,
       initialRoute: AppPages.initial,
       getPages: AppPages.routes,
     );

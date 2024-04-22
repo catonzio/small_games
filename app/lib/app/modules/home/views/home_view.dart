@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 import 'package:get/get.dart';
 import 'package:small_games/app/extensions/context_extensions.dart';
 import 'package:small_games/app/routes/app_pages.dart';
+import 'package:small_games/app/shared/widgets/app_button.dart';
+import 'package:small_games/config/constants.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -11,13 +14,29 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('SmallGames'),
+        centerTitle: true,
+      ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            TextButton(
-                onPressed: () => navigateEightPuzzle(context),
-                child: const Text('Eight Puzzle'))
+            DefaultTextStyle(
+              style: context.theme.textTheme.headlineSmall!,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: Constants.presentationText
+                    .split("\n")
+                    .map((e) => Text(e))
+                    .toList(),
+              ),
+            ),
+            AppButton(
+              onPressed: () => navigateEightPuzzle(context),
+              text: 'Eight Puzzle',
+            )
           ],
         ),
       ),

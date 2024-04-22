@@ -23,15 +23,15 @@ class BodyGrid extends StatelessWidget {
             children: [
               AspectRatio(
                   aspectRatio: 1,
-                  child: Obx(
-                    () => AnimatedSwitcher(
-                        duration: const Duration(milliseconds: 500),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            border: Border.all(
-                                color: const Color(0xFF050D1A), width: 3),
-                          ),
-                          child: controller.isLoadingImage
+                  child: AnimatedSwitcher(
+                    duration: const Duration(milliseconds: 500),
+                    child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                              color: const Color(0xFF050D1A), width: 3),
+                        ),
+                        child: Obx(
+                          () => controller.isLoadingImage
                               ? Image.asset(
                                   key: UniqueKey(), controller.imagePath)
                               : Focus(

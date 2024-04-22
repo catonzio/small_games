@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/controllers/eight_puzzle_controller.dart';
 import 'package:small_games/app/modules/eight_puzzle/models/cell.dart';
@@ -53,7 +54,7 @@ class CellWidget extends StatelessWidget {
                     style: context.textTheme.headlineLarge,
                   ),
                 ),
-              ),
+              ).animate().rotate(begin: 0, end: 90),
             ],
           ),
         ));
