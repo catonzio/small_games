@@ -7,7 +7,7 @@ networks:
 services:
 
   frontend:
-    image: eight_puzzle:1.0
+    image: small_games:1.0
     deploy:
       replicas: 1
     ports:
