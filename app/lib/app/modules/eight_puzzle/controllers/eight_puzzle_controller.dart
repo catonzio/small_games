@@ -119,33 +119,36 @@ class EightPuzzleController extends GetxController
   }
 
   Future<void> onSolve() async {
-    AStar astar = AStar(
-        startState: GameState(
-          state: grid.cells.map((e) => e.value).toList(),
-          direction: null,
-        ),
-        goalState: GameState(
-          state: List.generate(grid.cells.length, (index) => index + 1),
-          direction: null,
-        ));
+    if (!showSolvingMoves && !isSolving) {
+      AStar astar = AStar(
+          startState: GameState(
+            state: grid.cells.map((e) => e.value).toList(),
+            direction: null,
+          ),
+          goalState: GameState(
+            state: List.generate(grid.cells.length, (index) => index + 1),
+            direction: null,
+          ));
 
-    isSolving = true;
-    // List<Direction> directions =
-    //     await Isolate.run<List<Direction>>(() => astar.solve());
-    List<Direction> directions = await compute((dynamic a) => astar.solve(), 1);
-    isSolving = false;
+      isSolving = true;
+      // List<Direction> directions =
+      //     await Isolate.run<List<Direction>>(() => astar.solve());
+      List<Direction> directions =
+          await compute((dynamic a) => astar.solve(), 1);
+      isSolving = false;
 
-    showSolvingMoves = true;
-    for (Direction direction in directions) {
-      if (showSolvingMoves) {
-        grid.move(direction);
-        await Future.delayed(const Duration(milliseconds: 500));
-        print("Moving $direction");
+      showSolvingMoves = true;
+      for (Direction direction in directions) {
+        if (showSolvingMoves) {
+          grid.move(direction);
+          await Future.delayed(const Duration(milliseconds: 500));
+          print("Moving $direction");
+        }
       }
+      // if (showSolvingMoves) {
+      //   confettiController.play();
+      // }
+      showSolvingMoves = false;
     }
-    // if (showSolvingMoves) {
-    //   confettiController.play();
-    // }
-    showSolvingMoves = false;
   }
 }
