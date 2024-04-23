@@ -7,10 +7,19 @@ const Color frontNotHover = Color(0xFFB3C4D4);
 // const Color frontHover = Color(0xFF456685);
 const Color frontHover = Color(0xFF456685);
 
-class AppButtonController extends GetxController {
+class AppButtonController extends GetxController
+    with GetTickerProviderStateMixin {
   final RxBool _isHovering = false.obs;
   bool get isHovering => _isHovering.value;
   set isHovering(bool value) => _isHovering.value = value;
+
+  late final AnimationController animationController;
+
+  @override
+  void onInit() {
+    animationController = AnimationController(vsync: this);
+    super.onInit();
+  }
 }
 
 class AppButton extends StatelessWidget {
@@ -34,7 +43,13 @@ class AppButton extends StatelessWidget {
     final Duration colorDelay = 100.ms;
 
     return InkWell(
-        onTap: onPressed,
+        onTapDown: (TapDownDetails details) {
+          controller.animationController.forward();
+        },
+        onTapUp: (TapUpDetails details) {
+          controller.animationController.reverse();
+          onPressed();
+        },
         onHover: (value) => controller.isHovering = value,
         hoverColor: Colors.transparent,
         child: Obx(() {
@@ -55,7 +70,9 @@ class AppButton extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   )
-                      .animate(target: targetCondition)
+                      .animate(
+                          target: targetCondition,
+                          controller: controller.animationController)
                       .scaleX(duration: duration, begin: 1, end: 1.45)
                       .color(
                         duration: duration,
@@ -78,7 +95,9 @@ class AppButton extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ))
-                    .animate(target: targetCondition)
+                    .animate(
+                        target: targetCondition,
+                        controller: controller.animationController)
                     .scaleX(duration: duration, begin: 1, end: 0.9)
                     .color(
                         duration: duration,
@@ -91,12 +110,16 @@ class AppButton extends StatelessWidget {
                     text,
                     style: const TextStyle(
                         fontSize: 20, fontWeight: FontWeight.bold),
-                  ).animate(target: targetCondition).color(
-                      duration: duration,
-                      delay: colorDelay,
-                      begin: frontHover,
-                      end: frontNotHover,
-                      blendMode: BlendMode.srcATop),
+                  )
+                      .animate(
+                          target: targetCondition,
+                          controller: controller.animationController)
+                      .color(
+                          duration: duration,
+                          delay: colorDelay,
+                          begin: frontHover,
+                          end: frontNotHover,
+                          blendMode: BlendMode.srcATop),
                 )
               ],
             ),

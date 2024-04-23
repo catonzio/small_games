@@ -1,7 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'dart:async';
-import 'dart:io';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart' as mat;
 
@@ -47,8 +46,10 @@ Future<List<mat.Image>> decodeAndCropImage(
 }
 
 Future<ui.Image> decodeImage(String path) async {
-  final File file = File(path);
-  final Uint8List bytes = await file.readAsBytes();
+  // final File file = File(path);
+  // final Uint8List bytes = await file.readAsBytes();
+  ByteData bytesData = await rootBundle.load(path);
+  final Uint8List bytes = bytesData.buffer.asUint8List();
   final Completer<ui.Image> completer = Completer();
   ui.decodeImageFromList(bytes, (ui.Image img) {
     completer.complete(img);

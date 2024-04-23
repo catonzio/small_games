@@ -29,7 +29,8 @@ class AStar {
     return path.reversed.toList();
   }
 
-  List<Direction> solve({int nodeWeight = 1}) {
+  List<Direction> solve() {
+    const int nodeWeight = 1;
     dPrint("Solving...");
     openList.add(startState);
     // For node n, cameFrom[n] is the node immediately preceding it on the cheapest path from the start

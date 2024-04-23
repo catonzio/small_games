@@ -45,7 +45,7 @@ class BodyGrid extends StatelessWidget {
                                 }
                                 return Focus(
                                   focusNode: controller.focusNode,
-                                  onKeyEvent: controller.onMove,
+                                  onKeyEvent: controller.onKeyMove,
                                   child: GridWidget(
                                     dimension: dimension,
                                   ),

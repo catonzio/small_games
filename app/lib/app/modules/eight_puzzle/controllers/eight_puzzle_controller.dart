@@ -1,15 +1,17 @@
-import 'dart:isolate';
 import 'dart:math';
 
 import 'package:confetti/confetti.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/controllers/grid_controller.dart';
+import 'package:small_games/app/modules/eight_puzzle/models/cell.dart';
 import 'package:small_games/app/modules/eight_puzzle/solver/a_star.dart';
 import 'package:small_games/app/modules/eight_puzzle/solver/state.dart';
 import 'package:small_games/app/modules/eight_puzzle/utils/cropper.dart';
 import 'package:small_games/app/modules/eight_puzzle/enums.dart';
 import 'package:small_games/app/modules/eight_puzzle/utils/directions.dart';
+import 'package:small_games/app/modules/eight_puzzle/utils/grid_utils.dart';
 import 'package:small_games/config/constants.dart';
 
 class EightPuzzleController extends GetxController
@@ -82,23 +84,38 @@ class EightPuzzleController extends GetxController
   }
 
   void onShuffle() {
-    grid.shuffle();
-    focusNode.requestFocus();
+    if (!showSolvingMoves) {
+      grid.shuffle();
+      focusNode.requestFocus();
+    }
   }
 
   void setImgsInRowFromGridSize(int size) {
-    grid.cellsInRow = sqrt(size).toInt();
-    grid.initialize();
-    createSubImages(imagePath);
-    onShuffle();
+    if (!showSolvingMoves) {
+      grid.cellsInRow = sqrt(size).toInt();
+      grid.initialize();
+      createSubImages(imagePath);
+      onShuffle();
+    }
   }
 
-  KeyEventResult onMove(FocusNode node, KeyEvent event) {
-    Direction? direction = getDirectionFromKey(event);
-    if (direction != null) {
-      grid.move(direction);
+  KeyEventResult onKeyMove(FocusNode node, KeyEvent event) {
+    if (!showSolvingMoves) {
+      Direction? direction = getDirectionFromKey(event);
+      if (direction != null) {
+        grid.move(direction);
+      }
     }
     return KeyEventResult.handled;
+  }
+
+  void onTapMove(Cell tappedCell) {
+    if (!showSolvingMoves) {
+      final (int, int) emptyPos = grid.emptyCell.getPosition();
+      final (int, int) cellPos = tappedCell.getPosition();
+      Direction? direction = getDirectionFromPositions(emptyPos, cellPos);
+      if (direction != null) grid.move(direction);
+    }
   }
 
   Future<void> onSolve() async {
@@ -113,10 +130,11 @@ class EightPuzzleController extends GetxController
         ));
 
     isSolving = true;
-    List<Direction> directions =
-        await Isolate.run<List<Direction>>(() => astar.solve());
+    // List<Direction> directions =
+    //     await Isolate.run<List<Direction>>(() => astar.solve());
+    List<Direction> directions = await compute((dynamic a) => astar.solve(), 1);
     isSolving = false;
-    
+
     showSolvingMoves = true;
     for (Direction direction in directions) {
       if (showSolvingMoves) {

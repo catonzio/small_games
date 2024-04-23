@@ -71,3 +71,17 @@ void swapCells(List<int> grid, int index, int newIndex) {
   grid[index] = grid[newIndex];
   grid[newIndex] = temp;
 }
+
+Direction? getDirectionFromPositions((int, int) emptyPos, (int, int) cellPos) {
+  if (cellPos.$2 - emptyPos.$2 == -1 && cellPos.$1 == emptyPos.$1) {
+    return Direction.left;
+  } else if (cellPos.$2 - emptyPos.$2 == 1 && cellPos.$1 == emptyPos.$1) {
+    return Direction.right;
+  } else if (cellPos.$1 - emptyPos.$1 == -1 && cellPos.$2 == emptyPos.$2) {
+    return Direction.up;
+  } else if (cellPos.$1 - emptyPos.$1 == 1 && cellPos.$2 == emptyPos.$2) {
+    return Direction.down;
+  } else {
+    return null;
+  }
+}

@@ -28,34 +28,32 @@ class CellWidget extends StatelessWidget {
           top: cell.row * cellSize,
           width: cellSize,
           height: cellSize,
-          child: Stack(
-            fit: StackFit.expand,
-            children: [
-              if (!isLast) ...[
-                image,
-                Opacity(
-                  opacity: controller.showNumbers ? 0.25 : 0.1,
-                  child: Container(
-                      decoration: BoxDecoration(
+          child: GestureDetector(
+            onTap: () => controller.onTapMove(cell),
+            child: Stack(
+              fit: StackFit.expand,
+              children: [
+                if (!isLast) ...[
+                  image,
+                  Container(
+                          decoration: BoxDecoration(
                     color: Colors.black,
                     border: Border.all(
                       color: Colors.white,
                       width: 0,
                     ),
-                  )),
-                ),
-              ],
-              AnimatedOpacity(
-                duration: controller.animationController.duration!,
-                opacity: controller.showNumbers ? 1 : 0,
-                child: Center(
+                  ))
+                      .animate(target: controller.showNumbers ? 0.25 : 0.1)
+                      .fade(),
+                ],
+                Center(
                   child: Text(
                     isLast ? "" : "${cell.value}",
                     style: context.textTheme.headlineLarge,
                   ),
-                ),
-              ).animate().rotate(begin: 0, end: 90),
-            ],
+                ).animate(target: controller.showNumbers ? 1 : 0).fade(),
+              ],
+            ),
           ),
         ));
   }

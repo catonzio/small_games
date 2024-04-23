@@ -7,6 +7,8 @@ import 'package:small_games/app/modules/eight_puzzle/utils/grid_utils.dart';
 import 'package:small_games/app/shared/utils.dart';
 
 class GridController extends GetxController {
+  static GridController get to => Get.find<GridController>();
+
   final RxInt _cellsInRow = 3.obs;
   int get cellsInRow => _cellsInRow.value;
   set cellsInRow(int value) => _cellsInRow.value = value;
@@ -24,7 +26,16 @@ class GridController extends GetxController {
   bool get isSolved => isSolvedO.value;
   set isSolved(bool value) => isSolvedO.value = value;
 
+  final RxList<Direction> _moves = <Direction>[].obs;
+  List<Direction> get moves => _moves;
+  set moves(List<Direction> value) => _moves.value = value;
+
   late final Map<Direction, Function> _moveFunctions;
+
+  Cell get emptyCell =>
+      cells.firstWhere((element) => element.value == gridSize);
+  int get emptyIndex =>
+      cells.indexWhere((element) => element.value == gridSize);
 
   GridController() {
     _moveFunctions = {
@@ -41,8 +52,8 @@ class GridController extends GetxController {
     for (int i = 0; i < cellsInRow; i++) {
       for (int j = 0; j < cellsInRow; j++) {
         _cells.add(Cell(
-          row: j,
-          col: i,
+          row: i,
+          col: j,
           value: j * cellsInRow + i + 1,
         ));
       }
@@ -52,6 +63,7 @@ class GridController extends GetxController {
 // 21:50
   void shuffle() {
     isSolved = false;
+    moves.clear();
     List<Cell> newGrid = List.from(cells);
     do {
       newGrid.shuffle();
@@ -66,11 +78,12 @@ class GridController extends GetxController {
   }
 
   void move(Direction direction) {
-    int index = cells.indexWhere((element) => element.value == cells.length);
-    int newIndex = index;
-    newIndex = _moveFunctions[direction]!(index);
-    swapCells(index, newIndex);
-    isSolved = checkWin();
+    int newIndex = _moveFunctions[direction]!(emptyIndex);
+    if (newIndex != emptyIndex) {
+      swapCells(emptyIndex, newIndex);
+      moves.add(direction);
+      isSolved = checkWin();
+    }
   }
 
   bool checkWin() {

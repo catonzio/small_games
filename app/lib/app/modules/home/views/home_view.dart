@@ -17,26 +17,29 @@ class HomeView extends GetView<HomeController> {
         title: const Text('SmallGames'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            DefaultTextStyle(
-              style: context.theme.textTheme.headlineSmall!,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: Constants.presentationText
-                    .split("\n")
-                    .map((e) => Text(e))
-                    .toList(),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              DefaultTextStyle(
+                style: context.theme.textTheme.headlineSmall!,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: Constants.presentationText
+                      .split("\n")
+                      .map((e) => Text(e))
+                      .toList(),
+                ),
               ),
-            ),
-            AppButton(
-              onPressed: () => navigateEightPuzzle(context),
-              text: 'Eight Puzzle',
-            )
-          ],
+              AppButton(
+                onPressed: () => navigateEightPuzzle(context),
+                text: 'Eight Puzzle',
+              )
+            ],
+          ),
         ),
       ),
     );

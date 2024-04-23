@@ -21,12 +21,12 @@ class GridWidget extends StatelessWidget {
             height: dimension,
             child: Image.asset(controller.imagePath, fit: BoxFit.fill)),
       ),
-      Opacity(
-        opacity: 0.4,
-        child: Container(
-          color: Colors.black,
-        ),
-      ),
+      // Opacity(
+      //   opacity: 0.4,
+      //   child: Container(
+      //     color: Colors.black,
+      //   ),
+      // ),
       ...controller.grid.cells.map((Cell cell) => CellWidget(
             cell: cell,
             cellSize: cellSize,
