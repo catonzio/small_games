@@ -37,7 +37,7 @@ class GridWidget extends StatelessWidget {
           ? const Center(
               child: CircularProgressIndicator(),
             )
-          : const SizedBox.shrink())
+          : const SizedBox.shrink()),
     ]);
   }
 }

@@ -1,5 +1,6 @@
 import 'package:small_games/app/modules/eight_puzzle/enums.dart';
 import 'package:small_games/app/modules/eight_puzzle/utils/grid_utils.dart';
+import 'package:small_games/app/shared/utils.dart';
 
 import 'state.dart';
 
@@ -29,7 +30,7 @@ class AStar {
   }
 
   List<Direction> solve({int nodeWeight = 1}) {
-    print("Solving...");
+    dPrint("Solving...");
     openList.add(startState);
     // For node n, cameFrom[n] is the node immediately preceding it on the cheapest path from the start
     Map<GameState, GameState> cameFrom = {};
@@ -40,9 +41,9 @@ class AStar {
     // how cheap a path from start to finish can be if it goes through n.
     Map<GameState, double> fScore = {};
     fScore[startState] = startState.score();
-    int step = 0;
+    // int step = 0;
     while (openList.isNotEmpty) {
-      print("Step ${++step}");
+      // dPrint("Step ${++step}");
       // sort the open list by score (lowest to highest)
       openList.sort((a, b) => a.score().compareTo(b.score()));
       // get the node with the lowest score
@@ -76,7 +77,7 @@ class AStar {
         }
       }
     }
-    print("No solution found!");
+    dPrint("No solution found!");
     return [];
   }
 

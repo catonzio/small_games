@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/enums.dart';
 import 'package:small_games/app/modules/eight_puzzle/models/cell.dart';
 import 'package:small_games/app/modules/eight_puzzle/utils/grid_utils.dart';
+import 'package:small_games/app/shared/utils.dart';
 
 class GridController extends GetxController {
   final RxInt _cellsInRow = 3.obs;
@@ -19,6 +20,10 @@ class GridController extends GetxController {
   List<Cell> get cells => _cells;
   set cells(List<Cell> value) => _cells.value = value;
 
+  final RxBool isSolvedO = false.obs;
+  bool get isSolved => isSolvedO.value;
+  set isSolved(bool value) => isSolvedO.value = value;
+
   late final Map<Direction, Function> _moveFunctions;
 
   GridController() {
@@ -31,6 +36,7 @@ class GridController extends GetxController {
   }
 
   void initialize() {
+    isSolved = false;
     _cells.clear();
     for (int i = 0; i < cellsInRow; i++) {
       for (int j = 0; j < cellsInRow; j++) {
@@ -42,8 +48,10 @@ class GridController extends GetxController {
       }
     }
   }
+
 // 21:50
   void shuffle() {
+    isSolved = false;
     List<Cell> newGrid = List.from(cells);
     do {
       newGrid.shuffle();
@@ -62,6 +70,7 @@ class GridController extends GetxController {
     int newIndex = index;
     newIndex = _moveFunctions[direction]!(index);
     swapCells(index, newIndex);
+    isSolved = checkWin();
   }
 
   bool checkWin() {
@@ -79,7 +88,7 @@ class GridController extends GetxController {
     if (index % cellsInRow != 0) {
       return index - 1;
     } else {
-      print("Border reached  ${Direction.left}");
+      dPrint("Border reached  ${Direction.left}");
       return index;
     }
   }
@@ -88,7 +97,7 @@ class GridController extends GetxController {
     if (index % cellsInRow != cellsInRow - 1) {
       return index + 1;
     } else {
-      print("Border reached ${Direction.right}");
+      dPrint("Border reached ${Direction.right}");
       return index;
     }
   }
@@ -97,7 +106,7 @@ class GridController extends GetxController {
     if (index > cellsInRow - 1) {
       return index - cellsInRow;
     } else {
-      print("Border reached  ${Direction.up}");
+      dPrint("Border reached  ${Direction.up}");
       return index;
     }
   }
@@ -106,7 +115,7 @@ class GridController extends GetxController {
     if (index < cellsInRow * (cellsInRow - 1)) {
       return index + cellsInRow;
     } else {
-      print("Border reached  ${Direction.right}");
+      dPrint("Border reached  ${Direction.right}");
       return index;
     }
   }

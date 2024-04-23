@@ -2,8 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:small_games/app/modules/eight_puzzle/controllers/eight_puzzle_controller.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/body_grid.dart';
+import 'package:small_games/app/modules/eight_puzzle/widgets/grid_size_radio.dart';
+import 'package:small_games/app/modules/eight_puzzle/widgets/image_preview.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/lower_buttons.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/upper_buttons.dart';
 import 'package:small_games/config/app_colors.dart';
@@ -23,7 +24,7 @@ class EightPuzzleDesktop extends StatelessWidget {
         Container(
             color: AppColors.darkBackground,
             width: leftWidth,
-            child: _leftWidget()),
+            child: _leftWidget(leftWidth)),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -35,13 +36,14 @@ class EightPuzzleDesktop extends StatelessWidget {
     );
   }
 
-  Widget _leftWidget() {
+  Widget _leftWidget(double imageSize) {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: ListView(
         children: Constants.imagesList
             .map((e) => ImagePreview(
                   imagePath: e,
+                  imageSize: imageSize / 1.2,
                 ))
             .toList(),
       ),
@@ -65,60 +67,8 @@ class EightPuzzleDesktop extends StatelessWidget {
       children: [
         GridSizeRadio(value: 9),
         GridSizeRadio(value: 16),
-        GridSizeRadio(value: 25),
+        // GridSizeRadio(value: 25),
       ],
-    );
-  }
-}
-
-class GridSizeRadio extends StatelessWidget {
-  final int value;
-  const GridSizeRadio({super.key, required this.value});
-
-  @override
-  Widget build(BuildContext context) {
-    final EightPuzzleController controller = EightPuzzleController.to;
-    final int numsInRow = sqrt(value).toInt();
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: [
-        Text('$numsInRow x $numsInRow ($value)'),
-        Obx(() => Radio(
-            value: value,
-            groupValue: controller.grid.gridSize,
-            onChanged: (_) {
-              controller.setImgsInRowFromGridSize(value);
-            }))
-      ],
-    );
-  }
-}
-
-class ImagePreview extends StatelessWidget {
-  final String imagePath;
-  const ImagePreview({super.key, required this.imagePath});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Container(
-        height: 100,
-        width: 100,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          image: DecorationImage(
-            image: AssetImage(imagePath),
-            fit: BoxFit.fitWidth,
-          ),
-        ),
-        child: InkWell(
-          onTap: () {
-            EightPuzzleController.to.imagePath = imagePath;
-          },
-        ),
-      ),
     );
   }
 }

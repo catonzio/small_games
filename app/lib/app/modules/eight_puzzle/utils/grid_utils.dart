@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:small_games/app/modules/eight_puzzle/enums.dart';
+import 'package:small_games/app/shared/utils.dart';
 
 bool isSolvable(List<int> grid) {
   final int n = sqrt(grid.length).toInt();
@@ -26,7 +27,7 @@ int countInversions(List<int> grid) {
       }
     }
   }
-  print(invCount);
+  dPrint(invCount);
   return invCount;
 }
 

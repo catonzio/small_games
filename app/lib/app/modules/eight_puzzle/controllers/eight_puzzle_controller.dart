@@ -1,6 +1,7 @@
 import 'dart:isolate';
 import 'dart:math';
 
+import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/controllers/grid_controller.dart';
@@ -41,6 +42,7 @@ class EightPuzzleController extends GetxController
 
   final FocusScopeNode focusNode = FocusScopeNode();
   late final AnimationController animationController;
+  late final ConfettiController confettiController;
 
   EightPuzzleController({required this.grid});
 
@@ -50,21 +52,28 @@ class EightPuzzleController extends GetxController
       vsync: this,
       duration: const Duration(milliseconds: 200),
     );
+    confettiController = ConfettiController(
+        duration: const Duration(seconds: 1, milliseconds: 500));
+    grid.initialize();
     createSubImages(imagePath);
     ever(_imagePath, (callback) => createSubImages(callback));
+    ever(grid.isSolvedO,
+        (callback) => callback ? confettiController.play() : null);
     super.onInit();
   }
 
   @override
   void dispose() {
     focusNode.dispose();
+    animationController.dispose();
+    confettiController.dispose();
     super.dispose();
   }
 
   void createSubImages(String imagePath) {
     isLoadingImage = true;
     showSolvingMoves = false;
-    grid.initialize();
+
     decodeAndCropImage(imagePath, grid.cellsInRow).then((List<Image> value) {
       subImages = value;
       isLoadingImage = false;
@@ -79,6 +88,7 @@ class EightPuzzleController extends GetxController
 
   void setImgsInRowFromGridSize(int size) {
     grid.cellsInRow = sqrt(size).toInt();
+    grid.initialize();
     createSubImages(imagePath);
     onShuffle();
   }
@@ -105,14 +115,19 @@ class EightPuzzleController extends GetxController
     isSolving = true;
     List<Direction> directions =
         await Isolate.run<List<Direction>>(() => astar.solve());
-
     isSolving = false;
+    
     showSolvingMoves = true;
     for (Direction direction in directions) {
       if (showSolvingMoves) {
         grid.move(direction);
-        await Future.delayed(const Duration(milliseconds: 200));
+        await Future.delayed(const Duration(milliseconds: 500));
+        print("Moving $direction");
       }
     }
+    // if (showSolvingMoves) {
+    //   confettiController.play();
+    // }
+    showSolvingMoves = false;
   }
 }

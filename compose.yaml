@@ -6,9 +6,9 @@ networks:
 
 services:
 
-  eight_puzzle:
-    image: eight_puzzle:latest
-    container_name: eight_puzzle
+  small_games:
+    image: small_games:latest
+    container_name: small_games
     build:
       context: .
     ports:

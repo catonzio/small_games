@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -22,10 +24,19 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "SmallGames",
       theme: Themes.getTheme(),
+      scrollBehavior: CustomScrollBehavior(),
       // darkTheme: ThemeData.dark(),
       // themeMode: ThemeMode.system,
       initialRoute: AppPages.initial,
       getPages: AppPages.routes,
     );
   }
+}
+
+class CustomScrollBehavior extends MaterialScrollBehavior {
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+      };
 }
