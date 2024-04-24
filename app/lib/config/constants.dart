@@ -12,6 +12,9 @@ Move the tiles with arrow keys, WASD or by tapping on the cell in which you want
 This app was intentionally built to understand how the artificial intelligence algorithms solves the n-puzzle problem, using the A* algorithm.
 Developed by Danilo Catone <danilocatone@gmail.com>""";
 
+  static const String ticTacToeDescription =
+      """Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid.""";
+
   static List<String> imagesList = [
     "assets/images/romance.png",
     "assets/images/adriana.png",

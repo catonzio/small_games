@@ -34,18 +34,18 @@ class HomeView extends GetView<HomeController> {
                       .toList(),
                 ),
               ),
-              AppButton(
-                onPressed: () => navigateEightPuzzle(context),
-                text: 'Eight Puzzle',
-              )
+              ...Routes.games.map((e) => AppButton(
+                  onPressed: () => context.navigator.pushNamed(e),
+                  text: e
+                      .toString()
+                      .replaceFirst("/", "")
+                      .split("-")
+                      .map((e) => e.capitalize)
+                      .join(" ")))
             ],
           ),
         ),
       ),
     );
-  }
-
-  void navigateEightPuzzle(BuildContext context) {
-    context.navigator.pushNamed(Routes.eightPuzzle);
   }
 }

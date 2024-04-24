@@ -5,10 +5,17 @@ abstract class Routes {
   Routes._();
   static const home = _Paths.home;
   static const eightPuzzle = _Paths.eightPuzzle;
+  static const ticTacToe = _Paths.ticTacToe;
+
+  static const List<String> games = [
+    eightPuzzle,
+    ticTacToe,
+  ];
 }
 
 abstract class _Paths {
   _Paths._();
   static const home = '/home';
   static const eightPuzzle = '/eight-puzzle';
+  static const ticTacToe = '/tic-tac-toe';
 }
