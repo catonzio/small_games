@@ -40,7 +40,13 @@ class EightPuzzleController extends GetxController
   bool get showNumbers => _showNumbers.value;
   set showNumbers(bool value) => _showNumbers.value = value;
 
-  bool showSolvingMoves = false;
+  final RxDouble _solvingSpeed = 400.0.obs;
+  double get solvingSpeed => _solvingSpeed.value;
+  set solvingSpeed(double value) => _solvingSpeed.value = value;
+
+  final RxBool _isShowingSolvingMoves = false.obs;
+  bool get isShowingSolvingMoves => _isShowingSolvingMoves.value;
+  set isShowingSolvingMoves(bool value) => _isShowingSolvingMoves.value = value;
 
   final FocusScopeNode focusNode = FocusScopeNode();
   late final AnimationController animationController;
@@ -74,7 +80,7 @@ class EightPuzzleController extends GetxController
 
   void createSubImages(String imagePath) {
     isLoadingImage = true;
-    showSolvingMoves = false;
+    isShowingSolvingMoves = false;
 
     decodeAndCropImage(imagePath, grid.cellsInRow).then((List<Image> value) {
       subImages = value;
@@ -84,14 +90,14 @@ class EightPuzzleController extends GetxController
   }
 
   void onShuffle() {
-    if (!showSolvingMoves) {
+    if (!isShowingSolvingMoves) {
       grid.shuffle();
       focusNode.requestFocus();
     }
   }
 
   void setImgsInRowFromGridSize(int size) {
-    if (!showSolvingMoves) {
+    if (!isShowingSolvingMoves) {
       grid.cellsInRow = sqrt(size).toInt();
       grid.initialize();
       createSubImages(imagePath);
@@ -100,7 +106,7 @@ class EightPuzzleController extends GetxController
   }
 
   KeyEventResult onKeyMove(FocusNode node, KeyEvent event) {
-    if (!showSolvingMoves) {
+    if (!isShowingSolvingMoves) {
       Direction? direction = getDirectionFromKey(event);
       if (direction != null) {
         grid.move(direction);
@@ -110,7 +116,7 @@ class EightPuzzleController extends GetxController
   }
 
   void onTapMove(Cell tappedCell) {
-    if (!showSolvingMoves) {
+    if (!isShowingSolvingMoves) {
       final (int, int) emptyPos = grid.emptyCell.getPosition();
       final (int, int) cellPos = tappedCell.getPosition();
       Direction? direction = getDirectionFromPositions(emptyPos, cellPos);
@@ -119,7 +125,7 @@ class EightPuzzleController extends GetxController
   }
 
   Future<void> onSolve() async {
-    if (!showSolvingMoves && !isSolving) {
+    if (!isShowingSolvingMoves && !isSolving) {
       AStar astar = AStar(
           startState: GameState(
             state: grid.cells.map((e) => e.value).toList(),
@@ -137,18 +143,18 @@ class EightPuzzleController extends GetxController
           await compute((dynamic a) => astar.solve(), 1);
       isSolving = false;
 
-      showSolvingMoves = true;
+      isShowingSolvingMoves = true;
       for (Direction direction in directions) {
-        if (showSolvingMoves) {
+        if (isShowingSolvingMoves) {
           grid.move(direction);
-          await Future.delayed(const Duration(milliseconds: 500));
+          await Future.delayed(solvingSpeed.milliseconds);
           print("Moving $direction");
         }
       }
+      isShowingSolvingMoves = false;
       // if (showSolvingMoves) {
       //   confettiController.play();
       // }
-      showSolvingMoves = false;
     }
   }
 }

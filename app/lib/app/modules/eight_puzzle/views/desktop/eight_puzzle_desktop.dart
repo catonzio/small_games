@@ -42,7 +42,10 @@ class EightPuzzleDesktop extends StatelessWidget {
         width: centralWidth,
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [BodyGrid(), LowerButtons()],
+          children: [
+            BodyGrid(),
+            LowerButtons(),
+          ],
         ),
       ),
     );

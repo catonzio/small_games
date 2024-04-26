@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:small_games/app/modules/tic_tac_toe/views/desktop/tic_tac_toe_desktop.dart';
-import 'package:small_games/app/modules/tic_tac_toe/views/mobile/tic_tac_toe_mobile.dart';
+// import 'package:small_games/app/modules/tic_tac_toe/views/mobile/tic_tac_toe_mobile.dart';
 
 import 'package:small_games/app/shared/responsive.dart';
 import 'package:small_games/app/shared/widgets/github_button.dart';
@@ -22,7 +22,7 @@ class TicTacToeView extends StatelessWidget {
         actions: _appBarActions(context),
       ),
       body: const Responsive(
-        mobile: TicTacToeMobile(),
+        mobile: TicTacToeDesktop(),
         desktop: TicTacToeDesktop(),
       ),
     );

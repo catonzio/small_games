@@ -6,6 +6,9 @@ class GridController extends GetxController {
   final RxList<String> grid = <String>[].obs;
   final RxList<int> winPositions = <int>[].obs;
 
+  RxInt get currentPlaced =>
+      grid.where((element) => element.isNotEmpty).length.obs;
+
   @override
   void onInit() {
     restart();
@@ -18,8 +21,8 @@ class GridController extends GetxController {
   }
 
   void restart() {
-    grid.assignAll(List.generate(9, (index) => ''));
-    // grid.assignAll(['X', '', 'X', '', 'X', '', 'X', '', 'X', '']);
+    // grid.assignAll(List.generate(9, (index) => ''));
+    grid.assignAll(['X', 'O', '', '', '', '', '', '', '']);
     winPositions.assignAll([]);
   }
 

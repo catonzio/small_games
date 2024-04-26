@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:small_games/app/modules/eight_puzzle/controllers/eight_puzzle_controller.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/grid_widget.dart';
 import 'package:small_games/app/modules/eight_puzzle/widgets/show_numbers_checkbox.dart';
+import 'package:small_games/app/modules/eight_puzzle/widgets/solver_speed_slider.dart';
 
 class BodyGrid extends StatelessWidget {
   const BodyGrid({super.key});
@@ -53,6 +54,7 @@ class BodyGrid extends StatelessWidget {
                               })),
                         )),
                     const ShowNumbersCheckbox(),
+                    const SolverSpeedSlider(),
                   ],
                 ),
               ),

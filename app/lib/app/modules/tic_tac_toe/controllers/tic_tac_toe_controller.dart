@@ -17,11 +17,19 @@ class TicTacToeController extends GetxController {
 
   void onPlay(int index) {
     gridController.play(index, char(firstPlayerTurn));
+    if (gridController.winPositions.isNotEmpty) return;
     firstPlayerTurn = !firstPlayerTurn;
+    playMinimax();
+  }
+
+  void playMinimax() {
     int bestMove = minimaxPlayer.findBestMove(gridController.grid);
     if (bestMove != -1) {
-      gridController.play(bestMove, char(firstPlayerTurn));
-      firstPlayerTurn = !firstPlayerTurn;
+      Future.delayed(const Duration(milliseconds: 300), () {
+        gridController.play(bestMove, char(firstPlayerTurn));
+        if (gridController.winPositions.isNotEmpty) return;
+        firstPlayerTurn = !firstPlayerTurn;
+      });
     }
   }
 

@@ -21,7 +21,11 @@ class GridSizeRadio extends StatelessWidget {
             value: value,
             groupValue: controller.grid.gridSize,
             onChanged: (_) {
-              controller.setImgsInRowFromGridSize(value);
+              if (!controller.isShowingSolvingMoves &&
+                  !controller.isLoadingImage &&
+                  !controller.isSolving) {
+                controller.setImgsInRowFromGridSize(value);
+              }
             }))
       ],
     );

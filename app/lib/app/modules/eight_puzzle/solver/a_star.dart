@@ -30,6 +30,9 @@ class AStar {
   }
 
   List<Direction> solve() {
+    if (startState == goalState) {
+      return [];
+    }
     const int nodeWeight = 1;
     dPrint("Solving...");
     openList.add(startState);

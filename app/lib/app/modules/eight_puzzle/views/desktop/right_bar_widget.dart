@@ -56,7 +56,7 @@ class RightBarWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(width: context.width * 0.05, child: Text("${i + 1}")),
+            SizedBox(width: context.width * 0.02, child: Text("${i + 1}")),
             Text(
               directions[i].name,
               style: const TextStyle(),

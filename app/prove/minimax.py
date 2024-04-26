@@ -158,7 +158,7 @@ def findBestMove(board):
 
 
 # Driver code
-board = [["x", "o", "o"], ["o", "_", "x"], ["x", "_", "x"]]
+board = [["o", "_", "x"], ["_", "_", "_"], ["_", "_", "x"]]
 
 bestMove = findBestMove(board)
 

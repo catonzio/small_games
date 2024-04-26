@@ -17,16 +17,14 @@ class TicTacToeDesktop extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Obx(() => controller.gridController.winPositions.isNotEmpty
-              ? Text(
-                  "Player ${controller.firstPlayerTurn ? 'O' : 'X'} wins!",
-                  style: context.textTheme.headlineMedium,
-                )
-              : const SizedBox()),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Obx(() => Text(
-                  "Player's turn: ${controller.firstPlayerTurn ? 'X' : 'O'}",
+                  controller.gridController.winPositions.isNotEmpty
+                      ? "Player ${controller.firstPlayerTurn ? 'X' : 'O'} wins!"
+                      : (controller.gridController.currentPlaced.value == 9
+                          ? "Draw!"
+                          : "Player's turn: ${controller.firstPlayerTurn ? 'X' : 'O'}"),
                   style: context.textTheme.headlineMedium,
                 )),
           ),
