@@ -1,0 +1,429 @@
+// The tree
+digraph {
+	28918129 [label="Max node (O)
+Depth: 0, Value: -6.0
+
+X | O | X
+  | O |  
+  | X |  "]
+	337892651 [label="Min node (X)
+Depth: 1, Value: -6.0
+
+X | O | X
+O | O |  
+  | X |  "]
+	727186490 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+O | O | X
+  | X |  "]
+	663419169 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | O | X
+O | X |  "]
+	475213487 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | O | X
+O | X | X"]
+	1064173389 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | O | X
+  | X | O"]
+	570731594 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+O | O | X
+X | X | O"]
+	264238262 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+O | O |  
+X | X |  "]
+	243625255 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O | O
+X | X |  "]
+	341777626 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O |  
+X | X | O"]
+	675738679 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+O | O | X
+X | X | O"]
+	616599195 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+O | O |  
+  | X | X"]
+	251747451 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O | O
+  | X | X"]
+	605070360 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O |  
+O | X | X"]
+	15988575 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | O | X
+O | X | X"]
+	843428917 [label="Min node (X)
+Depth: 1, Value: -6.0
+
+X | O | X
+  | O | O
+  | X |  "]
+	164184010 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+X | O | O
+  | X |  "]
+	590751133 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+X | O | O
+O | X |  "]
+	41074356 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | O
+O | X | X"]
+	587487835 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | O | O
+  | X | O"]
+	137350299 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | O | O
+X | X | O"]
+	381492573 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | O | O
+X | X |  "]
+	70271763 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O | O
+X | X |  "]
+	881086666 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+  | O | O
+X | X | O"]
+	106221616 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | O | O
+X | X | O"]
+	353729991 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | O | O
+  | X | X"]
+	62915035 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+O | O | O
+  | X | X"]
+	835649853 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+  | O | O
+O | X | X"]
+	687890947 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | O
+O | X | X"]
+	130886011 [label="Min node (X)
+Depth: 1, Value: -inf
+
+X | O | X
+  | O |  
+O | X |  "]
+	744991502 [label="Max node (O)
+Depth: 2, Value: -inf
+
+X | O | X
+X | O |  
+O | X |  "]
+	975021853 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+X | O | O
+O | X |  "]
+	242389147 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | O
+O | X | X"]
+	520725464 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+X | O |  
+O | X | O"]
+	385574916 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | X
+O | X | O"]
+	417599202 [label="Max node (O)
+Depth: 2, Value: -inf
+
+X | O | X
+  | O | X
+O | X |  "]
+	843341823 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | O | X
+O | X |  "]
+	442364567 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | O | X
+O | X | X"]
+	1017370482 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | O | X
+O | X | O"]
+	138039232 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | X
+O | X | O"]
+	10199026 [label="Max node (O)
+Depth: 2, Value: -inf
+
+X | O | X
+  | O |  
+O | X | X"]
+	278893479 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | O |  
+O | X | X"]
+	240446809 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | O | X
+O | X | X"]
+	616979098 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | O | O
+O | X | X"]
+	934874604 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | O
+O | X | X"]
+	853156461 [label="Min node (X)
+Depth: 1, Value: -inf
+
+X | O | X
+  | O |  
+  | X | O"]
+	862068802 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+X | O |  
+  | X | O"]
+	320006094 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | O | O
+  | X | O"]
+	742562957 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | O | O
+X | X | O"]
+	172205229 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | O |  
+O | X | O"]
+	742650824 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | X
+O | X | O"]
+	522023613 [label="Max node (O)
+Depth: 2, Value: -inf
+
+X | O | X
+  | O | X
+  | X | O"]
+	466762604 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+O | O | X
+  | X | O"]
+	1056583177 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+O | O | X
+X | X | O"]
+	35280483 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+  | O | X
+O | X | O"]
+	1007705773 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+X | O | X
+O | X | O"]
+	511862810 [label="Max node (O)
+Depth: 2, Value: -inf
+
+X | O | X
+  | O |  
+X | X | O"]
+	320879133 [label="Min node (X)
+Depth: 3, Value: -inf
+
+X | O | X
+O | O |  
+X | X | O"]
+	575185902 [label="Max node (O)
+Depth: 4, Value: -inf
+
+X | O | X
+O | O | X
+X | X | O"]
+	849735840 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | O | O
+X | X | O"]
+	668379380 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | O | O
+X | X | O"]
+	28918129 -> 337892651
+	28918129 -> 843428917
+	28918129 -> 130886011
+	28918129 -> 853156461
+	337892651 -> 727186490
+	337892651 -> 264238262
+	337892651 -> 616599195
+	727186490 -> 663419169
+	727186490 -> 1064173389
+	663419169 -> 475213487
+	1064173389 -> 570731594
+	264238262 -> 243625255
+	264238262 -> 341777626
+	341777626 -> 675738679
+	616599195 -> 251747451
+	616599195 -> 605070360
+	605070360 -> 15988575
+	843428917 -> 164184010
+	843428917 -> 381492573
+	843428917 -> 353729991
+	164184010 -> 590751133
+	164184010 -> 587487835
+	590751133 -> 41074356
+	587487835 -> 137350299
+	381492573 -> 70271763
+	381492573 -> 881086666
+	881086666 -> 106221616
+	353729991 -> 62915035
+	353729991 -> 835649853
+	835649853 -> 687890947
+	130886011 -> 744991502
+	130886011 -> 417599202
+	130886011 -> 10199026
+	744991502 -> 975021853
+	744991502 -> 520725464
+	975021853 -> 242389147
+	520725464 -> 385574916
+	417599202 -> 843341823
+	417599202 -> 1017370482
+	843341823 -> 442364567
+	1017370482 -> 138039232
+	10199026 -> 278893479
+	10199026 -> 616979098
+	278893479 -> 240446809
+	616979098 -> 934874604
+	853156461 -> 862068802
+	853156461 -> 522023613
+	853156461 -> 511862810
+	862068802 -> 320006094
+	862068802 -> 172205229
+	320006094 -> 742562957
+	172205229 -> 742650824
+	522023613 -> 466762604
+	522023613 -> 35280483
+	466762604 -> 1056583177
+	35280483 -> 1007705773
+	511862810 -> 320879133
+	511862810 -> 849735840
+	320879133 -> 575185902
+	849735840 -> 668379380
+}

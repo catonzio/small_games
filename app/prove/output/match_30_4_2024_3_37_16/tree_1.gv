@@ -1,0 +1,261 @@
+// The tree
+digraph {
+	692493860 [label="Max node (O)
+Depth: 0, Value: -8.0
+
+X | O |  
+X | X |  
+  |   | O" color=red shape=box]
+	174535569 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O | O
+X | X |  
+  |   | O" color=red shape=ellipse]
+	187865254 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O | O
+X | X | X
+  |   | O" color=red shape=box]
+	673164866 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O | O
+X | X |  
+X |   | O" color=red shape=box]
+	190166475 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	983389560 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	641935969 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	29743461 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	978940750 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X | O
+  |   | O" color=red shape=ellipse]
+	871726239 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O" color=green shape=box]
+	819667377 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	57087769 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	597766846 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	541273747 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	21650218 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+X | X | O
+X |   | O" color=red shape=box]
+	664386175 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	66183396 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	931624298 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	852992378 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	523126064 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X |  
+O |   | O" color=red shape=ellipse]
+	960725114 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | X
+X | X |  
+O |   | O" color=green shape=box]
+	366578055 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	956705386 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	1067771681 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	542707716 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+X | X | X
+O |   | O" color=red shape=box]
+	44167572 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	816781241 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	695186437 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	769168979 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	208865147 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	748454379 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X |  
+  | O | O" color=red shape=ellipse]
+	233388065 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | X
+X | X |  
+  | O | O" color=green shape=box]
+	128828374 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	363193566 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	968249753 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	863785304 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+X | X | X
+  | O | O" color=red shape=box]
+	468772254 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+X | X |  
+X | O | O" color=red shape=box]
+	692493860 -> 174535569 [color=red]
+	692493860 -> 978940750 [color=red]
+	692493860 -> 523126064 [color=red]
+	692493860 -> 748454379 [color=red]
+	174535569 -> 187865254 [color=blue]
+	174535569 -> 673164866 [color=blue]
+	174535569 -> 190166475 [color=blue]
+	190166475 -> 983389560 [color=red]
+	190166475 -> 641935969 [color=red]
+	641935969 -> 29743461 [color=blue]
+	978940750 -> 871726239 [color=blue]
+	978940750 -> 21650218 [color=blue]
+	978940750 -> 664386175 [color=blue]
+	871726239 -> 819667377 [color=red]
+	871726239 -> 597766846 [color=red]
+	819667377 -> 57087769 [color=blue]
+	597766846 -> 541273747 [color=blue]
+	664386175 -> 66183396 [color=red]
+	664386175 -> 931624298 [color=red]
+	931624298 -> 852992378 [color=blue]
+	523126064 -> 960725114 [color=blue]
+	523126064 -> 542707716 [color=blue]
+	523126064 -> 44167572 [color=blue]
+	960725114 -> 366578055 [color=red]
+	960725114 -> 1067771681 [color=red]
+	366578055 -> 956705386 [color=blue]
+	44167572 -> 816781241 [color=red]
+	44167572 -> 769168979 [color=red]
+	816781241 -> 695186437 [color=blue]
+	769168979 -> 208865147 [color=blue]
+	748454379 -> 233388065 [color=blue]
+	748454379 -> 863785304 [color=blue]
+	748454379 -> 468772254 [color=blue]
+	233388065 -> 128828374 [color=red]
+	233388065 -> 968249753 [color=red]
+	128828374 -> 363193566 [color=blue]
+}

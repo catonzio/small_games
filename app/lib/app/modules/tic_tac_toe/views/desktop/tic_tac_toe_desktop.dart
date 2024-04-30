@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:small_games/app/modules/tic_tac_toe/controllers/tic_tac_toe_controller.dart';
 import 'package:small_games/app/modules/tic_tac_toe/views/widgets/grid_widget.dart';
+// import 'package:small_games/app/modules/tic_tac_toe/views/widgets/tree_visualization.dart';
 
 class TicTacToeDesktop extends StatelessWidget {
   const TicTacToeDesktop({super.key});
@@ -17,6 +18,8 @@ class TicTacToeDesktop extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          // TreeVisualization(
+          //     size: Size(context.width * 0.8, context.width * 0.15)),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Obx(() => Text(

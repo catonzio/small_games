@@ -1,0 +1,7429 @@
+// The tree
+digraph {
+	692493860 [label="Max node (O)
+Depth: 0, Value: -6.0
+
+X | O |  
+  | X |  
+  |   |  " color=red shape=box]
+	380267400 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O | O
+  | X |  
+  |   |  " color=red shape=ellipse]
+	570938841 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+X | X |  
+  |   |  " color=red shape=box]
+	762649541 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X | O
+  |   |  " color=red shape=ellipse]
+	843935023 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  " color=red shape=box]
+	628637259 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  " color=green shape=box]
+	537987640 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	586384932 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	713964722 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	194890598 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  |   | X" color=red shape=box]
+	426677463 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O |   |  " color=red shape=ellipse]
+	48928222 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  " color=red shape=box]
+	731335864 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  " color=red shape=box]
+	572858329 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	578045678 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	1060251226 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	179937238 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	299584960 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O |   | X" color=red shape=box]
+	641957310 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  | O |  " color=red shape=ellipse]
+	621801917 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  " color=red shape=box]
+	937568480 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  " color=red shape=box]
+	1068507074 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | O | X" color=red shape=box]
+	341244081 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  |   | O" color=red shape=ellipse]
+	887570676 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O" color=red shape=box]
+	933980171 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O" color=red shape=box]
+	459799025 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	720845662 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	809856441 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	654070311 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	297754965 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+  | X | X
+  |   |  " color=red shape=box]
+	28228968 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X | X
+  |   |  " color=red shape=ellipse]
+	694430623 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  " color=green shape=box]
+	314859382 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	479201438 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	933138274 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	686441540 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	353821414 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  " color=green shape=box]
+	389131768 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	1021604586 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	317340930 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	1013642773 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	23193568 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X | X
+  |   | X" color=red shape=box]
+	437559508 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O |   |  " color=red shape=ellipse]
+	14977516 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  " color=red shape=box]
+	646583504 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  " color=red shape=box]
+	600102514 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	362388461 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	836742820 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	334401053 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	471822435 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O |   | X" color=red shape=box]
+	329261741 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  | O |  " color=red shape=ellipse]
+	971318205 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  " color=red shape=box]
+	7533820 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+X | O |  " color=red shape=box]
+	683700179 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	208787896 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	895967626 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	104426546 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	353793000 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | O | X" color=red shape=box]
+	77334820 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  |   | O" color=red shape=ellipse]
+	572811990 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O" color=red shape=box]
+	237635110 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+X |   | O" color=green shape=box]
+	896582210 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	656653372 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	101367588 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	212080173 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	52888424 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O" color=green shape=box]
+	369447761 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	1018230881 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	441091020 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	343551304 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	857274326 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+  | X |  
+X |   |  " color=red shape=box]
+	474179518 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+X |   |  " color=red shape=ellipse]
+	861022007 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  " color=green shape=box]
+	842439271 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	966665932 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	557316078 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	1013072417 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	1044974189 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  " color=green shape=box]
+	84426094 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	1048060473 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	727917192 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	30645696 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	896719761 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+X |   | X" color=red shape=box]
+	144590147 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+X |   |  " color=red shape=ellipse]
+	104614907 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  " color=red shape=box]
+	728044231 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  " color=green shape=box]
+	393559463 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	123336448 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	855922147 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	918473640 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X |   | X" color=red shape=box]
+	569611202 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X | O |  " color=red shape=ellipse]
+	561044476 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  " color=red shape=box]
+	846580784 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+X | O |  " color=red shape=box]
+	123576409 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	643798914 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	678462518 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	36404816 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	63177331 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | O | X" color=red shape=box]
+	1039819186 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X |   | O" color=red shape=ellipse]
+	68849199 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O" color=red shape=box]
+	522213989 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+X |   | O" color=green shape=box]
+	990594917 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	464606558 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	882817334 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	539233457 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	32617378 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X |  
+X | X | O" color=green shape=box]
+	796381429 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	997278265 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	327531157 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	963342336 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | O
+  | X |  
+  | X |  " color=green shape=box]
+	161168665 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+  | X |  " color=red shape=ellipse]
+	197017692 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  " color=green shape=box]
+	495178145 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	477305643 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	595459760 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	353559236 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	537606178 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  " color=green shape=box]
+	183624153 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	911345617 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	322125028 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	991890955 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	94992260 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+  | X | X" color=red shape=box]
+	338799094 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+  | X |  " color=red shape=ellipse]
+	16815049 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  " color=green shape=box]
+	1041404294 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	25690224 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	616969081 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	107418189 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  " color=green shape=box]
+	155035058 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	892349680 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	457916529 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	559350273 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+  | X | X" color=red shape=box]
+	288492310 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+O | X |  " color=red shape=ellipse]
+	467699495 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  " color=red shape=box]
+	729660538 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	816698733 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	743839519 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	277198720 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	825458199 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  " color=red shape=box]
+	437994230 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	838058281 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	686390649 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	664368584 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	464246366 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+O | X | X" color=red shape=box]
+	713198829 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+  | X |  
+  | X | O" color=green shape=ellipse]
+	731753114 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	688505059 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	279908366 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	1056743410 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	117712256 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O" color=green shape=box]
+	782873317 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	580124351 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	1018910733 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	519989424 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	916372858 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X |  
+X | X | O" color=green shape=box]
+	493842827 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	833713989 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	995999333 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	36588932 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O | O
+  | X |  
+  |   | X" color=red shape=box]
+	870517348 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+O | X |  
+  |   |  " color=red shape=ellipse]
+	937924097 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+O | X |  
+  |   |  " color=red shape=box]
+	546721786 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  |   |  " color=red shape=ellipse]
+	469649507 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  " color=red shape=box]
+	206504325 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  " color=red shape=box]
+	1069373313 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	21410374 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	393550291 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	348662807 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	196352427 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  |   | X" color=red shape=box]
+	973438213 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+O |   |  " color=red shape=ellipse]
+	714334358 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  " color=green shape=box]
+	22655345 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	625787769 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	337969274 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	288823389 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	58324088 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  " color=green shape=box]
+	1032792890 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	666356166 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	604749464 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	683388186 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	562015180 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+O |   | X" color=red shape=box]
+	203149277 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  | O |  " color=red shape=ellipse]
+	992109203 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  " color=red shape=box]
+	46761425 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	391954819 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	916619259 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	202264366 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	908141929 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  " color=red shape=box]
+	304340444 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | O | X" color=red shape=box]
+	800345348 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  |   | O" color=red shape=ellipse]
+	151506507 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O" color=green shape=box]
+	327590077 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	247098496 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	618098345 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	224363967 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	258231404 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O" color=red shape=box]
+	984655636 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O" color=green shape=box]
+	840021069 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	33761270 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	626089357 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	815062032 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	2950177 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+O | X | X
+  |   |  " color=green shape=box]
+	297803859 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X | X
+  |   |  " color=red shape=ellipse]
+	924089460 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  " color=green shape=box]
+	143384137 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	963148349 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	626700941 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	600563037 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	89879831 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  " color=green shape=box]
+	113993683 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	33994778 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	91540030 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	179082004 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	727342763 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X | X
+  |   | X" color=red shape=box]
+	630503671 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+O |   |  " color=red shape=ellipse]
+	798322938 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  " color=green shape=box]
+	823429742 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	938646042 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	571921954 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	304306425 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	596060165 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  " color=green shape=box]
+	404897642 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	929033696 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	565413186 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	532497910 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	366660729 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+O |   | X" color=red shape=box]
+	1000697111 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+  | O |  " color=red shape=ellipse]
+	632604604 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  " color=red shape=box]
+	483990650 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	854417538 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	473674445 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	735696817 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	328662561 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  " color=red shape=box]
+	980660448 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	30766794 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	627999568 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	665748570 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	674375346 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+  | O | X" color=red shape=box]
+	823236033 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+  |   | O" color=green shape=ellipse]
+	592457167 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O" color=green shape=box]
+	640643904 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	187445342 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	396610203 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	70521840 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	574819621 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O" color=green shape=box]
+	670176066 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	226497688 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	940671108 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	311080415 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	717530532 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O" color=green shape=box]
+	1024448691 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	815706947 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	459352617 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	954668830 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	442047508 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+O | X |  
+X |   |  " color=red shape=box]
+	851439892 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+X |   |  " color=red shape=ellipse]
+	388203744 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  " color=green shape=box]
+	1028012789 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	556242490 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	458042070 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	184572566 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	317529753 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  " color=green shape=box]
+	1054316233 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	239514167 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	441354474 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	77844244 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	275859259 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+X |   | X" color=red shape=box]
+	903374317 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X |   |  " color=red shape=ellipse]
+	1067134642 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  " color=red shape=box]
+	360841479 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  " color=red shape=box]
+	15961248 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	625427678 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	253683618 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	451346463 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	431383241 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X |   | X" color=red shape=box]
+	983383604 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X | O |  " color=red shape=ellipse]
+	214542267 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  " color=red shape=box]
+	74041350 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  " color=red shape=box]
+	960558512 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	792078788 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	307390165 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	732239360 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	86868664 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | O | X" color=red shape=box]
+	338762624 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X |   | O" color=red shape=ellipse]
+	931093660 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O" color=red shape=box]
+	187163259 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O" color=green shape=box]
+	594163272 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	1011155643 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	757964247 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	82561855 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	100520000 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O" color=green shape=box]
+	426875223 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	79205360 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	204728237 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	808342482 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	29727967 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+O | X |  
+  | X |  " color=green shape=box]
+	634719641 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+  | X |  " color=red shape=ellipse]
+	366442761 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  " color=green shape=box]
+	1003042803 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	443635231 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	269301828 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	37109159 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	528590704 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  " color=green shape=box]
+	601344076 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	1004967512 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	255711776 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	122404667 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	119354484 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+  | X | X" color=red shape=box]
+	635682231 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+  | X |  " color=red shape=ellipse]
+	20398309 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  " color=red shape=box]
+	991429283 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	240503419 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	937581343 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	710260405 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	161039390 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  " color=red shape=box]
+	531703029 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	46954694 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	553142761 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	377786695 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	606966446 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+  | X | X" color=red shape=box]
+	855031904 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+O | X |  " color=red shape=ellipse]
+	494329357 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  " color=green shape=box]
+	889204165 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	291079606 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	867216491 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	1019424401 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	462996197 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  " color=green shape=box]
+	509904355 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	845738156 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	351933039 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	453228678 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	627745198 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+O | X | X" color=red shape=box]
+	349454414 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X |  
+  | X | O" color=green shape=ellipse]
+	560850593 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O" color=green shape=box]
+	912639325 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	529628612 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	360369285 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	854609721 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	896275799 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O" color=green shape=box]
+	14483025 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	925250672 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	955023926 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	849197129 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	339145079 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O" color=green shape=box]
+	999172606 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	570344844 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	692051119 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	964021364 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	821056125 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+O | X |  
+  |   | X" color=red shape=box]
+	203842528 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X | O
+  |   |  " color=red shape=ellipse]
+	726139009 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | X | O
+  |   |  " color=red shape=box]
+	570016937 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  |   |  " color=red shape=ellipse]
+	395061918 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  " color=red shape=box]
+	538063949 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  " color=red shape=box]
+	131162661 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	218879562 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	745734746 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	471871964 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	179203614 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  |   | X" color=red shape=box]
+	904716683 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+O |   |  " color=red shape=ellipse]
+	769132371 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  " color=green shape=box]
+	218962769 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	168390570 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	538158276 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	118724416 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	702844765 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  " color=green shape=box]
+	268582257 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	166341462 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	47058591 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	35239371 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	539652612 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+O |   | X" color=red shape=box]
+	658538630 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  | O |  " color=red shape=ellipse]
+	78370556 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  " color=red shape=box]
+	379020511 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	158785890 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	989368204 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	730816772 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	88911913 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  " color=red shape=box]
+	613711829 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | O | X" color=red shape=box]
+	38379261 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  |   | O" color=red shape=ellipse]
+	40108314 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O" color=green shape=box]
+	433532049 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	30637510 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	470410097 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	679547017 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	994697231 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O" color=red shape=box]
+	35622968 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O" color=green shape=box]
+	843473411 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	988750320 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	44022712 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	405927749 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	799716012 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X | O
+  |   |  " color=red shape=box]
+	992573852 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X | O
+  |   |  " color=red shape=ellipse]
+	374292803 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  " color=red shape=box]
+	214339421 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  " color=green shape=box]
+	218133110 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	782629671 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	275874417 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	876853457 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  |   | X" color=red shape=box]
+	450614891 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+O |   |  " color=red shape=ellipse]
+	437116878 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  " color=green shape=box]
+	895912991 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	826471987 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	482416188 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	378849621 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	1051667802 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  " color=green shape=box]
+	700481011 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	890111616 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	366107207 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	455850691 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	431140627 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+O |   | X" color=red shape=box]
+	111262374 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  | O |  " color=red shape=ellipse]
+	48678703 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  " color=red shape=box]
+	551459244 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	22771713 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	943801601 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	672763678 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	856430941 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  " color=red shape=box]
+	246977791 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | O | X" color=red shape=box]
+	477030239 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  |   | O" color=red shape=ellipse]
+	667691868 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O" color=green shape=box]
+	881215412 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	321192336 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	594735636 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	641538822 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	772160582 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O" color=red shape=box]
+	724995745 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	1044986830 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	555486782 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	533546990 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	611329361 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | O
+X |   |  " color=red shape=box]
+	892792103 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+X |   |  " color=red shape=ellipse]
+	1000899128 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  " color=red shape=box]
+	675271036 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  " color=green shape=box]
+	764557777 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	655091888 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	311509097 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	46035311 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X |   | X" color=red shape=box]
+	577323577 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X |   |  " color=red shape=ellipse]
+	428485672 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  " color=red shape=box]
+	299413019 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  " color=red shape=box]
+	147436551 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	182028456 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	377495091 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	681833100 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	852230763 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X |   | X" color=red shape=box]
+	524582278 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X | O |  " color=red shape=ellipse]
+	452430308 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  " color=red shape=box]
+	569852200 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  " color=red shape=box]
+	100351150 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | O | X" color=red shape=box]
+	280677561 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X |   | O" color=red shape=ellipse]
+	455564464 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O" color=red shape=box]
+	941825606 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O" color=red shape=box]
+	704081209 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+  | X | O
+X | X | O" color=green shape=box]
+	615318175 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	555862861 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	776834560 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	413054604 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+  | X | O
+  | X |  " color=green shape=box]
+	695239071 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+  | X |  " color=red shape=ellipse]
+	759244699 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  " color=green shape=box]
+	295322871 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	854967256 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	1020615383 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	846845502 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  " color=green shape=box]
+	283274582 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	259057701 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	1015436065 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	933101115 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+  | X | X" color=red shape=box]
+	783352073 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+  | X |  " color=red shape=ellipse]
+	332972609 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  " color=red shape=box]
+	573649972 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	432170709 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	84076712 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	745022569 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	666680906 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  " color=red shape=box]
+	936415085 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  " color=red shape=ellipse]
+	603870922 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X" color=red shape=box]
+	488909816 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	1067517138 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	505273697 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+  | X | X" color=red shape=box]
+	341470650 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+O | X |  " color=red shape=ellipse]
+	424275882 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  " color=green shape=box]
+	782297630 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	120921798 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	156597954 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	568640105 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	454133114 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  " color=green shape=box]
+	705114495 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	253960888 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	1027967061 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	40785676 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	18695925 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+O | X | X" color=red shape=box]
+	950727079 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | O
+  | X | O" color=green shape=ellipse]
+	436617531 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O" color=green shape=box]
+	687113128 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	133717151 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	833876907 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	420438325 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	824066724 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	1046368904 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	982278206 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	390429196 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	949558308 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+  | X | O
+X | X | O" color=green shape=box]
+	1002552160 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	970793777 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	357740377 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	695892379 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X | O
+  |   | X" color=red shape=box]
+	463175277 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X |  
+O |   |  " color=red shape=ellipse]
+	136984882 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X |  
+O |   |  " color=green shape=box]
+	199860607 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+O |   |  " color=red shape=ellipse]
+	855082724 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  " color=green shape=box]
+	337445389 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	294983489 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	508055648 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	642938254 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	257825571 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  " color=green shape=box]
+	425752746 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	551231822 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	838265942 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	504164237 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	228096371 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+O |   | X" color=red shape=box]
+	161359647 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+O |   |  " color=red shape=ellipse]
+	405992167 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  " color=green shape=box]
+	829136271 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	274487100 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	760071920 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	727175988 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	961325737 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  " color=green shape=box]
+	860461601 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	1013440398 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	760890350 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	629590851 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	753561746 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+O |   | X" color=red shape=box]
+	923253830 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+O | O |  " color=red shape=ellipse]
+	844032273 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  " color=green shape=box]
+	1013104665 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	1035508417 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	746521944 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	1054117680 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  " color=green shape=box]
+	679010232 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	154777285 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	575667456 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	865597812 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+O | O | X" color=red shape=box]
+	1033501700 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X |  
+O |   | O" color=green shape=ellipse]
+	269278819 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O" color=green shape=box]
+	878446341 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	491507735 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	657150996 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	890717933 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O" color=green shape=box]
+	106706 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	383768231 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	537555748 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	962032028 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O" color=green shape=box]
+	285079990 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	481937831 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	336227648 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	578879277 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	685037914 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+O |   |  " color=red shape=box]
+	163162948 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O |   |  " color=red shape=ellipse]
+	18770808 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  " color=red shape=box]
+	873149755 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  " color=red shape=box]
+	816197167 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	55331716 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	328411435 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	4591384 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	259438705 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O |   | X" color=red shape=box]
+	40811896 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+O |   |  " color=red shape=ellipse]
+	932868896 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  " color=green shape=box]
+	653373300 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	651484250 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	712743574 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	141407858 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	615830006 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  " color=green shape=box]
+	257030407 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	742086628 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	730196645 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	519456468 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	150170563 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+O |   | X" color=red shape=box]
+	93299790 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O | O |  " color=red shape=ellipse]
+	419997264 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  " color=green shape=box]
+	784768505 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	66574975 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	626414677 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	311249504 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  " color=red shape=box]
+	663193499 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | O | X" color=red shape=box]
+	192436187 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O |   | O" color=red shape=ellipse]
+	466695568 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O" color=green shape=box]
+	374487147 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	504166863 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	111028675 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	4832274 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O" color=red shape=box]
+	97959652 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	1014236010 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	131783247 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	226523943 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	184907546 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	680340913 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | X
+O |   |  " color=red shape=box]
+	624891033 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O |   |  " color=red shape=ellipse]
+	894842616 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  " color=red shape=box]
+	779185193 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  " color=red shape=box]
+	835432017 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	133173832 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	445579336 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	969882025 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	943852355 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O |   | X" color=red shape=box]
+	182284605 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+O |   |  " color=red shape=ellipse]
+	753259558 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  " color=green shape=box]
+	975300328 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	523091996 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	189465223 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	287082307 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	526837288 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  " color=green shape=box]
+	518586499 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	418268746 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	827475042 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	86757469 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	213453133 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+O |   | X" color=red shape=box]
+	609738709 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O | O |  " color=red shape=ellipse]
+	228218126 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  " color=green shape=box]
+	324516057 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	446803350 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	25852540 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	67497089 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  " color=red shape=box]
+	851296391 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | O | X" color=red shape=box]
+	82806050 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O |   | O" color=red shape=ellipse]
+	420016816 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O" color=green shape=box]
+	845760963 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	210381150 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	181122635 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	50293644 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O" color=red shape=box]
+	299485911 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O" color=green shape=box]
+	151086059 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	378678810 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	20713154 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	466062902 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	294308507 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+  | X |  
+O | X |  " color=green shape=box]
+	1041432535 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+O | X |  " color=red shape=ellipse]
+	154558578 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  " color=red shape=box]
+	306411666 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	570110495 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	461087372 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	842592114 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	687361367 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  " color=red shape=box]
+	906165075 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	831090742 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	940298371 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	376911341 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	869312215 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+O | X | X" color=red shape=box]
+	251688032 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+O | X |  " color=red shape=ellipse]
+	45324012 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  " color=green shape=box]
+	365557024 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	915428546 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	368745517 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	370532621 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	874268477 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  " color=green shape=box]
+	359834794 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  " color=red shape=ellipse]
+	859918260 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X" color=red shape=box]
+	840233832 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	738155992 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	249005731 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+O | X | X" color=red shape=box]
+	469283553 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+O | X |  " color=red shape=ellipse]
+	924166860 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  " color=green shape=box]
+	318073878 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  " color=red shape=ellipse]
+	694437702 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X" color=red shape=box]
+	144003537 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	352309725 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	333097590 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  " color=green shape=box]
+	623633695 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  " color=red shape=ellipse]
+	748355743 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X" color=red shape=box]
+	647955846 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	188916248 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	128101378 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+O | X | X" color=red shape=box]
+	1034865157 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X |  
+O | X | O" color=green shape=ellipse]
+	214614617 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O" color=green shape=box]
+	202909950 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	268436029 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	11030517 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	273947385 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	188545882 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	64824836 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	186719211 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	863685600 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	14771083 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	26644162 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O" color=green shape=box]
+	734081012 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	1060317451 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	670455517 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	37824857 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	873519015 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X |  
+O |   | X" color=red shape=box]
+	760023189 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X |  
+  | O |  " color=red shape=ellipse]
+	767588419 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | X |  
+  | O |  " color=red shape=box]
+	613381115 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  | O |  " color=red shape=ellipse]
+	431142501 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  " color=red shape=box]
+	590080229 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	602029678 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	725451780 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	783463712 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	197218124 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  " color=red shape=box]
+	472668723 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | O | X" color=red shape=box]
+	257687598 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  | O |  " color=red shape=ellipse]
+	246810489 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  " color=red shape=box]
+	94972667 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	233720227 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	1010959621 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	614309405 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	1016038325 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  " color=red shape=box]
+	864685796 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | O | X" color=red shape=box]
+	241471442 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+O | O |  " color=red shape=ellipse]
+	137283165 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  " color=green shape=box]
+	684380183 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	783042001 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	168782728 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	216328849 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  " color=green shape=box]
+	653840087 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	894757585 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	71215876 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	807013707 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+O | O | X" color=red shape=box]
+	371012679 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+  | O | O" color=red shape=ellipse]
+	512786782 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O" color=green shape=box]
+	432792623 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	679028678 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	86712169 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	383901897 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O" color=green shape=box]
+	522961733 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	395123160 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	957473016 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	46708434 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O" color=red shape=box]
+	106212400 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+  | O |  " color=red shape=box]
+	867333942 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  | O |  " color=red shape=ellipse]
+	837820171 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  " color=red shape=box]
+	1017420526 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  " color=red shape=box]
+	1028613394 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | O | X" color=red shape=box]
+	813315185 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  | O |  " color=red shape=ellipse]
+	783881631 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  " color=red shape=box]
+	941425518 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	943333055 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	898816807 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	587732543 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	943380248 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  " color=red shape=box]
+	18284250 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | O | X" color=red shape=box]
+	775391342 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O | O |  " color=red shape=ellipse]
+	184358795 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  " color=green shape=box]
+	541689932 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  " color=red shape=ellipse]
+	42255310 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X" color=red shape=box]
+	488258216 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	997148661 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  " color=red shape=box]
+	192475739 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | O | X" color=red shape=box]
+	893682071 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+  | O | O" color=red shape=ellipse]
+	475517807 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O" color=green shape=box]
+	805175187 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	280448492 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	321028702 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	912872366 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O" color=red shape=box]
+	399807483 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O" color=red shape=box]
+	38171523 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | X
+  | O |  " color=red shape=box]
+	856023491 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  | O |  " color=red shape=ellipse]
+	186802882 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  " color=red shape=box]
+	86538027 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+X | O |  " color=red shape=box]
+	501886043 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	848090040 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	283924226 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	282801109 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	1036461674 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | O | X" color=red shape=box]
+	107923491 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+  | O |  " color=red shape=ellipse]
+	199868208 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  " color=red shape=box]
+	605785485 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	57341965 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	340987534 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	1057556399 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	571179659 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  " color=red shape=box]
+	246605531 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	943008794 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	42850607 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	707242305 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	1021673291 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+  | O | X" color=red shape=box]
+	826960567 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O | O |  " color=red shape=ellipse]
+	236754448 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  " color=green shape=box]
+	260319373 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  " color=red shape=ellipse]
+	537478219 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X" color=red shape=box]
+	364091334 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	79037160 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  " color=red shape=box]
+	312816766 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | O | X" color=red shape=box]
+	667545681 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+  | O | O" color=red shape=ellipse]
+	420692017 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O" color=green shape=box]
+	134389171 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	664864674 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	388257948 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	80563239 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O" color=red shape=box]
+	831472609 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+  | X | X
+X | O | O" color=red shape=box]
+	872817711 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	694232161 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	882223822 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	922617301 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	769717374 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+X | O |  " color=red shape=box]
+	180593457 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X | O |  " color=red shape=ellipse]
+	514739176 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  " color=red shape=box]
+	19106274 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+X | O |  " color=red shape=box]
+	974625104 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	151268853 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	148699118 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	346028302 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	112057808 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | O | X" color=red shape=box]
+	15036698 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X | O |  " color=red shape=ellipse]
+	447313648 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  " color=red shape=box]
+	120481526 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  " color=red shape=box]
+	829058114 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  " color=red shape=ellipse]
+	404056817 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X" color=red shape=box]
+	490145785 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	259310335 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	804647483 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | O | X" color=red shape=box]
+	317296039 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X | O |  " color=red shape=ellipse]
+	509699742 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  " color=red shape=box]
+	488711472 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  " color=red shape=box]
+	1013668183 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | O | X" color=red shape=box]
+	6111344 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X |  
+X | O | O" color=red shape=ellipse]
+	311101303 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O" color=red shape=box]
+	536703269 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O" color=red shape=box]
+	315052787 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+  | X | X
+X | O | O" color=red shape=box]
+	657702685 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	557040224 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	1057252038 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	617002619 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	3695339 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X |  
+  | O | X" color=red shape=box]
+	377852780 [label="Min node (X)
+Depth: 1, Value: -6.0
+
+X | O |  
+  | X |  
+  |   | O" color=red shape=ellipse]
+	292064586 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X |  
+  |   | O" color=green shape=box]
+	219039266 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  |   | O" color=red shape=ellipse]
+	507799301 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O" color=green shape=box]
+	366091990 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	200737577 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	517544896 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	1022957450 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	1053150422 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O" color=red shape=box]
+	181350977 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O" color=green shape=box]
+	752513201 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	462778879 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	251881685 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	330801672 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	119885531 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  |   | O" color=red shape=ellipse]
+	303861802 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O" color=green shape=box]
+	506350791 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	400184696 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	758576008 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	239171059 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	857993277 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O" color=red shape=box]
+	487685430 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O" color=green shape=box]
+	119922234 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	873094619 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	614332677 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	312277047 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	947692338 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X |  
+O |   | O" color=green shape=ellipse]
+	883699620 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O" color=green shape=box]
+	1068802254 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	976581676 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	119078858 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	952667751 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O" color=green shape=box]
+	639332867 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	586953908 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	397349002 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	864466614 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O" color=green shape=box]
+	694961115 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	1052518816 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	49240611 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	437081581 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	774218992 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+  | O | O" color=red shape=ellipse]
+	587759925 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O" color=green shape=box]
+	297158724 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	1013785943 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	822261765 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	488139054 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O" color=green shape=box]
+	584241297 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	583843595 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	593005208 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	162235005 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O" color=red shape=box]
+	946545126 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+  |   | O" color=red shape=box]
+	781267905 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  |   | O" color=red shape=ellipse]
+	305907226 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O" color=red shape=box]
+	25406460 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O" color=red shape=box]
+	429423745 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	298824356 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	80136058 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	528818136 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	975344600 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  |   | O" color=red shape=ellipse]
+	863876303 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O" color=green shape=box]
+	125393124 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	123828376 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	549524973 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	885596133 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	961536933 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O" color=red shape=box]
+	251158003 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	752518624 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	62296579 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	995841796 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	330899905 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O |   | O" color=red shape=ellipse]
+	845672955 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O" color=green shape=box]
+	536472179 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O" color=green shape=ellipse]
+	15407110 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	670209030 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	651340182 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O" color=red shape=box]
+	588111617 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	460700421 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	913332461 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	784606201 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	572689943 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	944083766 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+  | O | O" color=red shape=ellipse]
+	74495036 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O" color=green shape=box]
+	555179822 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O" color=red shape=ellipse]
+	61374020 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O" color=red shape=box]
+	933095123 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O" color=green shape=ellipse]
+	370528152 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O" color=red shape=box]
+	635685933 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O" color=red shape=box]
+	184033962 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+  | X | X
+  |   | O" color=green shape=box]
+	397902387 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  |   | O" color=red shape=ellipse]
+	262847951 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O" color=red shape=box]
+	664195771 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+X |   | O" color=green shape=box]
+	1012547615 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	128411275 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	624313633 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	845903957 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	747157029 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O" color=green shape=box]
+	780361632 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	499134934 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	302050444 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	275644053 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	48049726 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+  |   | O" color=green shape=ellipse]
+	61048300 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O" color=green shape=box]
+	574165132 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	973527493 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	416366561 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	286682896 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	729985687 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O" color=green shape=box]
+	520776215 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	641805532 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	139013085 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	441607626 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	430360218 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O" color=green shape=box]
+	610120543 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	966206883 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	959652531 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	467804583 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	413709310 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O |   | O" color=red shape=ellipse]
+	960959347 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O" color=green shape=box]
+	434732318 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O" color=green shape=ellipse]
+	287161361 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	75938713 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	49106409 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O" color=red shape=box]
+	463527450 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O" color=green shape=box]
+	383804561 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	684546082 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	758533758 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	670008452 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	269593873 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+  | O | O" color=red shape=ellipse]
+	1021503168 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O" color=green shape=box]
+	229615938 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O" color=red shape=ellipse]
+	314576352 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	65434689 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O" color=green shape=ellipse]
+	195587429 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O" color=red shape=box]
+	662124251 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+  | X | X
+X | O | O" color=red shape=box]
+	480008535 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	372255504 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	884669206 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	915851311 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	189459766 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+X |   | O" color=red shape=box]
+	597360181 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X |   | O" color=red shape=ellipse]
+	478573501 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O" color=red shape=box]
+	994736720 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+X |   | O" color=green shape=box]
+	902907630 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	88524335 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	425411633 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	398546142 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	93771020 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X |  
+X | X | O" color=green shape=box]
+	317644111 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	95352631 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	258563968 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	848636630 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X |   | O" color=red shape=ellipse]
+	1040368348 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O" color=red shape=box]
+	466489582 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O" color=green shape=box]
+	341076742 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O" color=green shape=ellipse]
+	880809545 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	481126568 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	1038544202 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	814990981 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O" color=green shape=box]
+	566681445 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	727713925 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	85494647 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	859305036 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	700732376 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X |   | O" color=red shape=ellipse]
+	89140922 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O" color=red shape=box]
+	262798296 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O" color=red shape=box]
+	961970530 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+  | X | O
+X | X | O" color=green shape=box]
+	842815349 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	221784955 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	504399790 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	562480496 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X |  
+X | O | O" color=red shape=ellipse]
+	1029153344 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O" color=red shape=box]
+	439315124 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O" color=red shape=box]
+	527978352 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+  | X | X
+X | O | O" color=red shape=box]
+	721077267 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O" color=red shape=ellipse]
+	538113855 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O" color=red shape=box]
+	794929100 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O" color=red shape=ellipse]
+	98430029 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O" color=red shape=box]
+	858120780 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+  | X |  
+  | X | O" color=green shape=box]
+	672531534 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+  | X |  
+  | X | O" color=green shape=ellipse]
+	716354161 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	727208477 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	303697846 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	685980596 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	414583929 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O" color=green shape=box]
+	358012937 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	672540643 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	448372452 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	20118674 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	30626765 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X |  
+X | X | O" color=green shape=box]
+	183118161 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	110796860 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	566924462 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	831650046 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X |  
+  | X | O" color=green shape=ellipse]
+	781730363 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O" color=green shape=box]
+	427972025 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	957731681 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	486813496 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	15253630 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	343333224 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O" color=green shape=box]
+	78902252 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	963945157 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	316868753 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	132871279 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	190524362 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O" color=green shape=box]
+	107162515 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	348184419 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	990323704 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	921896039 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	91197400 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | O
+  | X | O" color=green shape=ellipse]
+	338572277 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O" color=green shape=box]
+	180613918 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	452962836 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	519952187 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	647901194 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	12464625 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	30299263 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	893471508 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	1046917784 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	550845208 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O |  
+  | X | O
+X | X | O" color=green shape=box]
+	464019161 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	991847333 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	1063357310 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	830298406 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X |  
+O | X | O" color=green shape=ellipse]
+	73367987 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O" color=green shape=box]
+	589172598 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	347792848 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	762603619 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	170427061 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	978389913 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	716011658 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	322394862 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	905881625 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	108576856 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	358363143 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O" color=green shape=box]
+	443228171 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	1058687361 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	575549120 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	609927519 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	692493860 -> 380267400 [color=red]
+	692493860 -> 870517348 [color=red]
+	692493860 -> 203842528 [color=red]
+	692493860 -> 463175277 [color=red]
+	692493860 -> 760023189 [color=red]
+	692493860 -> 377852780 [color=red]
+	380267400 -> 570938841 [color=blue]
+	380267400 -> 297754965 [color=blue]
+	380267400 -> 857274326 [color=blue]
+	380267400 -> 963342336 [color=blue]
+	380267400 -> 36588932 [color=blue]
+	570938841 -> 762649541 [color=red]
+	570938841 -> 426677463 [color=red]
+	570938841 -> 641957310 [color=red]
+	570938841 -> 341244081 [color=red]
+	762649541 -> 843935023 [color=blue]
+	762649541 -> 628637259 [color=blue]
+	762649541 -> 194890598 [color=blue]
+	628637259 -> 537987640 [color=red]
+	628637259 -> 713964722 [color=red]
+	537987640 -> 586384932 [color=blue]
+	426677463 -> 48928222 [color=blue]
+	426677463 -> 731335864 [color=blue]
+	426677463 -> 299584960 [color=blue]
+	731335864 -> 572858329 [color=red]
+	731335864 -> 1060251226 [color=red]
+	572858329 -> 578045678 [color=blue]
+	1060251226 -> 179937238 [color=blue]
+	641957310 -> 621801917 [color=blue]
+	641957310 -> 937568480 [color=blue]
+	641957310 -> 1068507074 [color=blue]
+	341244081 -> 887570676 [color=blue]
+	341244081 -> 933980171 [color=blue]
+	341244081 -> 459799025 [color=blue]
+	459799025 -> 720845662 [color=red]
+	459799025 -> 809856441 [color=red]
+	809856441 -> 654070311 [color=blue]
+	297754965 -> 28228968 [color=red]
+	297754965 -> 437559508 [color=red]
+	297754965 -> 329261741 [color=red]
+	297754965 -> 77334820 [color=red]
+	28228968 -> 694430623 [color=blue]
+	28228968 -> 353821414 [color=blue]
+	28228968 -> 23193568 [color=blue]
+	694430623 -> 314859382 [color=red]
+	694430623 -> 933138274 [color=red]
+	314859382 -> 479201438 [color=blue]
+	933138274 -> 686441540 [color=blue]
+	353821414 -> 389131768 [color=red]
+	353821414 -> 317340930 [color=red]
+	389131768 -> 1021604586 [color=blue]
+	317340930 -> 1013642773 [color=blue]
+	437559508 -> 14977516 [color=blue]
+	437559508 -> 646583504 [color=blue]
+	437559508 -> 471822435 [color=blue]
+	646583504 -> 600102514 [color=red]
+	646583504 -> 836742820 [color=red]
+	600102514 -> 362388461 [color=blue]
+	836742820 -> 334401053 [color=blue]
+	329261741 -> 971318205 [color=blue]
+	329261741 -> 7533820 [color=blue]
+	329261741 -> 353793000 [color=blue]
+	7533820 -> 683700179 [color=red]
+	7533820 -> 895967626 [color=red]
+	683700179 -> 208787896 [color=blue]
+	895967626 -> 104426546 [color=blue]
+	77334820 -> 572811990 [color=blue]
+	77334820 -> 237635110 [color=blue]
+	77334820 -> 52888424 [color=blue]
+	237635110 -> 896582210 [color=red]
+	237635110 -> 101367588 [color=red]
+	896582210 -> 656653372 [color=blue]
+	101367588 -> 212080173 [color=blue]
+	52888424 -> 369447761 [color=red]
+	52888424 -> 441091020 [color=red]
+	369447761 -> 1018230881 [color=blue]
+	441091020 -> 343551304 [color=blue]
+	857274326 -> 474179518 [color=red]
+	857274326 -> 144590147 [color=red]
+	857274326 -> 569611202 [color=red]
+	857274326 -> 1039819186 [color=red]
+	474179518 -> 861022007 [color=blue]
+	474179518 -> 1044974189 [color=blue]
+	474179518 -> 896719761 [color=blue]
+	861022007 -> 842439271 [color=red]
+	861022007 -> 557316078 [color=red]
+	842439271 -> 966665932 [color=blue]
+	557316078 -> 1013072417 [color=blue]
+	1044974189 -> 84426094 [color=red]
+	1044974189 -> 727917192 [color=red]
+	84426094 -> 1048060473 [color=blue]
+	727917192 -> 30645696 [color=blue]
+	144590147 -> 104614907 [color=blue]
+	144590147 -> 728044231 [color=blue]
+	144590147 -> 918473640 [color=blue]
+	728044231 -> 393559463 [color=red]
+	728044231 -> 855922147 [color=red]
+	393559463 -> 123336448 [color=blue]
+	569611202 -> 561044476 [color=blue]
+	569611202 -> 846580784 [color=blue]
+	569611202 -> 63177331 [color=blue]
+	846580784 -> 123576409 [color=red]
+	846580784 -> 678462518 [color=red]
+	123576409 -> 643798914 [color=blue]
+	678462518 -> 36404816 [color=blue]
+	1039819186 -> 68849199 [color=blue]
+	1039819186 -> 522213989 [color=blue]
+	1039819186 -> 32617378 [color=blue]
+	522213989 -> 990594917 [color=red]
+	522213989 -> 882817334 [color=red]
+	990594917 -> 464606558 [color=blue]
+	882817334 -> 539233457 [color=blue]
+	32617378 -> 796381429 [color=red]
+	32617378 -> 327531157 [color=red]
+	796381429 -> 997278265 [color=blue]
+	963342336 -> 161168665 [color=red]
+	963342336 -> 338799094 [color=red]
+	963342336 -> 288492310 [color=red]
+	963342336 -> 713198829 [color=red]
+	161168665 -> 197017692 [color=blue]
+	161168665 -> 537606178 [color=blue]
+	161168665 -> 94992260 [color=blue]
+	197017692 -> 495178145 [color=red]
+	197017692 -> 595459760 [color=red]
+	495178145 -> 477305643 [color=blue]
+	595459760 -> 353559236 [color=blue]
+	537606178 -> 183624153 [color=red]
+	537606178 -> 322125028 [color=red]
+	183624153 -> 911345617 [color=blue]
+	322125028 -> 991890955 [color=blue]
+	338799094 -> 16815049 [color=blue]
+	338799094 -> 107418189 [color=blue]
+	338799094 -> 559350273 [color=blue]
+	16815049 -> 1041404294 [color=red]
+	16815049 -> 616969081 [color=red]
+	1041404294 -> 25690224 [color=blue]
+	107418189 -> 155035058 [color=red]
+	107418189 -> 457916529 [color=red]
+	155035058 -> 892349680 [color=blue]
+	288492310 -> 467699495 [color=blue]
+	288492310 -> 825458199 [color=blue]
+	288492310 -> 464246366 [color=blue]
+	467699495 -> 729660538 [color=red]
+	467699495 -> 743839519 [color=red]
+	729660538 -> 816698733 [color=blue]
+	743839519 -> 277198720 [color=blue]
+	825458199 -> 437994230 [color=red]
+	825458199 -> 686390649 [color=red]
+	437994230 -> 838058281 [color=blue]
+	686390649 -> 664368584 [color=blue]
+	713198829 -> 731753114 [color=blue]
+	713198829 -> 117712256 [color=blue]
+	713198829 -> 916372858 [color=blue]
+	731753114 -> 688505059 [color=red]
+	731753114 -> 279908366 [color=red]
+	279908366 -> 1056743410 [color=blue]
+	117712256 -> 782873317 [color=red]
+	117712256 -> 1018910733 [color=red]
+	782873317 -> 580124351 [color=blue]
+	1018910733 -> 519989424 [color=blue]
+	916372858 -> 493842827 [color=red]
+	916372858 -> 995999333 [color=red]
+	493842827 -> 833713989 [color=blue]
+	870517348 -> 937924097 [color=blue]
+	870517348 -> 2950177 [color=blue]
+	870517348 -> 442047508 [color=blue]
+	870517348 -> 29727967 [color=blue]
+	870517348 -> 821056125 [color=blue]
+	937924097 -> 546721786 [color=red]
+	937924097 -> 973438213 [color=red]
+	937924097 -> 203149277 [color=red]
+	937924097 -> 800345348 [color=red]
+	546721786 -> 469649507 [color=blue]
+	546721786 -> 206504325 [color=blue]
+	546721786 -> 196352427 [color=blue]
+	206504325 -> 1069373313 [color=red]
+	206504325 -> 393550291 [color=red]
+	1069373313 -> 21410374 [color=blue]
+	393550291 -> 348662807 [color=blue]
+	973438213 -> 714334358 [color=blue]
+	973438213 -> 58324088 [color=blue]
+	973438213 -> 562015180 [color=blue]
+	714334358 -> 22655345 [color=red]
+	714334358 -> 337969274 [color=red]
+	22655345 -> 625787769 [color=blue]
+	337969274 -> 288823389 [color=blue]
+	58324088 -> 1032792890 [color=red]
+	58324088 -> 604749464 [color=red]
+	1032792890 -> 666356166 [color=blue]
+	604749464 -> 683388186 [color=blue]
+	203149277 -> 992109203 [color=blue]
+	203149277 -> 908141929 [color=blue]
+	203149277 -> 304340444 [color=blue]
+	992109203 -> 46761425 [color=red]
+	992109203 -> 916619259 [color=red]
+	46761425 -> 391954819 [color=blue]
+	916619259 -> 202264366 [color=blue]
+	800345348 -> 151506507 [color=blue]
+	800345348 -> 258231404 [color=blue]
+	800345348 -> 984655636 [color=blue]
+	151506507 -> 327590077 [color=red]
+	151506507 -> 618098345 [color=red]
+	327590077 -> 247098496 [color=blue]
+	618098345 -> 224363967 [color=blue]
+	984655636 -> 840021069 [color=red]
+	984655636 -> 626089357 [color=red]
+	840021069 -> 33761270 [color=blue]
+	626089357 -> 815062032 [color=blue]
+	2950177 -> 297803859 [color=red]
+	2950177 -> 630503671 [color=red]
+	2950177 -> 1000697111 [color=red]
+	2950177 -> 823236033 [color=red]
+	297803859 -> 924089460 [color=blue]
+	297803859 -> 89879831 [color=blue]
+	297803859 -> 727342763 [color=blue]
+	924089460 -> 143384137 [color=red]
+	924089460 -> 626700941 [color=red]
+	143384137 -> 963148349 [color=blue]
+	626700941 -> 600563037 [color=blue]
+	89879831 -> 113993683 [color=red]
+	89879831 -> 91540030 [color=red]
+	113993683 -> 33994778 [color=blue]
+	91540030 -> 179082004 [color=blue]
+	630503671 -> 798322938 [color=blue]
+	630503671 -> 596060165 [color=blue]
+	630503671 -> 366660729 [color=blue]
+	798322938 -> 823429742 [color=red]
+	798322938 -> 571921954 [color=red]
+	823429742 -> 938646042 [color=blue]
+	571921954 -> 304306425 [color=blue]
+	596060165 -> 404897642 [color=red]
+	596060165 -> 565413186 [color=red]
+	404897642 -> 929033696 [color=blue]
+	565413186 -> 532497910 [color=blue]
+	1000697111 -> 632604604 [color=blue]
+	1000697111 -> 328662561 [color=blue]
+	1000697111 -> 674375346 [color=blue]
+	632604604 -> 483990650 [color=red]
+	632604604 -> 473674445 [color=red]
+	483990650 -> 854417538 [color=blue]
+	473674445 -> 735696817 [color=blue]
+	328662561 -> 980660448 [color=red]
+	328662561 -> 627999568 [color=red]
+	980660448 -> 30766794 [color=blue]
+	627999568 -> 665748570 [color=blue]
+	823236033 -> 592457167 [color=blue]
+	823236033 -> 574819621 [color=blue]
+	823236033 -> 717530532 [color=blue]
+	592457167 -> 640643904 [color=red]
+	592457167 -> 396610203 [color=red]
+	640643904 -> 187445342 [color=blue]
+	396610203 -> 70521840 [color=blue]
+	574819621 -> 670176066 [color=red]
+	574819621 -> 940671108 [color=red]
+	670176066 -> 226497688 [color=blue]
+	940671108 -> 311080415 [color=blue]
+	717530532 -> 1024448691 [color=red]
+	717530532 -> 459352617 [color=red]
+	1024448691 -> 815706947 [color=blue]
+	459352617 -> 954668830 [color=blue]
+	442047508 -> 851439892 [color=red]
+	442047508 -> 903374317 [color=red]
+	442047508 -> 983383604 [color=red]
+	442047508 -> 338762624 [color=red]
+	851439892 -> 388203744 [color=blue]
+	851439892 -> 317529753 [color=blue]
+	851439892 -> 275859259 [color=blue]
+	388203744 -> 1028012789 [color=red]
+	388203744 -> 458042070 [color=red]
+	1028012789 -> 556242490 [color=blue]
+	458042070 -> 184572566 [color=blue]
+	317529753 -> 1054316233 [color=red]
+	317529753 -> 441354474 [color=red]
+	1054316233 -> 239514167 [color=blue]
+	441354474 -> 77844244 [color=blue]
+	903374317 -> 1067134642 [color=blue]
+	903374317 -> 360841479 [color=blue]
+	903374317 -> 431383241 [color=blue]
+	360841479 -> 15961248 [color=red]
+	360841479 -> 253683618 [color=red]
+	15961248 -> 625427678 [color=blue]
+	253683618 -> 451346463 [color=blue]
+	983383604 -> 214542267 [color=blue]
+	983383604 -> 74041350 [color=blue]
+	983383604 -> 86868664 [color=blue]
+	74041350 -> 960558512 [color=red]
+	74041350 -> 307390165 [color=red]
+	960558512 -> 792078788 [color=blue]
+	307390165 -> 732239360 [color=blue]
+	338762624 -> 931093660 [color=blue]
+	338762624 -> 187163259 [color=blue]
+	338762624 -> 100520000 [color=blue]
+	187163259 -> 594163272 [color=red]
+	187163259 -> 757964247 [color=red]
+	594163272 -> 1011155643 [color=blue]
+	757964247 -> 82561855 [color=blue]
+	100520000 -> 426875223 [color=red]
+	100520000 -> 204728237 [color=red]
+	426875223 -> 79205360 [color=blue]
+	204728237 -> 808342482 [color=blue]
+	29727967 -> 634719641 [color=red]
+	29727967 -> 635682231 [color=red]
+	29727967 -> 855031904 [color=red]
+	29727967 -> 349454414 [color=red]
+	634719641 -> 366442761 [color=blue]
+	634719641 -> 528590704 [color=blue]
+	634719641 -> 119354484 [color=blue]
+	366442761 -> 1003042803 [color=red]
+	366442761 -> 269301828 [color=red]
+	1003042803 -> 443635231 [color=blue]
+	269301828 -> 37109159 [color=blue]
+	528590704 -> 601344076 [color=red]
+	528590704 -> 255711776 [color=red]
+	601344076 -> 1004967512 [color=blue]
+	255711776 -> 122404667 [color=blue]
+	635682231 -> 20398309 [color=blue]
+	635682231 -> 161039390 [color=blue]
+	635682231 -> 606966446 [color=blue]
+	20398309 -> 991429283 [color=red]
+	20398309 -> 937581343 [color=red]
+	991429283 -> 240503419 [color=blue]
+	937581343 -> 710260405 [color=blue]
+	161039390 -> 531703029 [color=red]
+	161039390 -> 553142761 [color=red]
+	531703029 -> 46954694 [color=blue]
+	553142761 -> 377786695 [color=blue]
+	855031904 -> 494329357 [color=blue]
+	855031904 -> 462996197 [color=blue]
+	855031904 -> 627745198 [color=blue]
+	494329357 -> 889204165 [color=red]
+	494329357 -> 867216491 [color=red]
+	889204165 -> 291079606 [color=blue]
+	867216491 -> 1019424401 [color=blue]
+	462996197 -> 509904355 [color=red]
+	462996197 -> 351933039 [color=red]
+	509904355 -> 845738156 [color=blue]
+	351933039 -> 453228678 [color=blue]
+	349454414 -> 560850593 [color=blue]
+	349454414 -> 896275799 [color=blue]
+	349454414 -> 339145079 [color=blue]
+	560850593 -> 912639325 [color=red]
+	560850593 -> 360369285 [color=red]
+	912639325 -> 529628612 [color=blue]
+	360369285 -> 854609721 [color=blue]
+	896275799 -> 14483025 [color=red]
+	896275799 -> 955023926 [color=red]
+	14483025 -> 925250672 [color=blue]
+	955023926 -> 849197129 [color=blue]
+	339145079 -> 999172606 [color=red]
+	339145079 -> 692051119 [color=red]
+	999172606 -> 570344844 [color=blue]
+	692051119 -> 964021364 [color=blue]
+	203842528 -> 726139009 [color=blue]
+	203842528 -> 799716012 [color=blue]
+	203842528 -> 611329361 [color=blue]
+	203842528 -> 413054604 [color=blue]
+	203842528 -> 695892379 [color=blue]
+	726139009 -> 570016937 [color=red]
+	726139009 -> 904716683 [color=red]
+	726139009 -> 658538630 [color=red]
+	726139009 -> 38379261 [color=red]
+	570016937 -> 395061918 [color=blue]
+	570016937 -> 538063949 [color=blue]
+	570016937 -> 179203614 [color=blue]
+	538063949 -> 131162661 [color=red]
+	538063949 -> 745734746 [color=red]
+	131162661 -> 218879562 [color=blue]
+	745734746 -> 471871964 [color=blue]
+	904716683 -> 769132371 [color=blue]
+	904716683 -> 702844765 [color=blue]
+	904716683 -> 539652612 [color=blue]
+	769132371 -> 218962769 [color=red]
+	769132371 -> 538158276 [color=red]
+	218962769 -> 168390570 [color=blue]
+	538158276 -> 118724416 [color=blue]
+	702844765 -> 268582257 [color=red]
+	702844765 -> 47058591 [color=red]
+	268582257 -> 166341462 [color=blue]
+	47058591 -> 35239371 [color=blue]
+	658538630 -> 78370556 [color=blue]
+	658538630 -> 88911913 [color=blue]
+	658538630 -> 613711829 [color=blue]
+	78370556 -> 379020511 [color=red]
+	78370556 -> 989368204 [color=red]
+	379020511 -> 158785890 [color=blue]
+	989368204 -> 730816772 [color=blue]
+	38379261 -> 40108314 [color=blue]
+	38379261 -> 994697231 [color=blue]
+	38379261 -> 35622968 [color=blue]
+	40108314 -> 433532049 [color=red]
+	40108314 -> 470410097 [color=red]
+	433532049 -> 30637510 [color=blue]
+	470410097 -> 679547017 [color=blue]
+	35622968 -> 843473411 [color=red]
+	35622968 -> 44022712 [color=red]
+	843473411 -> 988750320 [color=blue]
+	44022712 -> 405927749 [color=blue]
+	799716012 -> 992573852 [color=red]
+	799716012 -> 450614891 [color=red]
+	799716012 -> 111262374 [color=red]
+	799716012 -> 477030239 [color=red]
+	992573852 -> 374292803 [color=blue]
+	992573852 -> 214339421 [color=blue]
+	992573852 -> 876853457 [color=blue]
+	214339421 -> 218133110 [color=red]
+	214339421 -> 275874417 [color=red]
+	218133110 -> 782629671 [color=blue]
+	450614891 -> 437116878 [color=blue]
+	450614891 -> 1051667802 [color=blue]
+	450614891 -> 431140627 [color=blue]
+	437116878 -> 895912991 [color=red]
+	437116878 -> 482416188 [color=red]
+	895912991 -> 826471987 [color=blue]
+	482416188 -> 378849621 [color=blue]
+	1051667802 -> 700481011 [color=red]
+	1051667802 -> 366107207 [color=red]
+	700481011 -> 890111616 [color=blue]
+	366107207 -> 455850691 [color=blue]
+	111262374 -> 48678703 [color=blue]
+	111262374 -> 856430941 [color=blue]
+	111262374 -> 246977791 [color=blue]
+	48678703 -> 551459244 [color=red]
+	48678703 -> 943801601 [color=red]
+	551459244 -> 22771713 [color=blue]
+	943801601 -> 672763678 [color=blue]
+	477030239 -> 667691868 [color=blue]
+	477030239 -> 772160582 [color=blue]
+	477030239 -> 724995745 [color=blue]
+	667691868 -> 881215412 [color=red]
+	667691868 -> 594735636 [color=red]
+	881215412 -> 321192336 [color=blue]
+	594735636 -> 641538822 [color=blue]
+	724995745 -> 1044986830 [color=red]
+	724995745 -> 555486782 [color=red]
+	555486782 -> 533546990 [color=blue]
+	611329361 -> 892792103 [color=red]
+	611329361 -> 577323577 [color=red]
+	611329361 -> 524582278 [color=red]
+	611329361 -> 280677561 [color=red]
+	892792103 -> 1000899128 [color=blue]
+	892792103 -> 675271036 [color=blue]
+	892792103 -> 46035311 [color=blue]
+	675271036 -> 764557777 [color=red]
+	675271036 -> 311509097 [color=red]
+	764557777 -> 655091888 [color=blue]
+	577323577 -> 428485672 [color=blue]
+	577323577 -> 299413019 [color=blue]
+	577323577 -> 852230763 [color=blue]
+	299413019 -> 147436551 [color=red]
+	299413019 -> 377495091 [color=red]
+	147436551 -> 182028456 [color=blue]
+	377495091 -> 681833100 [color=blue]
+	524582278 -> 452430308 [color=blue]
+	524582278 -> 569852200 [color=blue]
+	524582278 -> 100351150 [color=blue]
+	280677561 -> 455564464 [color=blue]
+	280677561 -> 941825606 [color=blue]
+	280677561 -> 704081209 [color=blue]
+	704081209 -> 615318175 [color=red]
+	704081209 -> 555862861 [color=red]
+	555862861 -> 776834560 [color=blue]
+	413054604 -> 695239071 [color=red]
+	413054604 -> 783352073 [color=red]
+	413054604 -> 341470650 [color=red]
+	413054604 -> 950727079 [color=red]
+	695239071 -> 759244699 [color=blue]
+	695239071 -> 846845502 [color=blue]
+	695239071 -> 933101115 [color=blue]
+	759244699 -> 295322871 [color=red]
+	759244699 -> 1020615383 [color=red]
+	295322871 -> 854967256 [color=blue]
+	846845502 -> 283274582 [color=red]
+	846845502 -> 1015436065 [color=red]
+	283274582 -> 259057701 [color=blue]
+	783352073 -> 332972609 [color=blue]
+	783352073 -> 666680906 [color=blue]
+	783352073 -> 505273697 [color=blue]
+	332972609 -> 573649972 [color=red]
+	332972609 -> 84076712 [color=red]
+	573649972 -> 432170709 [color=blue]
+	84076712 -> 745022569 [color=blue]
+	666680906 -> 936415085 [color=red]
+	666680906 -> 488909816 [color=red]
+	936415085 -> 603870922 [color=blue]
+	488909816 -> 1067517138 [color=blue]
+	341470650 -> 424275882 [color=blue]
+	341470650 -> 454133114 [color=blue]
+	341470650 -> 18695925 [color=blue]
+	424275882 -> 782297630 [color=red]
+	424275882 -> 156597954 [color=red]
+	782297630 -> 120921798 [color=blue]
+	156597954 -> 568640105 [color=blue]
+	454133114 -> 705114495 [color=red]
+	454133114 -> 1027967061 [color=red]
+	705114495 -> 253960888 [color=blue]
+	1027967061 -> 40785676 [color=blue]
+	950727079 -> 436617531 [color=blue]
+	950727079 -> 824066724 [color=blue]
+	950727079 -> 949558308 [color=blue]
+	436617531 -> 687113128 [color=red]
+	436617531 -> 833876907 [color=red]
+	687113128 -> 133717151 [color=blue]
+	833876907 -> 420438325 [color=blue]
+	824066724 -> 1046368904 [color=red]
+	824066724 -> 982278206 [color=red]
+	982278206 -> 390429196 [color=blue]
+	949558308 -> 1002552160 [color=red]
+	949558308 -> 970793777 [color=red]
+	970793777 -> 357740377 [color=blue]
+	463175277 -> 136984882 [color=blue]
+	463175277 -> 685037914 [color=blue]
+	463175277 -> 680340913 [color=blue]
+	463175277 -> 294308507 [color=blue]
+	463175277 -> 873519015 [color=blue]
+	136984882 -> 199860607 [color=red]
+	136984882 -> 161359647 [color=red]
+	136984882 -> 923253830 [color=red]
+	136984882 -> 1033501700 [color=red]
+	199860607 -> 855082724 [color=blue]
+	199860607 -> 257825571 [color=blue]
+	199860607 -> 228096371 [color=blue]
+	855082724 -> 337445389 [color=red]
+	855082724 -> 508055648 [color=red]
+	337445389 -> 294983489 [color=blue]
+	508055648 -> 642938254 [color=blue]
+	257825571 -> 425752746 [color=red]
+	257825571 -> 838265942 [color=red]
+	425752746 -> 551231822 [color=blue]
+	838265942 -> 504164237 [color=blue]
+	161359647 -> 405992167 [color=blue]
+	161359647 -> 961325737 [color=blue]
+	161359647 -> 753561746 [color=blue]
+	405992167 -> 829136271 [color=red]
+	405992167 -> 760071920 [color=red]
+	829136271 -> 274487100 [color=blue]
+	760071920 -> 727175988 [color=blue]
+	961325737 -> 860461601 [color=red]
+	961325737 -> 760890350 [color=red]
+	860461601 -> 1013440398 [color=blue]
+	760890350 -> 629590851 [color=blue]
+	923253830 -> 844032273 [color=blue]
+	923253830 -> 1054117680 [color=blue]
+	923253830 -> 865597812 [color=blue]
+	844032273 -> 1013104665 [color=red]
+	844032273 -> 746521944 [color=red]
+	1013104665 -> 1035508417 [color=blue]
+	1054117680 -> 679010232 [color=red]
+	1054117680 -> 575667456 [color=red]
+	679010232 -> 154777285 [color=blue]
+	1033501700 -> 269278819 [color=blue]
+	1033501700 -> 890717933 [color=blue]
+	1033501700 -> 962032028 [color=blue]
+	269278819 -> 878446341 [color=red]
+	269278819 -> 657150996 [color=red]
+	878446341 -> 491507735 [color=blue]
+	890717933 -> 106706 [color=red]
+	890717933 -> 537555748 [color=red]
+	106706 -> 383768231 [color=blue]
+	962032028 -> 285079990 [color=red]
+	962032028 -> 336227648 [color=red]
+	285079990 -> 481937831 [color=blue]
+	336227648 -> 578879277 [color=blue]
+	685037914 -> 163162948 [color=red]
+	685037914 -> 40811896 [color=red]
+	685037914 -> 93299790 [color=red]
+	685037914 -> 192436187 [color=red]
+	163162948 -> 18770808 [color=blue]
+	163162948 -> 873149755 [color=blue]
+	163162948 -> 259438705 [color=blue]
+	873149755 -> 816197167 [color=red]
+	873149755 -> 328411435 [color=red]
+	816197167 -> 55331716 [color=blue]
+	328411435 -> 4591384 [color=blue]
+	40811896 -> 932868896 [color=blue]
+	40811896 -> 615830006 [color=blue]
+	40811896 -> 150170563 [color=blue]
+	932868896 -> 653373300 [color=red]
+	932868896 -> 712743574 [color=red]
+	653373300 -> 651484250 [color=blue]
+	712743574 -> 141407858 [color=blue]
+	615830006 -> 257030407 [color=red]
+	615830006 -> 730196645 [color=red]
+	257030407 -> 742086628 [color=blue]
+	730196645 -> 519456468 [color=blue]
+	93299790 -> 419997264 [color=blue]
+	93299790 -> 311249504 [color=blue]
+	93299790 -> 663193499 [color=blue]
+	419997264 -> 784768505 [color=red]
+	419997264 -> 626414677 [color=red]
+	784768505 -> 66574975 [color=blue]
+	192436187 -> 466695568 [color=blue]
+	192436187 -> 4832274 [color=blue]
+	192436187 -> 97959652 [color=blue]
+	466695568 -> 374487147 [color=red]
+	466695568 -> 111028675 [color=red]
+	374487147 -> 504166863 [color=blue]
+	97959652 -> 1014236010 [color=red]
+	97959652 -> 226523943 [color=red]
+	1014236010 -> 131783247 [color=blue]
+	226523943 -> 184907546 [color=blue]
+	680340913 -> 624891033 [color=red]
+	680340913 -> 182284605 [color=red]
+	680340913 -> 609738709 [color=red]
+	680340913 -> 82806050 [color=red]
+	624891033 -> 894842616 [color=blue]
+	624891033 -> 779185193 [color=blue]
+	624891033 -> 943852355 [color=blue]
+	779185193 -> 835432017 [color=red]
+	779185193 -> 445579336 [color=red]
+	835432017 -> 133173832 [color=blue]
+	445579336 -> 969882025 [color=blue]
+	182284605 -> 753259558 [color=blue]
+	182284605 -> 526837288 [color=blue]
+	182284605 -> 213453133 [color=blue]
+	753259558 -> 975300328 [color=red]
+	753259558 -> 189465223 [color=red]
+	975300328 -> 523091996 [color=blue]
+	189465223 -> 287082307 [color=blue]
+	526837288 -> 518586499 [color=red]
+	526837288 -> 827475042 [color=red]
+	518586499 -> 418268746 [color=blue]
+	827475042 -> 86757469 [color=blue]
+	609738709 -> 228218126 [color=blue]
+	609738709 -> 67497089 [color=blue]
+	609738709 -> 851296391 [color=blue]
+	228218126 -> 324516057 [color=red]
+	228218126 -> 25852540 [color=red]
+	324516057 -> 446803350 [color=blue]
+	82806050 -> 420016816 [color=blue]
+	82806050 -> 50293644 [color=blue]
+	82806050 -> 299485911 [color=blue]
+	420016816 -> 845760963 [color=red]
+	420016816 -> 181122635 [color=red]
+	845760963 -> 210381150 [color=blue]
+	299485911 -> 151086059 [color=red]
+	299485911 -> 20713154 [color=red]
+	151086059 -> 378678810 [color=blue]
+	20713154 -> 466062902 [color=blue]
+	294308507 -> 1041432535 [color=red]
+	294308507 -> 251688032 [color=red]
+	294308507 -> 469283553 [color=red]
+	294308507 -> 1034865157 [color=red]
+	1041432535 -> 154558578 [color=blue]
+	1041432535 -> 687361367 [color=blue]
+	1041432535 -> 869312215 [color=blue]
+	154558578 -> 306411666 [color=red]
+	154558578 -> 461087372 [color=red]
+	306411666 -> 570110495 [color=blue]
+	461087372 -> 842592114 [color=blue]
+	687361367 -> 906165075 [color=red]
+	687361367 -> 940298371 [color=red]
+	906165075 -> 831090742 [color=blue]
+	940298371 -> 376911341 [color=blue]
+	251688032 -> 45324012 [color=blue]
+	251688032 -> 874268477 [color=blue]
+	251688032 -> 249005731 [color=blue]
+	45324012 -> 365557024 [color=red]
+	45324012 -> 368745517 [color=red]
+	365557024 -> 915428546 [color=blue]
+	368745517 -> 370532621 [color=blue]
+	874268477 -> 359834794 [color=red]
+	874268477 -> 840233832 [color=red]
+	359834794 -> 859918260 [color=blue]
+	840233832 -> 738155992 [color=blue]
+	469283553 -> 924166860 [color=blue]
+	469283553 -> 333097590 [color=blue]
+	469283553 -> 128101378 [color=blue]
+	924166860 -> 318073878 [color=red]
+	924166860 -> 144003537 [color=red]
+	318073878 -> 694437702 [color=blue]
+	144003537 -> 352309725 [color=blue]
+	333097590 -> 623633695 [color=red]
+	333097590 -> 647955846 [color=red]
+	623633695 -> 748355743 [color=blue]
+	647955846 -> 188916248 [color=blue]
+	1034865157 -> 214614617 [color=blue]
+	1034865157 -> 188545882 [color=blue]
+	1034865157 -> 26644162 [color=blue]
+	214614617 -> 202909950 [color=red]
+	214614617 -> 11030517 [color=red]
+	202909950 -> 268436029 [color=blue]
+	11030517 -> 273947385 [color=blue]
+	188545882 -> 64824836 [color=red]
+	188545882 -> 863685600 [color=red]
+	64824836 -> 186719211 [color=blue]
+	863685600 -> 14771083 [color=blue]
+	26644162 -> 734081012 [color=red]
+	26644162 -> 670455517 [color=red]
+	734081012 -> 1060317451 [color=blue]
+	670455517 -> 37824857 [color=blue]
+	760023189 -> 767588419 [color=blue]
+	760023189 -> 106212400 [color=blue]
+	760023189 -> 38171523 [color=blue]
+	760023189 -> 769717374 [color=blue]
+	760023189 -> 3695339 [color=blue]
+	767588419 -> 613381115 [color=red]
+	767588419 -> 257687598 [color=red]
+	767588419 -> 241471442 [color=red]
+	767588419 -> 371012679 [color=red]
+	613381115 -> 431142501 [color=blue]
+	613381115 -> 197218124 [color=blue]
+	613381115 -> 472668723 [color=blue]
+	431142501 -> 590080229 [color=red]
+	431142501 -> 725451780 [color=red]
+	590080229 -> 602029678 [color=blue]
+	725451780 -> 783463712 [color=blue]
+	257687598 -> 246810489 [color=blue]
+	257687598 -> 1016038325 [color=blue]
+	257687598 -> 864685796 [color=blue]
+	246810489 -> 94972667 [color=red]
+	246810489 -> 1010959621 [color=red]
+	94972667 -> 233720227 [color=blue]
+	1010959621 -> 614309405 [color=blue]
+	241471442 -> 137283165 [color=blue]
+	241471442 -> 216328849 [color=blue]
+	241471442 -> 807013707 [color=blue]
+	137283165 -> 684380183 [color=red]
+	137283165 -> 168782728 [color=red]
+	684380183 -> 783042001 [color=blue]
+	216328849 -> 653840087 [color=red]
+	216328849 -> 71215876 [color=red]
+	653840087 -> 894757585 [color=blue]
+	371012679 -> 512786782 [color=blue]
+	371012679 -> 383901897 [color=blue]
+	371012679 -> 46708434 [color=blue]
+	512786782 -> 432792623 [color=red]
+	512786782 -> 86712169 [color=red]
+	432792623 -> 679028678 [color=blue]
+	383901897 -> 522961733 [color=red]
+	383901897 -> 957473016 [color=red]
+	522961733 -> 395123160 [color=blue]
+	106212400 -> 867333942 [color=red]
+	106212400 -> 813315185 [color=red]
+	106212400 -> 775391342 [color=red]
+	106212400 -> 893682071 [color=red]
+	867333942 -> 837820171 [color=blue]
+	867333942 -> 1017420526 [color=blue]
+	867333942 -> 1028613394 [color=blue]
+	813315185 -> 783881631 [color=blue]
+	813315185 -> 943380248 [color=blue]
+	813315185 -> 18284250 [color=blue]
+	783881631 -> 941425518 [color=red]
+	783881631 -> 898816807 [color=red]
+	941425518 -> 943333055 [color=blue]
+	898816807 -> 587732543 [color=blue]
+	775391342 -> 184358795 [color=blue]
+	775391342 -> 997148661 [color=blue]
+	775391342 -> 192475739 [color=blue]
+	184358795 -> 541689932 [color=red]
+	184358795 -> 488258216 [color=red]
+	541689932 -> 42255310 [color=blue]
+	893682071 -> 475517807 [color=blue]
+	893682071 -> 912872366 [color=blue]
+	893682071 -> 399807483 [color=blue]
+	475517807 -> 805175187 [color=red]
+	475517807 -> 321028702 [color=red]
+	805175187 -> 280448492 [color=blue]
+	38171523 -> 856023491 [color=red]
+	38171523 -> 107923491 [color=red]
+	38171523 -> 826960567 [color=red]
+	38171523 -> 667545681 [color=red]
+	856023491 -> 186802882 [color=blue]
+	856023491 -> 86538027 [color=blue]
+	856023491 -> 1036461674 [color=blue]
+	86538027 -> 501886043 [color=red]
+	86538027 -> 283924226 [color=red]
+	501886043 -> 848090040 [color=blue]
+	283924226 -> 282801109 [color=blue]
+	107923491 -> 199868208 [color=blue]
+	107923491 -> 571179659 [color=blue]
+	107923491 -> 1021673291 [color=blue]
+	199868208 -> 605785485 [color=red]
+	199868208 -> 340987534 [color=red]
+	605785485 -> 57341965 [color=blue]
+	340987534 -> 1057556399 [color=blue]
+	571179659 -> 246605531 [color=red]
+	571179659 -> 42850607 [color=red]
+	246605531 -> 943008794 [color=blue]
+	42850607 -> 707242305 [color=blue]
+	826960567 -> 236754448 [color=blue]
+	826960567 -> 79037160 [color=blue]
+	826960567 -> 312816766 [color=blue]
+	236754448 -> 260319373 [color=red]
+	236754448 -> 364091334 [color=red]
+	260319373 -> 537478219 [color=blue]
+	667545681 -> 420692017 [color=blue]
+	667545681 -> 80563239 [color=blue]
+	667545681 -> 831472609 [color=blue]
+	420692017 -> 134389171 [color=red]
+	420692017 -> 388257948 [color=red]
+	134389171 -> 664864674 [color=blue]
+	831472609 -> 872817711 [color=red]
+	831472609 -> 882223822 [color=red]
+	872817711 -> 694232161 [color=blue]
+	882223822 -> 922617301 [color=blue]
+	769717374 -> 180593457 [color=red]
+	769717374 -> 15036698 [color=red]
+	769717374 -> 317296039 [color=red]
+	769717374 -> 6111344 [color=red]
+	180593457 -> 514739176 [color=blue]
+	180593457 -> 19106274 [color=blue]
+	180593457 -> 112057808 [color=blue]
+	19106274 -> 974625104 [color=red]
+	19106274 -> 148699118 [color=red]
+	974625104 -> 151268853 [color=blue]
+	148699118 -> 346028302 [color=blue]
+	15036698 -> 447313648 [color=blue]
+	15036698 -> 120481526 [color=blue]
+	15036698 -> 804647483 [color=blue]
+	120481526 -> 829058114 [color=red]
+	120481526 -> 490145785 [color=red]
+	829058114 -> 404056817 [color=blue]
+	490145785 -> 259310335 [color=blue]
+	317296039 -> 509699742 [color=blue]
+	317296039 -> 488711472 [color=blue]
+	317296039 -> 1013668183 [color=blue]
+	6111344 -> 311101303 [color=blue]
+	6111344 -> 536703269 [color=blue]
+	6111344 -> 315052787 [color=blue]
+	315052787 -> 657702685 [color=red]
+	315052787 -> 1057252038 [color=red]
+	657702685 -> 557040224 [color=blue]
+	1057252038 -> 617002619 [color=blue]
+	377852780 -> 292064586 [color=blue]
+	377852780 -> 946545126 [color=blue]
+	377852780 -> 184033962 [color=blue]
+	377852780 -> 189459766 [color=blue]
+	377852780 -> 858120780 [color=blue]
+	292064586 -> 219039266 [color=red]
+	292064586 -> 119885531 [color=red]
+	292064586 -> 947692338 [color=red]
+	292064586 -> 774218992 [color=red]
+	219039266 -> 507799301 [color=blue]
+	219039266 -> 1053150422 [color=blue]
+	219039266 -> 181350977 [color=blue]
+	507799301 -> 366091990 [color=red]
+	507799301 -> 517544896 [color=red]
+	366091990 -> 200737577 [color=blue]
+	517544896 -> 1022957450 [color=blue]
+	181350977 -> 752513201 [color=red]
+	181350977 -> 251881685 [color=red]
+	752513201 -> 462778879 [color=blue]
+	251881685 -> 330801672 [color=blue]
+	119885531 -> 303861802 [color=blue]
+	119885531 -> 857993277 [color=blue]
+	119885531 -> 487685430 [color=blue]
+	303861802 -> 506350791 [color=red]
+	303861802 -> 758576008 [color=red]
+	506350791 -> 400184696 [color=blue]
+	758576008 -> 239171059 [color=blue]
+	487685430 -> 119922234 [color=red]
+	487685430 -> 614332677 [color=red]
+	119922234 -> 873094619 [color=blue]
+	614332677 -> 312277047 [color=blue]
+	947692338 -> 883699620 [color=blue]
+	947692338 -> 952667751 [color=blue]
+	947692338 -> 864466614 [color=blue]
+	883699620 -> 1068802254 [color=red]
+	883699620 -> 119078858 [color=red]
+	1068802254 -> 976581676 [color=blue]
+	952667751 -> 639332867 [color=red]
+	952667751 -> 397349002 [color=red]
+	639332867 -> 586953908 [color=blue]
+	864466614 -> 694961115 [color=red]
+	864466614 -> 49240611 [color=red]
+	694961115 -> 1052518816 [color=blue]
+	49240611 -> 437081581 [color=blue]
+	774218992 -> 587759925 [color=blue]
+	774218992 -> 488139054 [color=blue]
+	774218992 -> 162235005 [color=blue]
+	587759925 -> 297158724 [color=red]
+	587759925 -> 822261765 [color=red]
+	297158724 -> 1013785943 [color=blue]
+	488139054 -> 584241297 [color=red]
+	488139054 -> 593005208 [color=red]
+	584241297 -> 583843595 [color=blue]
+	946545126 -> 781267905 [color=red]
+	946545126 -> 975344600 [color=red]
+	946545126 -> 330899905 [color=red]
+	946545126 -> 944083766 [color=red]
+	781267905 -> 305907226 [color=blue]
+	781267905 -> 25406460 [color=blue]
+	781267905 -> 429423745 [color=blue]
+	429423745 -> 298824356 [color=red]
+	429423745 -> 80136058 [color=red]
+	80136058 -> 528818136 [color=blue]
+	975344600 -> 863876303 [color=blue]
+	975344600 -> 961536933 [color=blue]
+	975344600 -> 251158003 [color=blue]
+	863876303 -> 125393124 [color=red]
+	863876303 -> 549524973 [color=red]
+	125393124 -> 123828376 [color=blue]
+	549524973 -> 885596133 [color=blue]
+	251158003 -> 752518624 [color=red]
+	251158003 -> 62296579 [color=red]
+	62296579 -> 995841796 [color=blue]
+	330899905 -> 845672955 [color=blue]
+	330899905 -> 651340182 [color=blue]
+	330899905 -> 588111617 [color=blue]
+	845672955 -> 536472179 [color=red]
+	845672955 -> 670209030 [color=red]
+	536472179 -> 15407110 [color=blue]
+	588111617 -> 460700421 [color=red]
+	588111617 -> 784606201 [color=red]
+	460700421 -> 913332461 [color=blue]
+	784606201 -> 572689943 [color=blue]
+	944083766 -> 74495036 [color=blue]
+	944083766 -> 370528152 [color=blue]
+	944083766 -> 635685933 [color=blue]
+	74495036 -> 555179822 [color=red]
+	74495036 -> 933095123 [color=red]
+	555179822 -> 61374020 [color=blue]
+	184033962 -> 397902387 [color=red]
+	184033962 -> 48049726 [color=red]
+	184033962 -> 413709310 [color=red]
+	184033962 -> 269593873 [color=red]
+	397902387 -> 262847951 [color=blue]
+	397902387 -> 664195771 [color=blue]
+	397902387 -> 747157029 [color=blue]
+	664195771 -> 1012547615 [color=red]
+	664195771 -> 624313633 [color=red]
+	1012547615 -> 128411275 [color=blue]
+	624313633 -> 845903957 [color=blue]
+	747157029 -> 780361632 [color=red]
+	747157029 -> 302050444 [color=red]
+	780361632 -> 499134934 [color=blue]
+	302050444 -> 275644053 [color=blue]
+	48049726 -> 61048300 [color=blue]
+	48049726 -> 729985687 [color=blue]
+	48049726 -> 430360218 [color=blue]
+	61048300 -> 574165132 [color=red]
+	61048300 -> 416366561 [color=red]
+	574165132 -> 973527493 [color=blue]
+	416366561 -> 286682896 [color=blue]
+	729985687 -> 520776215 [color=red]
+	729985687 -> 139013085 [color=red]
+	520776215 -> 641805532 [color=blue]
+	139013085 -> 441607626 [color=blue]
+	430360218 -> 610120543 [color=red]
+	430360218 -> 959652531 [color=red]
+	610120543 -> 966206883 [color=blue]
+	959652531 -> 467804583 [color=blue]
+	413709310 -> 960959347 [color=blue]
+	413709310 -> 49106409 [color=blue]
+	413709310 -> 463527450 [color=blue]
+	960959347 -> 434732318 [color=red]
+	960959347 -> 75938713 [color=red]
+	434732318 -> 287161361 [color=blue]
+	463527450 -> 383804561 [color=red]
+	463527450 -> 758533758 [color=red]
+	383804561 -> 684546082 [color=blue]
+	758533758 -> 670008452 [color=blue]
+	269593873 -> 1021503168 [color=blue]
+	269593873 -> 195587429 [color=blue]
+	269593873 -> 662124251 [color=blue]
+	1021503168 -> 229615938 [color=red]
+	1021503168 -> 65434689 [color=red]
+	229615938 -> 314576352 [color=blue]
+	662124251 -> 480008535 [color=red]
+	662124251 -> 884669206 [color=red]
+	480008535 -> 372255504 [color=blue]
+	884669206 -> 915851311 [color=blue]
+	189459766 -> 597360181 [color=red]
+	189459766 -> 848636630 [color=red]
+	189459766 -> 700732376 [color=red]
+	189459766 -> 562480496 [color=red]
+	597360181 -> 478573501 [color=blue]
+	597360181 -> 994736720 [color=blue]
+	597360181 -> 93771020 [color=blue]
+	994736720 -> 902907630 [color=red]
+	994736720 -> 425411633 [color=red]
+	902907630 -> 88524335 [color=blue]
+	425411633 -> 398546142 [color=blue]
+	93771020 -> 317644111 [color=red]
+	93771020 -> 258563968 [color=red]
+	317644111 -> 95352631 [color=blue]
+	848636630 -> 1040368348 [color=blue]
+	848636630 -> 466489582 [color=blue]
+	848636630 -> 814990981 [color=blue]
+	466489582 -> 341076742 [color=red]
+	466489582 -> 481126568 [color=red]
+	341076742 -> 880809545 [color=blue]
+	481126568 -> 1038544202 [color=blue]
+	814990981 -> 566681445 [color=red]
+	814990981 -> 85494647 [color=red]
+	566681445 -> 727713925 [color=blue]
+	85494647 -> 859305036 [color=blue]
+	700732376 -> 89140922 [color=blue]
+	700732376 -> 262798296 [color=blue]
+	700732376 -> 961970530 [color=blue]
+	961970530 -> 842815349 [color=red]
+	961970530 -> 221784955 [color=red]
+	221784955 -> 504399790 [color=blue]
+	562480496 -> 1029153344 [color=blue]
+	562480496 -> 439315124 [color=blue]
+	562480496 -> 527978352 [color=blue]
+	527978352 -> 721077267 [color=red]
+	527978352 -> 794929100 [color=red]
+	721077267 -> 538113855 [color=blue]
+	794929100 -> 98430029 [color=blue]
+	858120780 -> 672531534 [color=red]
+	858120780 -> 831650046 [color=red]
+	858120780 -> 91197400 [color=red]
+	858120780 -> 830298406 [color=red]
+	672531534 -> 716354161 [color=blue]
+	672531534 -> 414583929 [color=blue]
+	672531534 -> 30626765 [color=blue]
+	716354161 -> 727208477 [color=red]
+	716354161 -> 303697846 [color=red]
+	303697846 -> 685980596 [color=blue]
+	414583929 -> 358012937 [color=red]
+	414583929 -> 448372452 [color=red]
+	358012937 -> 672540643 [color=blue]
+	448372452 -> 20118674 [color=blue]
+	30626765 -> 183118161 [color=red]
+	30626765 -> 566924462 [color=red]
+	183118161 -> 110796860 [color=blue]
+	831650046 -> 781730363 [color=blue]
+	831650046 -> 343333224 [color=blue]
+	831650046 -> 190524362 [color=blue]
+	781730363 -> 427972025 [color=red]
+	781730363 -> 486813496 [color=red]
+	427972025 -> 957731681 [color=blue]
+	486813496 -> 15253630 [color=blue]
+	343333224 -> 78902252 [color=red]
+	343333224 -> 316868753 [color=red]
+	78902252 -> 963945157 [color=blue]
+	316868753 -> 132871279 [color=blue]
+	190524362 -> 107162515 [color=red]
+	190524362 -> 990323704 [color=red]
+	107162515 -> 348184419 [color=blue]
+	990323704 -> 921896039 [color=blue]
+	91197400 -> 338572277 [color=blue]
+	91197400 -> 12464625 [color=blue]
+	91197400 -> 550845208 [color=blue]
+	338572277 -> 180613918 [color=red]
+	338572277 -> 519952187 [color=red]
+	180613918 -> 452962836 [color=blue]
+	519952187 -> 647901194 [color=blue]
+	12464625 -> 30299263 [color=red]
+	12464625 -> 893471508 [color=red]
+	893471508 -> 1046917784 [color=blue]
+	550845208 -> 464019161 [color=red]
+	550845208 -> 991847333 [color=red]
+	991847333 -> 1063357310 [color=blue]
+	830298406 -> 73367987 [color=blue]
+	830298406 -> 978389913 [color=blue]
+	830298406 -> 358363143 [color=blue]
+	73367987 -> 589172598 [color=red]
+	73367987 -> 762603619 [color=red]
+	589172598 -> 347792848 [color=blue]
+	762603619 -> 170427061 [color=blue]
+	978389913 -> 716011658 [color=red]
+	978389913 -> 905881625 [color=red]
+	716011658 -> 322394862 [color=blue]
+	905881625 -> 108576856 [color=blue]
+	358363143 -> 443228171 [color=red]
+	358363143 -> 575549120 [color=red]
+	443228171 -> 1058687361 [color=blue]
+	575549120 -> 609927519 [color=blue]
+}

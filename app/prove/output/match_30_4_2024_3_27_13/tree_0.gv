@@ -1,0 +1,7429 @@
+// The tree
+digraph {
+	1985673 [label="Max node (O)
+Depth: 0, Value: -6.0
+
+X | O |  
+  | X |  
+  |   |  "]
+	479947749 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O | O
+  | X |  
+  |   |  "]
+	468050675 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+X | X |  
+  |   |  "]
+	1050482791 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X | O
+  |   |  "]
+	171251732 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  "]
+	120119769 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  | X |  "]
+	231751849 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	1003898353 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	24893159 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	791442381 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  |   | X"]
+	977105211 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O |   |  "]
+	524978073 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  "]
+	116582431 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O | X |  "]
+	318845304 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	236713899 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	956018925 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	718347864 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	853531839 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O |   | X"]
+	823534015 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  | O |  "]
+	1020741817 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  "]
+	60305446 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  "]
+	39566839 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | O | X"]
+	178114211 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  |   | O"]
+	170426422 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O"]
+	413938141 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O"]
+	335582581 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | X | O"]
+	380985026 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	44606623 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	271325251 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	1055886872 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+  | X | X
+  |   |  "]
+	398711350 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X | X
+  |   |  "]
+	88702871 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  "]
+	538715879 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	35646651 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	922504716 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	133248722 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	683887462 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  "]
+	912421677 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	612479525 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	103157629 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	450433179 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	974643982 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X | X
+  |   | X"]
+	1056812425 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O |   |  "]
+	407500162 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  "]
+	342733851 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O | X |  "]
+	791109007 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	30087551 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	321276213 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	458364292 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	220142428 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O |   | X"]
+	236992569 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  | O |  "]
+	749966704 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  "]
+	590287088 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X | O |  "]
+	27599307 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	780515627 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	563271157 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	683771266 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	84231934 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | O | X"]
+	282749201 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  |   | O"]
+	638057623 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O"]
+	575258964 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X |   | O"]
+	671080654 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	559639714 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	501039061 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	794901660 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	826785748 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | X | O"]
+	640953712 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	253207184 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	711445781 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	540732571 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	630398089 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+  | X |  
+X |   |  "]
+	105661715 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+X |   |  "]
+	425521306 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  "]
+	849023613 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	448075978 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	228034781 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	176678400 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	830453525 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  "]
+	739195613 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	262773437 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	965759329 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	1004264584 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	630463237 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+X |   | X"]
+	819996122 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+X |   |  "]
+	456907712 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  "]
+	720077997 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X | X |  "]
+	89723579 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	318897821 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	918526603 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	684156389 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X |   | X"]
+	94123609 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X | O |  "]
+	515222316 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  "]
+	1047475015 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X | O |  "]
+	617551731 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	404823816 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	976769270 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	875150905 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	87785768 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | O | X"]
+	553615460 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X |   | O"]
+	699772846 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O"]
+	166554133 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X |   | O"]
+	320790905 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	756144369 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	405214014 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	95843227 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	787201410 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | X | O"]
+	34247845 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	540585521 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	967329609 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	628157426 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | O
+  | X |  
+  | X |  "]
+	88532625 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+  | X |  "]
+	484089354 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  "]
+	625280661 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	773315064 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	872713421 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	548618936 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	297800397 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  "]
+	907849395 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	99125900 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	530767293 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	405697516 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	332869443 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+  | X | X"]
+	433873967 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+  | X |  "]
+	172844210 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  "]
+	7393577 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	936068361 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	837067665 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	42930073 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  "]
+	699028077 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	866173370 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	957888340 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	103910592 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+  | X | X"]
+	451532850 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+O | X |  "]
+	742387970 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  "]
+	502331181 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	669813817 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	805372594 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	869375445 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	974433558 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  "]
+	753642664 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	728490422 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	1031601936 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	769416133 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	476326152 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+O | X | X"]
+	375377028 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+  | X |  
+  | X | O"]
+	374032067 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O"]
+	878322539 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	100011505 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	813929635 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	870396651 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O"]
+	532751212 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	448207776 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	225437702 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	1052220844 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	286300599 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X |  
+X | X | O"]
+	484585895 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	483756445 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	487426028 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	307663286 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O | O
+  | X |  
+  |   | X"]
+	83767370 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+O | X |  
+  |   |  "]
+	394870253 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+O | X |  
+  |   |  "]
+	533802123 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  |   |  "]
+	436877327 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  "]
+	836438003 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  | X |  "]
+	532492838 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	949110563 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	739791727 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	620098304 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	987370110 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  |   | X"]
+	964995954 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+O |   |  "]
+	934367699 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  "]
+	980423241 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	814954334 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	842309723 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	1069848113 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	755009973 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  "]
+	734319307 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	878850443 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	504245637 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	602426566 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	812947769 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+O |   | X"]
+	966994088 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  | O |  "]
+	335666398 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  "]
+	750177077 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	716396809 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	222868205 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	470161250 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	835975733 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  "]
+	1043314483 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | O | X"]
+	407766998 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  |   | O"]
+	562663445 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O"]
+	534860853 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	175910844 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	824937670 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	992193121 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	633507129 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O"]
+	256544344 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | X | O"]
+	666195698 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	596816847 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	468814634 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	265736775 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	681884510 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+O | X | X
+  |   |  "]
+	12699668 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X | X
+  |   |  "]
+	760610136 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  "]
+	583272042 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	362912742 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	152427103 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	1043187503 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	1068933156 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  "]
+	426312887 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	848843895 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	138758803 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	393448868 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	901989099 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X | X
+  |   | X"]
+	361794384 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+O |   |  "]
+	777691180 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  "]
+	898265666 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	992727800 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	330552387 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	1040052566 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	872657629 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  "]
+	110194292 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	135654275 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	615746094 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	873219588 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	389313761 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+O |   | X"]
+	936945632 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+  | O |  "]
+	777502111 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  "]
+	370411496 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	758658302 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	829877052 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	1004880949 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	1025859942 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  "]
+	385294086 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	1059299732 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	15538350 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	594628663 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	218919182 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+  | O | X"]
+	364695861 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+  |   | O"]
+	455788988 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O"]
+	1072962286 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	710047201 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	909334568 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	32672522 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	347460414 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O"]
+	647333436 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	359018013 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	783122301 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	529303399 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	917806140 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O"]
+	764159384 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	354230618 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	336736604 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	19421516 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	170144326 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+O | X |  
+X |   |  "]
+	136686604 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+X |   |  "]
+	64680433 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X |   |  "]
+	1057892637 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	601219147 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	1065650610 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	339958471 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	65580432 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  "]
+	300000158 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	751682753 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	477679579 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	188456958 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	893474032 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+X |   | X"]
+	1071951581 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X |   |  "]
+	346401130 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  "]
+	115020673 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X | X |  "]
+	227894906 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	465902738 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	556300871 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	614105218 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	683856242 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X |   | X"]
+	198647446 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X | O |  "]
+	188506504 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  "]
+	805380978 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+X | O |  "]
+	1049786969 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	367679955 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	129954452 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	204840700 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	275238724 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | O | X"]
+	232578072 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X |   | O"]
+	10625711 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O"]
+	947832704 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+X |   | O"]
+	91477993 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	756608449 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	904322349 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	420360850 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	386841111 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | X | O"]
+	267929659 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	413624299 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	191409928 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	157952869 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	551897884 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+O | X |  
+  | X |  "]
+	661699417 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+O | X |  
+  | X |  "]
+	6307918 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+  | X |  "]
+	1055416258 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	1035884707 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	761577191 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	291249150 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	448145231 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X |  
+X | X |  "]
+	628958206 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	174775948 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	846130296 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	132406603 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	361715808 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+O | X |  
+  | X | X"]
+	1062332244 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+  | X |  "]
+	572064160 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  "]
+	513240543 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	722387212 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	556749820 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	18780272 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	1025519706 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  "]
+	238205169 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	359246188 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	451068256 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	147187545 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	69064320 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+  | X | X"]
+	1025689642 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+O | X |  "]
+	135207167 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  "]
+	604987232 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	409602350 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	214300401 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	261528447 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	415789534 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  "]
+	627445070 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	125999787 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	357036939 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	181346254 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	723203614 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+O | X | X"]
+	1070168560 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X |  
+  | X | O"]
+	558172471 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O"]
+	170208604 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	337055132 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	232100885 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	1049397441 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	647590414 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O"]
+	722084601 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	74809624 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	204647858 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	193915336 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	981144785 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O"]
+	786982201 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	397023298 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	311872686 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	175121805 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	937393765 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+O | X |  
+  |   | X"]
+	96513619 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X | O
+  |   |  "]
+	647323957 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | X | O
+  |   |  "]
+	369865793 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  |   |  "]
+	731218647 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  "]
+	640369765 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  | X |  "]
+	769696447 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	314896556 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	1070109939 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	548285272 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	903040125 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+  |   | X"]
+	287304498 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+O |   |  "]
+	441731650 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  "]
+	940687277 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	817240079 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	102804839 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	864910688 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	395867172 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  "]
+	951470303 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	887494333 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	567146571 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	94140809 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	702206928 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+O |   | X"]
+	372922766 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  | O |  "]
+	455457912 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  "]
+	965080225 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	253817529 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	423505628 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	817011312 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	888078174 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  "]
+	801925857 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | O | X"]
+	334538564 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  |   | O"]
+	1071694368 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O"]
+	48503641 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	1915813 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	473940720 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	276353255 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	134956337 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O"]
+	534817358 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | X | O"]
+	249696192 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	461089612 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	634010835 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	876140306 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	1016863513 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X | O
+  |   |  "]
+	890796308 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X | O
+  |   |  "]
+	286200913 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  "]
+	375968441 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  | X |  "]
+	1004600039 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	835164342 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	176168779 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	1065314945 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+  |   | X"]
+	814069753 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+O |   |  "]
+	108391758 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  "]
+	691652030 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	541390778 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	634048386 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	589758983 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	591186876 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  "]
+	666870843 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	214724196 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	6513256 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	24529774 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	440479024 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+O |   | X"]
+	1047799607 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  | O |  "]
+	191669193 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  "]
+	954692942 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	410804671 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	15999269 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	294829457 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	894466808 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  "]
+	212490051 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | O | X"]
+	481707639 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  |   | O"]
+	955423047 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O"]
+	321926686 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	799780547 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	103968774 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	441365760 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	582887596 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O"]
+	687239701 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | X | O"]
+	950023001 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	123917220 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	430439107 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	834003098 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | O
+X |   |  "]
+	282052666 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+X |   |  "]
+	511683829 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | O
+X |   |  "]
+	209342187 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X | X |  "]
+	270159482 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	179482892 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	594686903 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	824225157 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+X |   | X"]
+	548024208 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X |   |  "]
+	719289357 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X |   |  "]
+	485926447 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X | X |  "]
+	509995797 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	954040691 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	727859653 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	370746152 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	128543272 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+X |   | X"]
+	775704346 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X | O |  "]
+	489406217 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  "]
+	626076754 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  "]
+	878266114 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | O | X"]
+	835073230 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X |   | O"]
+	983220888 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O"]
+	807032857 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O"]
+	193095028 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | X | O"]
+	829648324 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	636737952 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	545987615 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	321863099 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | O
+  | X |  "]
+	343721364 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | O
+  | X |  "]
+	252281298 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X | O
+  | X |  "]
+	902065014 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	258978418 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	371433610 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	673695320 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+  | X | O
+X | X |  "]
+	452543763 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	905600830 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	128052777 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	514493837 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | O
+  | X | X"]
+	511573099 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+  | X |  "]
+	291292704 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | O
+  | X |  "]
+	618688121 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	404828757 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	473177672 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	323973664 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	79208455 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | O
+X | X |  "]
+	508203186 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | O
+X | X |  "]
+	685144740 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | O
+X | X | X"]
+	1008056965 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	522572244 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	865091587 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | O
+  | X | X"]
+	784429644 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+O | X |  "]
+	419785512 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  "]
+	875603598 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	201219430 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	486269595 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	645923272 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	206269953 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  "]
+	574312195 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	686241623 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	289299979 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	1050891946 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	256241628 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+O | X | X"]
+	517137029 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | O
+  | X | O"]
+	636338774 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O"]
+	10352262 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	365629220 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	773690476 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	198109410 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	316739540 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+  | X | O"]
+	413121938 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	707919016 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	705657908 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	618344776 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | O
+X | X | O"]
+	228607169 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	160750887 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	372524167 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	863135832 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X | O
+  |   | X"]
+	421522177 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X |  
+O |   |  "]
+	825669142 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X |  
+O |   |  "]
+	296244801 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+O |   |  "]
+	329821388 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  "]
+	685229806 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	194410428 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	244767326 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	483675765 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	189180138 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  "]
+	878884389 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	360637569 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	254915590 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	509281397 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	475779675 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+O |   | X"]
+	533741301 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+O |   |  "]
+	324154286 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  "]
+	946551328 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	582330225 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	21777995 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	826664732 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	1020575981 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  "]
+	769917579 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	106626423 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	1011488850 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	589585597 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	189537444 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+O |   | X"]
+	909627518 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+O | O |  "]
+	828241390 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  "]
+	281947159 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	1041784398 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	1023047334 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	624765273 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  "]
+	641111358 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	263422509 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	513776348 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	963069742 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+O | O | X"]
+	570656262 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X |  
+O |   | O"]
+	743516314 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O"]
+	203292929 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	221520764 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	401355242 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	242026040 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O"]
+	459880546 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	468993712 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	297003333 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	884216087 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O"]
+	650411148 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	724935234 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	569027488 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	187124799 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	484965274 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+O |   |  "]
+	264775111 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O |   |  "]
+	491962674 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  "]
+	1057999590 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O | X |  "]
+	156283506 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	757622963 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	927407008 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	336335132 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	707820040 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+O |   | X"]
+	274855115 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+O |   |  "]
+	993047981 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O |   |  "]
+	1051585754 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	718446795 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	97363695 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	1002334104 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	109655734 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  "]
+	177684912 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	997526683 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	189667609 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	852024362 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	386877369 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+O |   | X"]
+	982497529 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O | O |  "]
+	685908216 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  "]
+	1021291739 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	362559900 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	1071357482 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	529690588 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  "]
+	583254659 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | O | X"]
+	727845204 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O |   | O"]
+	1065367420 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O"]
+	15272374 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	544068915 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	633197462 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	485799988 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O"]
+	618807771 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | X | O"]
+	565576797 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	1011565606 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	566201716 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	237415805 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	902047796 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | X
+O |   |  "]
+	456286271 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O |   |  "]
+	714066472 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O |   |  "]
+	839597423 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O | X |  "]
+	666245236 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	275130484 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	974223566 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	113602563 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	900953279 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+O |   | X"]
+	569622496 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+O |   |  "]
+	311764271 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O |   |  "]
+	709635256 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	707690991 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	455429061 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	796592471 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	767790035 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  "]
+	610928867 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	673413346 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	1045863312 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	802540193 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	585875967 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+O |   | X"]
+	169002680 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O | O |  "]
+	202454982 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  "]
+	89948105 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	1050407073 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	162338425 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	873759136 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  "]
+	1016629816 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | O | X"]
+	697412915 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O |   | O"]
+	487281318 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O"]
+	383020220 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	454899794 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	834592401 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	295794716 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O"]
+	325424686 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | X | O"]
+	561316435 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	525140722 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	706392313 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	400085779 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	507734079 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+O | X |  "]
+	958401108 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+O | X |  "]
+	577415576 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+X | X |  
+O | X |  "]
+	1027267220 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	736440176 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	55774243 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	538928406 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	482670186 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | O
+  | X | X
+O | X |  "]
+	784935146 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	128091659 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	1044711632 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	49555413 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	209206604 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+O | X | X"]
+	997469847 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+O | X |  "]
+	675020449 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+O | X |  "]
+	454385150 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	732918541 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	11788817 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	52068988 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	434355302 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+O | X |  "]
+	693925277 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+O | X |  "]
+	959301302 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+O | X | X"]
+	900573261 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	344380560 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	697244454 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+O | X | X"]
+	20660006 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+O | X |  "]
+	1018620127 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+O | X |  "]
+	828933535 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+O | X |  "]
+	933926918 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+O | X | X"]
+	113595465 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	198707600 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	792977723 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+O | X |  "]
+	588957184 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X | O
+O | X |  "]
+	604747058 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | O
+O | X | X"]
+	530124242 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	186860832 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	302017510 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+O | X | X"]
+	663184856 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X |  
+O | X | O"]
+	539369734 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O"]
+	747453262 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	1021280395 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	662099352 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	185719055 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	279896771 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O"]
+	141196360 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	982316026 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	754464079 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	808022429 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	1019287087 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O"]
+	325293837 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	830648035 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	7974671 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	487080192 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	735397420 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X |  
+O |   | X"]
+	234258444 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+  | X |  
+  | O |  "]
+	939346076 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O | X
+  | X |  
+  | O |  "]
+	659228582 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  | O |  "]
+	821676373 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  "]
+	777062946 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	422754623 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	459144755 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	538361405 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	277986519 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  "]
+	371872458 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | O | X"]
+	740493329 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  | O |  "]
+	563327808 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  "]
+	997702535 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	262725735 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	235650654 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	733568285 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	745670798 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  "]
+	193182696 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | O | X"]
+	761168105 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+O | O |  "]
+	487769416 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  "]
+	898480896 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	1058915612 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	1011849274 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	646801144 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  "]
+	995432185 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	823292639 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	418544174 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	996008490 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+O | O | X"]
+	365897638 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X |  
+  | O | O"]
+	870502451 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O"]
+	301444064 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	737922064 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	1030773588 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	790342188 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O"]
+	126756901 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	142406416 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	786658359 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	840670984 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O"]
+	993627760 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+  | O |  "]
+	438768532 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  | O |  "]
+	930653352 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  "]
+	635598196 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  "]
+	886564213 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | O | X"]
+	610493669 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  | O |  "]
+	530643408 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+X | X | O
+  | O |  "]
+	514144186 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	529525809 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	734258983 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	71113034 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	197240193 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  "]
+	359627683 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | O | X"]
+	584467225 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O | O |  "]
+	687177879 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O | O |  "]
+	443368081 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+O | O |  "]
+	216358510 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+O | O | X"]
+	168259103 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	405556138 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  "]
+	1048764565 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | O | X"]
+	161287325 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+  | O | O"]
+	552322076 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O"]
+	33015206 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	516667746 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	106086446 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	119435350 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O"]
+	247958492 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O"]
+	497522897 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | X
+  | O |  "]
+	872373906 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  | O |  "]
+	241264310 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  | O |  "]
+	1061591357 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X | O |  "]
+	957621063 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	665803098 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	818352902 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	854882342 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	224547814 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | O | X"]
+	713343478 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | X
+  | O |  "]
+	746272235 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O | X
+O | X | X
+  | O |  "]
+	562014554 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	917784180 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	481926086 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	345180185 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	61008356 [label="Max node (O)
+Depth: 4, Value: -4.0
+
+X | O |  
+O | X | X
+X | O |  "]
+	792102675 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	484403050 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	539968783 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	662411079 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	511566838 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+  | O | X"]
+	461520469 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+O | O |  "]
+	977215915 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O | O |  "]
+	96001318 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+O | O |  "]
+	742184595 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+O | O | X"]
+	204402068 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	443012365 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O | O |  "]
+	301388346 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | O | X"]
+	27114476 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | X
+  | O | O"]
+	123884717 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O"]
+	671877504 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	133800761 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	267181340 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	535635152 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O"]
+	751192624 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+X | O | O"]
+	122235534 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	490807560 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	778148620 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	422043355 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	386615989 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+X | O |  "]
+	977797711 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X | O |  "]
+	830219687 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X | O |  "]
+	708834054 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X | O |  "]
+	430910328 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	626239376 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	814734702 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	711120804 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	899960744 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | O | X"]
+	1041826071 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X | O |  "]
+	147125712 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X | O |  "]
+	8845570 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+X | O |  "]
+	1057467640 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+O | X | X
+X | O |  "]
+	900249177 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+O | X | X
+X | O | X"]
+	825139700 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	990540555 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	854781817 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | O | X"]
+	194501950 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X | O |  "]
+	126521554 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X | O |  "]
+	84680176 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X | O |  "]
+	615527639 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | O | X"]
+	399284341 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X |  
+X | O | O"]
+	66599081 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O"]
+	223641260 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O"]
+	103720408 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+X | O | O"]
+	946024639 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	808996604 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	713538023 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	337911019 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	735570132 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O |  
+  | X |  
+  | O | X"]
+	210019292 [label="Min node (X)
+Depth: 1, Value: -6.0
+
+X | O |  
+  | X |  
+  |   | O"]
+	899432122 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X |  
+  |   | O"]
+	780352796 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X |  
+  |   | O"]
+	859307124 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O"]
+	710209060 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	981810188 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	547489824 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	104067704 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	71131871 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O"]
+	835536901 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+  | X | O"]
+	506867739 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	269210109 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	764944482 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	15146124 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	611270073 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+  | X | O
+  |   | O"]
+	425774917 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O"]
+	23058017 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	895100808 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	33355882 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	390571632 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	1070680920 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O"]
+	914311138 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+  | X | O"]
+	617318073 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	892487439 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	308681958 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	65450153 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	964694160 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X |  
+O |   | O"]
+	828505360 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O"]
+	409182144 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	660058983 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	274680612 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	779561407 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O"]
+	871949811 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	476539627 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	646226043 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	475423685 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O"]
+	265627917 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	422695494 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	940831708 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	515779261 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	729811999 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X |  
+  | O | O"]
+	82309679 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O"]
+	241153706 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	851478721 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	18443652 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	212720952 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O"]
+	666926148 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	307672230 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	809329369 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	66220975 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O"]
+	856174496 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+X | X |  
+  |   | O"]
+	71770432 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+  |   | O"]
+	362645543 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O"]
+	217831708 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O"]
+	516981855 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+  | X | O"]
+	106423603 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	974699715 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	498235431 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	576370789 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X | O
+  |   | O"]
+	1021468208 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O"]
+	943895988 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	171146122 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	18698747 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	977834571 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	360507331 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O"]
+	382678049 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+  | X | O"]
+	435923518 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	928959953 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	39490358 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	289931492 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+O |   | O"]
+	701925668 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+O |   | O"]
+	241394104 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	1053382232 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	549551988 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	71903257 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O"]
+	765125184 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+O | X | O"]
+	138027516 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	970324561 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	1002748978 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	581994010 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	1048649453 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+X | X |  
+  | O | O"]
+	718328539 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+X | X |  
+  | O | O"]
+	378399290 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	95963153 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	605632647 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	478398405 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O"]
+	689452750 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O"]
+	346320810 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X | X
+  |   | O"]
+	876212802 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+  |   | O"]
+	1062702547 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+  |   | O"]
+	489807724 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X |   | O"]
+	889847850 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	578699333 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	81195638 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	421725309 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	672343152 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+  | X | O"]
+	907560025 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	861419259 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	1043310365 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	443754413 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	901201108 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+  |   | O"]
+	555125244 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+  |   | O"]
+	998497436 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	66106483 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	789878462 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	847233327 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	193062926 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+X |   | O"]
+	799796398 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	519914014 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	1031962849 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	598212198 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	886915638 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O"]
+	836861494 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	76354945 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	291285863 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	429954539 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	463500673 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | X
+O |   | O"]
+	606397610 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+O |   | O"]
+	66953052 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X | X
+O |   | O"]
+	25772647 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	936169793 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	296352401 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+O |   | O"]
+	442185595 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+O | X | O"]
+	754160965 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	316337845 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	564955627 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	120723853 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	470974977 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | X
+  | O | O"]
+	487301877 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | X
+  | X | X
+  | O | O"]
+	717625969 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | X
+  | O | O"]
+	105332954 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	310669402 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | X
+  | X | X
+O | O | O"]
+	241858899 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | X
+  | O | O"]
+	90255955 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+X | O | O"]
+	535012411 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	1052453165 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	287808529 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	234189513 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	482556810 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+X |   | O"]
+	431076687 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X |  
+X |   | O"]
+	803295956 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X |  
+X |   | O"]
+	958688485 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X | X
+X |   | O"]
+	736744567 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	969113755 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	479486160 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	982579489 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	780439695 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+  | X |  
+X | X | O"]
+	632745527 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	434186618 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	495250725 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	694249899 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X |  
+X |   | O"]
+	1068328914 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X |  
+X |   | O"]
+	1026314303 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X | X
+X |   | O"]
+	135179279 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+X |   | O"]
+	949760578 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	965959747 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	1028422295 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	428764245 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+O | X |  
+X | X | O"]
+	409215064 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	289752097 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	510627870 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	563181094 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	300631683 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X | O
+X |   | O"]
+	836329981 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X | O
+X |   | O"]
+	6552236 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X | O
+X |   | O"]
+	8766574 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | O
+X | X | O"]
+	401279716 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	754388158 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	899847310 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	118459650 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+  | X |  
+X | O | O"]
+	495200545 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+  | X |  
+X | O | O"]
+	110834374 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+X | X |  
+X | O | O"]
+	348716497 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O |  
+  | X | X
+X | O | O"]
+	286676990 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+X | O | O"]
+	198294077 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+X | O | O"]
+	1026591537 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O |  
+O | X | X
+X | O | O"]
+	369296720 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | X
+X | O | O"]
+	1070031796 [label="Max node (O)
+Depth: 2, Value: -6.0
+
+X | O |  
+  | X |  
+  | X | O"]
+	808241409 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+  | X |  
+  | X | O"]
+	856173703 [label="Max node (O)
+Depth: 4, Value: 5.0
+
+X | O | O
+X | X |  
+  | X | O"]
+	175897326 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	281987516 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	920937832 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	514608052 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O"]
+	910930140 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	620596190 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	223452284 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	782277693 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	1058280147 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+  | X |  
+X | X | O"]
+	950510115 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	386615623 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	68400750 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	824509813 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X |  
+  | X | O"]
+	309978708 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O"]
+	1037089835 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	770255406 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	84758656 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	237200480 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	1057683329 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O"]
+	141283224 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	1023959328 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	1043102437 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	535723745 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	350520702 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O"]
+	798026033 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O"]
+	19866646 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	590967690 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	381338595 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	275016665 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X | O
+  | X | O"]
+	618630837 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O"]
+	1020172545 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | X
+O | X | O
+  | X | O"]
+	777212784 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	483437598 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	201368914 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	541120746 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X | O
+  | X | O"]
+	570934451 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	163549177 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	608058068 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	1027536012 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | O
+X | X | O"]
+	144196775 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O | O
+  | X | O
+X | X | O"]
+	197087889 [label="Min node (X)
+Depth: 5, Value: 5.0
+
+X | O |  
+O | X | O
+X | X | O"]
+	366282325 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | X
+O | X | O
+X | X | O"]
+	1060079934 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+  | X |  
+O | X | O"]
+	847644220 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O"]
+	460526208 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O"]
+	675308924 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	221727515 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O"]
+	1049449766 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	363881740 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O"]
+	556395560 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	374215133 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	375510813 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	860859993 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	995913100 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O"]
+	865986639 [label="Min node (X)
+Depth: 5, Value: -4.0
+
+X | O | O
+  | X | X
+O | X | O"]
+	324888039 [label="Max node (O)
+Depth: 6, Value: -4.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	296280046 [label="Min node (X)
+Depth: 5, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	183243685 [label="Max node (O)
+Depth: 6, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	1985673 -> 479947749
+	1985673 -> 83767370
+	1985673 -> 96513619
+	1985673 -> 421522177
+	1985673 -> 234258444
+	1985673 -> 210019292
+	479947749 -> 468050675
+	479947749 -> 1055886872
+	479947749 -> 630398089
+	479947749 -> 628157426
+	479947749 -> 307663286
+	468050675 -> 1050482791
+	468050675 -> 977105211
+	468050675 -> 823534015
+	468050675 -> 178114211
+	1050482791 -> 171251732
+	1050482791 -> 120119769
+	1050482791 -> 791442381
+	120119769 -> 231751849
+	120119769 -> 24893159
+	231751849 -> 1003898353
+	977105211 -> 524978073
+	977105211 -> 116582431
+	977105211 -> 853531839
+	116582431 -> 318845304
+	116582431 -> 956018925
+	318845304 -> 236713899
+	956018925 -> 718347864
+	823534015 -> 1020741817
+	823534015 -> 60305446
+	823534015 -> 39566839
+	178114211 -> 170426422
+	178114211 -> 413938141
+	178114211 -> 335582581
+	335582581 -> 380985026
+	335582581 -> 44606623
+	44606623 -> 271325251
+	1055886872 -> 398711350
+	1055886872 -> 1056812425
+	1055886872 -> 236992569
+	1055886872 -> 282749201
+	398711350 -> 88702871
+	398711350 -> 683887462
+	398711350 -> 974643982
+	88702871 -> 538715879
+	88702871 -> 922504716
+	538715879 -> 35646651
+	922504716 -> 133248722
+	683887462 -> 912421677
+	683887462 -> 103157629
+	912421677 -> 612479525
+	103157629 -> 450433179
+	1056812425 -> 407500162
+	1056812425 -> 342733851
+	1056812425 -> 220142428
+	342733851 -> 791109007
+	342733851 -> 321276213
+	791109007 -> 30087551
+	321276213 -> 458364292
+	236992569 -> 749966704
+	236992569 -> 590287088
+	236992569 -> 84231934
+	590287088 -> 27599307
+	590287088 -> 563271157
+	27599307 -> 780515627
+	563271157 -> 683771266
+	282749201 -> 638057623
+	282749201 -> 575258964
+	282749201 -> 826785748
+	575258964 -> 671080654
+	575258964 -> 501039061
+	671080654 -> 559639714
+	501039061 -> 794901660
+	826785748 -> 640953712
+	826785748 -> 711445781
+	640953712 -> 253207184
+	711445781 -> 540732571
+	630398089 -> 105661715
+	630398089 -> 819996122
+	630398089 -> 94123609
+	630398089 -> 553615460
+	105661715 -> 425521306
+	105661715 -> 830453525
+	105661715 -> 630463237
+	425521306 -> 849023613
+	425521306 -> 228034781
+	849023613 -> 448075978
+	228034781 -> 176678400
+	830453525 -> 739195613
+	830453525 -> 965759329
+	739195613 -> 262773437
+	965759329 -> 1004264584
+	819996122 -> 456907712
+	819996122 -> 720077997
+	819996122 -> 684156389
+	720077997 -> 89723579
+	720077997 -> 918526603
+	89723579 -> 318897821
+	94123609 -> 515222316
+	94123609 -> 1047475015
+	94123609 -> 87785768
+	1047475015 -> 617551731
+	1047475015 -> 976769270
+	617551731 -> 404823816
+	976769270 -> 875150905
+	553615460 -> 699772846
+	553615460 -> 166554133
+	553615460 -> 787201410
+	166554133 -> 320790905
+	166554133 -> 405214014
+	320790905 -> 756144369
+	405214014 -> 95843227
+	787201410 -> 34247845
+	787201410 -> 967329609
+	34247845 -> 540585521
+	628157426 -> 88532625
+	628157426 -> 433873967
+	628157426 -> 451532850
+	628157426 -> 375377028
+	88532625 -> 484089354
+	88532625 -> 297800397
+	88532625 -> 332869443
+	484089354 -> 625280661
+	484089354 -> 872713421
+	625280661 -> 773315064
+	872713421 -> 548618936
+	297800397 -> 907849395
+	297800397 -> 530767293
+	907849395 -> 99125900
+	530767293 -> 405697516
+	433873967 -> 172844210
+	433873967 -> 42930073
+	433873967 -> 103910592
+	172844210 -> 7393577
+	172844210 -> 837067665
+	7393577 -> 936068361
+	42930073 -> 699028077
+	42930073 -> 957888340
+	699028077 -> 866173370
+	451532850 -> 742387970
+	451532850 -> 974433558
+	451532850 -> 476326152
+	742387970 -> 502331181
+	742387970 -> 805372594
+	502331181 -> 669813817
+	805372594 -> 869375445
+	974433558 -> 753642664
+	974433558 -> 1031601936
+	753642664 -> 728490422
+	1031601936 -> 769416133
+	375377028 -> 374032067
+	375377028 -> 870396651
+	375377028 -> 286300599
+	374032067 -> 878322539
+	374032067 -> 100011505
+	100011505 -> 813929635
+	870396651 -> 532751212
+	870396651 -> 225437702
+	532751212 -> 448207776
+	225437702 -> 1052220844
+	286300599 -> 484585895
+	286300599 -> 487426028
+	484585895 -> 483756445
+	83767370 -> 394870253
+	83767370 -> 681884510
+	83767370 -> 170144326
+	83767370 -> 551897884
+	83767370 -> 937393765
+	394870253 -> 533802123
+	394870253 -> 964995954
+	394870253 -> 966994088
+	394870253 -> 407766998
+	533802123 -> 436877327
+	533802123 -> 836438003
+	533802123 -> 987370110
+	836438003 -> 532492838
+	836438003 -> 739791727
+	532492838 -> 949110563
+	739791727 -> 620098304
+	964995954 -> 934367699
+	964995954 -> 755009973
+	964995954 -> 812947769
+	934367699 -> 980423241
+	934367699 -> 842309723
+	980423241 -> 814954334
+	842309723 -> 1069848113
+	755009973 -> 734319307
+	755009973 -> 504245637
+	734319307 -> 878850443
+	504245637 -> 602426566
+	966994088 -> 335666398
+	966994088 -> 835975733
+	966994088 -> 1043314483
+	335666398 -> 750177077
+	335666398 -> 222868205
+	750177077 -> 716396809
+	222868205 -> 470161250
+	407766998 -> 562663445
+	407766998 -> 633507129
+	407766998 -> 256544344
+	562663445 -> 534860853
+	562663445 -> 824937670
+	534860853 -> 175910844
+	824937670 -> 992193121
+	256544344 -> 666195698
+	256544344 -> 468814634
+	666195698 -> 596816847
+	468814634 -> 265736775
+	681884510 -> 12699668
+	681884510 -> 361794384
+	681884510 -> 936945632
+	681884510 -> 364695861
+	12699668 -> 760610136
+	12699668 -> 1068933156
+	12699668 -> 901989099
+	760610136 -> 583272042
+	760610136 -> 152427103
+	583272042 -> 362912742
+	152427103 -> 1043187503
+	1068933156 -> 426312887
+	1068933156 -> 138758803
+	426312887 -> 848843895
+	138758803 -> 393448868
+	361794384 -> 777691180
+	361794384 -> 872657629
+	361794384 -> 389313761
+	777691180 -> 898265666
+	777691180 -> 330552387
+	898265666 -> 992727800
+	330552387 -> 1040052566
+	872657629 -> 110194292
+	872657629 -> 615746094
+	110194292 -> 135654275
+	615746094 -> 873219588
+	936945632 -> 777502111
+	936945632 -> 1025859942
+	936945632 -> 218919182
+	777502111 -> 370411496
+	777502111 -> 829877052
+	370411496 -> 758658302
+	829877052 -> 1004880949
+	1025859942 -> 385294086
+	1025859942 -> 15538350
+	385294086 -> 1059299732
+	15538350 -> 594628663
+	364695861 -> 455788988
+	364695861 -> 347460414
+	364695861 -> 917806140
+	455788988 -> 1072962286
+	455788988 -> 909334568
+	1072962286 -> 710047201
+	909334568 -> 32672522
+	347460414 -> 647333436
+	347460414 -> 783122301
+	647333436 -> 359018013
+	783122301 -> 529303399
+	917806140 -> 764159384
+	917806140 -> 336736604
+	764159384 -> 354230618
+	336736604 -> 19421516
+	170144326 -> 136686604
+	170144326 -> 1071951581
+	170144326 -> 198647446
+	170144326 -> 232578072
+	136686604 -> 64680433
+	136686604 -> 65580432
+	136686604 -> 893474032
+	64680433 -> 1057892637
+	64680433 -> 1065650610
+	1057892637 -> 601219147
+	1065650610 -> 339958471
+	65580432 -> 300000158
+	65580432 -> 477679579
+	300000158 -> 751682753
+	477679579 -> 188456958
+	1071951581 -> 346401130
+	1071951581 -> 115020673
+	1071951581 -> 683856242
+	115020673 -> 227894906
+	115020673 -> 556300871
+	227894906 -> 465902738
+	556300871 -> 614105218
+	198647446 -> 188506504
+	198647446 -> 805380978
+	198647446 -> 275238724
+	805380978 -> 1049786969
+	805380978 -> 129954452
+	1049786969 -> 367679955
+	129954452 -> 204840700
+	232578072 -> 10625711
+	232578072 -> 947832704
+	232578072 -> 386841111
+	947832704 -> 91477993
+	947832704 -> 904322349
+	91477993 -> 756608449
+	904322349 -> 420360850
+	386841111 -> 267929659
+	386841111 -> 191409928
+	267929659 -> 413624299
+	191409928 -> 157952869
+	551897884 -> 661699417
+	551897884 -> 1062332244
+	551897884 -> 1025689642
+	551897884 -> 1070168560
+	661699417 -> 6307918
+	661699417 -> 448145231
+	661699417 -> 361715808
+	6307918 -> 1055416258
+	6307918 -> 761577191
+	1055416258 -> 1035884707
+	761577191 -> 291249150
+	448145231 -> 628958206
+	448145231 -> 846130296
+	628958206 -> 174775948
+	846130296 -> 132406603
+	1062332244 -> 572064160
+	1062332244 -> 1025519706
+	1062332244 -> 69064320
+	572064160 -> 513240543
+	572064160 -> 556749820
+	513240543 -> 722387212
+	556749820 -> 18780272
+	1025519706 -> 238205169
+	1025519706 -> 451068256
+	238205169 -> 359246188
+	451068256 -> 147187545
+	1025689642 -> 135207167
+	1025689642 -> 415789534
+	1025689642 -> 723203614
+	135207167 -> 604987232
+	135207167 -> 214300401
+	604987232 -> 409602350
+	214300401 -> 261528447
+	415789534 -> 627445070
+	415789534 -> 357036939
+	627445070 -> 125999787
+	357036939 -> 181346254
+	1070168560 -> 558172471
+	1070168560 -> 647590414
+	1070168560 -> 981144785
+	558172471 -> 170208604
+	558172471 -> 232100885
+	170208604 -> 337055132
+	232100885 -> 1049397441
+	647590414 -> 722084601
+	647590414 -> 204647858
+	722084601 -> 74809624
+	204647858 -> 193915336
+	981144785 -> 786982201
+	981144785 -> 311872686
+	786982201 -> 397023298
+	311872686 -> 175121805
+	96513619 -> 647323957
+	96513619 -> 1016863513
+	96513619 -> 834003098
+	96513619 -> 321863099
+	96513619 -> 863135832
+	647323957 -> 369865793
+	647323957 -> 287304498
+	647323957 -> 372922766
+	647323957 -> 334538564
+	369865793 -> 731218647
+	369865793 -> 640369765
+	369865793 -> 903040125
+	640369765 -> 769696447
+	640369765 -> 1070109939
+	769696447 -> 314896556
+	1070109939 -> 548285272
+	287304498 -> 441731650
+	287304498 -> 395867172
+	287304498 -> 702206928
+	441731650 -> 940687277
+	441731650 -> 102804839
+	940687277 -> 817240079
+	102804839 -> 864910688
+	395867172 -> 951470303
+	395867172 -> 567146571
+	951470303 -> 887494333
+	567146571 -> 94140809
+	372922766 -> 455457912
+	372922766 -> 888078174
+	372922766 -> 801925857
+	455457912 -> 965080225
+	455457912 -> 423505628
+	965080225 -> 253817529
+	423505628 -> 817011312
+	334538564 -> 1071694368
+	334538564 -> 134956337
+	334538564 -> 534817358
+	1071694368 -> 48503641
+	1071694368 -> 473940720
+	48503641 -> 1915813
+	473940720 -> 276353255
+	534817358 -> 249696192
+	534817358 -> 634010835
+	249696192 -> 461089612
+	634010835 -> 876140306
+	1016863513 -> 890796308
+	1016863513 -> 814069753
+	1016863513 -> 1047799607
+	1016863513 -> 481707639
+	890796308 -> 286200913
+	890796308 -> 375968441
+	890796308 -> 1065314945
+	375968441 -> 1004600039
+	375968441 -> 176168779
+	1004600039 -> 835164342
+	814069753 -> 108391758
+	814069753 -> 591186876
+	814069753 -> 440479024
+	108391758 -> 691652030
+	108391758 -> 634048386
+	691652030 -> 541390778
+	634048386 -> 589758983
+	591186876 -> 666870843
+	591186876 -> 6513256
+	666870843 -> 214724196
+	6513256 -> 24529774
+	1047799607 -> 191669193
+	1047799607 -> 894466808
+	1047799607 -> 212490051
+	191669193 -> 954692942
+	191669193 -> 15999269
+	954692942 -> 410804671
+	15999269 -> 294829457
+	481707639 -> 955423047
+	481707639 -> 582887596
+	481707639 -> 687239701
+	955423047 -> 321926686
+	955423047 -> 103968774
+	321926686 -> 799780547
+	103968774 -> 441365760
+	687239701 -> 950023001
+	687239701 -> 123917220
+	123917220 -> 430439107
+	834003098 -> 282052666
+	834003098 -> 548024208
+	834003098 -> 775704346
+	834003098 -> 835073230
+	282052666 -> 511683829
+	282052666 -> 209342187
+	282052666 -> 824225157
+	209342187 -> 270159482
+	209342187 -> 594686903
+	270159482 -> 179482892
+	548024208 -> 719289357
+	548024208 -> 485926447
+	548024208 -> 128543272
+	485926447 -> 509995797
+	485926447 -> 727859653
+	509995797 -> 954040691
+	727859653 -> 370746152
+	775704346 -> 489406217
+	775704346 -> 626076754
+	775704346 -> 878266114
+	835073230 -> 983220888
+	835073230 -> 807032857
+	835073230 -> 193095028
+	193095028 -> 829648324
+	193095028 -> 636737952
+	636737952 -> 545987615
+	321863099 -> 343721364
+	321863099 -> 511573099
+	321863099 -> 784429644
+	321863099 -> 517137029
+	343721364 -> 252281298
+	343721364 -> 673695320
+	343721364 -> 514493837
+	252281298 -> 902065014
+	252281298 -> 371433610
+	902065014 -> 258978418
+	673695320 -> 452543763
+	673695320 -> 128052777
+	452543763 -> 905600830
+	511573099 -> 291292704
+	511573099 -> 79208455
+	511573099 -> 865091587
+	291292704 -> 618688121
+	291292704 -> 473177672
+	618688121 -> 404828757
+	473177672 -> 323973664
+	79208455 -> 508203186
+	79208455 -> 1008056965
+	508203186 -> 685144740
+	1008056965 -> 522572244
+	784429644 -> 419785512
+	784429644 -> 206269953
+	784429644 -> 256241628
+	419785512 -> 875603598
+	419785512 -> 486269595
+	875603598 -> 201219430
+	486269595 -> 645923272
+	206269953 -> 574312195
+	206269953 -> 289299979
+	574312195 -> 686241623
+	289299979 -> 1050891946
+	517137029 -> 636338774
+	517137029 -> 316739540
+	517137029 -> 618344776
+	636338774 -> 10352262
+	636338774 -> 773690476
+	10352262 -> 365629220
+	773690476 -> 198109410
+	316739540 -> 413121938
+	316739540 -> 707919016
+	707919016 -> 705657908
+	618344776 -> 228607169
+	618344776 -> 160750887
+	160750887 -> 372524167
+	421522177 -> 825669142
+	421522177 -> 484965274
+	421522177 -> 902047796
+	421522177 -> 507734079
+	421522177 -> 735397420
+	825669142 -> 296244801
+	825669142 -> 533741301
+	825669142 -> 909627518
+	825669142 -> 570656262
+	296244801 -> 329821388
+	296244801 -> 189180138
+	296244801 -> 475779675
+	329821388 -> 685229806
+	329821388 -> 244767326
+	685229806 -> 194410428
+	244767326 -> 483675765
+	189180138 -> 878884389
+	189180138 -> 254915590
+	878884389 -> 360637569
+	254915590 -> 509281397
+	533741301 -> 324154286
+	533741301 -> 1020575981
+	533741301 -> 189537444
+	324154286 -> 946551328
+	324154286 -> 21777995
+	946551328 -> 582330225
+	21777995 -> 826664732
+	1020575981 -> 769917579
+	1020575981 -> 1011488850
+	769917579 -> 106626423
+	1011488850 -> 589585597
+	909627518 -> 828241390
+	909627518 -> 624765273
+	909627518 -> 963069742
+	828241390 -> 281947159
+	828241390 -> 1023047334
+	281947159 -> 1041784398
+	624765273 -> 641111358
+	624765273 -> 513776348
+	641111358 -> 263422509
+	570656262 -> 743516314
+	570656262 -> 242026040
+	570656262 -> 884216087
+	743516314 -> 203292929
+	743516314 -> 401355242
+	203292929 -> 221520764
+	242026040 -> 459880546
+	242026040 -> 297003333
+	459880546 -> 468993712
+	884216087 -> 650411148
+	884216087 -> 569027488
+	650411148 -> 724935234
+	569027488 -> 187124799
+	484965274 -> 264775111
+	484965274 -> 274855115
+	484965274 -> 982497529
+	484965274 -> 727845204
+	264775111 -> 491962674
+	264775111 -> 1057999590
+	264775111 -> 707820040
+	1057999590 -> 156283506
+	1057999590 -> 927407008
+	156283506 -> 757622963
+	927407008 -> 336335132
+	274855115 -> 993047981
+	274855115 -> 109655734
+	274855115 -> 386877369
+	993047981 -> 1051585754
+	993047981 -> 97363695
+	1051585754 -> 718446795
+	97363695 -> 1002334104
+	109655734 -> 177684912
+	109655734 -> 189667609
+	177684912 -> 997526683
+	189667609 -> 852024362
+	982497529 -> 685908216
+	982497529 -> 529690588
+	982497529 -> 583254659
+	685908216 -> 1021291739
+	685908216 -> 1071357482
+	1021291739 -> 362559900
+	727845204 -> 1065367420
+	727845204 -> 485799988
+	727845204 -> 618807771
+	1065367420 -> 15272374
+	1065367420 -> 633197462
+	15272374 -> 544068915
+	618807771 -> 565576797
+	618807771 -> 566201716
+	565576797 -> 1011565606
+	566201716 -> 237415805
+	902047796 -> 456286271
+	902047796 -> 569622496
+	902047796 -> 169002680
+	902047796 -> 697412915
+	456286271 -> 714066472
+	456286271 -> 839597423
+	456286271 -> 900953279
+	839597423 -> 666245236
+	839597423 -> 974223566
+	666245236 -> 275130484
+	974223566 -> 113602563
+	569622496 -> 311764271
+	569622496 -> 767790035
+	569622496 -> 585875967
+	311764271 -> 709635256
+	311764271 -> 455429061
+	709635256 -> 707690991
+	455429061 -> 796592471
+	767790035 -> 610928867
+	767790035 -> 1045863312
+	610928867 -> 673413346
+	1045863312 -> 802540193
+	169002680 -> 202454982
+	169002680 -> 873759136
+	169002680 -> 1016629816
+	202454982 -> 89948105
+	202454982 -> 162338425
+	89948105 -> 1050407073
+	697412915 -> 487281318
+	697412915 -> 295794716
+	697412915 -> 325424686
+	487281318 -> 383020220
+	487281318 -> 834592401
+	383020220 -> 454899794
+	325424686 -> 561316435
+	325424686 -> 706392313
+	561316435 -> 525140722
+	706392313 -> 400085779
+	507734079 -> 958401108
+	507734079 -> 997469847
+	507734079 -> 20660006
+	507734079 -> 663184856
+	958401108 -> 577415576
+	958401108 -> 482670186
+	958401108 -> 209206604
+	577415576 -> 1027267220
+	577415576 -> 55774243
+	1027267220 -> 736440176
+	55774243 -> 538928406
+	482670186 -> 784935146
+	482670186 -> 1044711632
+	784935146 -> 128091659
+	1044711632 -> 49555413
+	997469847 -> 675020449
+	997469847 -> 434355302
+	997469847 -> 697244454
+	675020449 -> 454385150
+	675020449 -> 11788817
+	454385150 -> 732918541
+	11788817 -> 52068988
+	434355302 -> 693925277
+	434355302 -> 900573261
+	693925277 -> 959301302
+	900573261 -> 344380560
+	20660006 -> 1018620127
+	20660006 -> 792977723
+	20660006 -> 302017510
+	1018620127 -> 828933535
+	1018620127 -> 113595465
+	828933535 -> 933926918
+	113595465 -> 198707600
+	792977723 -> 588957184
+	792977723 -> 530124242
+	588957184 -> 604747058
+	530124242 -> 186860832
+	663184856 -> 539369734
+	663184856 -> 279896771
+	663184856 -> 1019287087
+	539369734 -> 747453262
+	539369734 -> 662099352
+	747453262 -> 1021280395
+	662099352 -> 185719055
+	279896771 -> 141196360
+	279896771 -> 754464079
+	141196360 -> 982316026
+	754464079 -> 808022429
+	1019287087 -> 325293837
+	1019287087 -> 7974671
+	325293837 -> 830648035
+	7974671 -> 487080192
+	234258444 -> 939346076
+	234258444 -> 993627760
+	234258444 -> 497522897
+	234258444 -> 386615989
+	234258444 -> 735570132
+	939346076 -> 659228582
+	939346076 -> 740493329
+	939346076 -> 761168105
+	939346076 -> 365897638
+	659228582 -> 821676373
+	659228582 -> 277986519
+	659228582 -> 371872458
+	821676373 -> 777062946
+	821676373 -> 459144755
+	777062946 -> 422754623
+	459144755 -> 538361405
+	740493329 -> 563327808
+	740493329 -> 745670798
+	740493329 -> 193182696
+	563327808 -> 997702535
+	563327808 -> 235650654
+	997702535 -> 262725735
+	235650654 -> 733568285
+	761168105 -> 487769416
+	761168105 -> 646801144
+	761168105 -> 996008490
+	487769416 -> 898480896
+	487769416 -> 1011849274
+	898480896 -> 1058915612
+	646801144 -> 995432185
+	646801144 -> 418544174
+	995432185 -> 823292639
+	365897638 -> 870502451
+	365897638 -> 790342188
+	365897638 -> 840670984
+	870502451 -> 301444064
+	870502451 -> 1030773588
+	301444064 -> 737922064
+	790342188 -> 126756901
+	790342188 -> 786658359
+	126756901 -> 142406416
+	993627760 -> 438768532
+	993627760 -> 610493669
+	993627760 -> 584467225
+	993627760 -> 161287325
+	438768532 -> 930653352
+	438768532 -> 635598196
+	438768532 -> 886564213
+	610493669 -> 530643408
+	610493669 -> 197240193
+	610493669 -> 359627683
+	530643408 -> 514144186
+	530643408 -> 734258983
+	514144186 -> 529525809
+	734258983 -> 71113034
+	584467225 -> 687177879
+	584467225 -> 405556138
+	584467225 -> 1048764565
+	687177879 -> 443368081
+	687177879 -> 168259103
+	443368081 -> 216358510
+	161287325 -> 552322076
+	161287325 -> 119435350
+	161287325 -> 247958492
+	552322076 -> 33015206
+	552322076 -> 106086446
+	33015206 -> 516667746
+	497522897 -> 872373906
+	497522897 -> 713343478
+	497522897 -> 461520469
+	497522897 -> 27114476
+	872373906 -> 241264310
+	872373906 -> 1061591357
+	872373906 -> 224547814
+	1061591357 -> 957621063
+	1061591357 -> 818352902
+	957621063 -> 665803098
+	818352902 -> 854882342
+	713343478 -> 746272235
+	713343478 -> 61008356
+	713343478 -> 511566838
+	746272235 -> 562014554
+	746272235 -> 481926086
+	562014554 -> 917784180
+	481926086 -> 345180185
+	61008356 -> 792102675
+	61008356 -> 539968783
+	792102675 -> 484403050
+	539968783 -> 662411079
+	461520469 -> 977215915
+	461520469 -> 443012365
+	461520469 -> 301388346
+	977215915 -> 96001318
+	977215915 -> 204402068
+	96001318 -> 742184595
+	27114476 -> 123884717
+	27114476 -> 535635152
+	27114476 -> 751192624
+	123884717 -> 671877504
+	123884717 -> 267181340
+	671877504 -> 133800761
+	751192624 -> 122235534
+	751192624 -> 778148620
+	122235534 -> 490807560
+	778148620 -> 422043355
+	386615989 -> 977797711
+	386615989 -> 1041826071
+	386615989 -> 194501950
+	386615989 -> 399284341
+	977797711 -> 830219687
+	977797711 -> 708834054
+	977797711 -> 899960744
+	708834054 -> 430910328
+	708834054 -> 814734702
+	430910328 -> 626239376
+	814734702 -> 711120804
+	1041826071 -> 147125712
+	1041826071 -> 8845570
+	1041826071 -> 854781817
+	8845570 -> 1057467640
+	8845570 -> 825139700
+	1057467640 -> 900249177
+	825139700 -> 990540555
+	194501950 -> 126521554
+	194501950 -> 84680176
+	194501950 -> 615527639
+	399284341 -> 66599081
+	399284341 -> 223641260
+	399284341 -> 103720408
+	103720408 -> 946024639
+	103720408 -> 713538023
+	946024639 -> 808996604
+	713538023 -> 337911019
+	210019292 -> 899432122
+	210019292 -> 856174496
+	210019292 -> 346320810
+	210019292 -> 482556810
+	210019292 -> 1070031796
+	899432122 -> 780352796
+	899432122 -> 611270073
+	899432122 -> 964694160
+	899432122 -> 729811999
+	780352796 -> 859307124
+	780352796 -> 71131871
+	780352796 -> 835536901
+	859307124 -> 710209060
+	859307124 -> 547489824
+	710209060 -> 981810188
+	547489824 -> 104067704
+	835536901 -> 506867739
+	835536901 -> 764944482
+	506867739 -> 269210109
+	764944482 -> 15146124
+	611270073 -> 425774917
+	611270073 -> 1070680920
+	611270073 -> 914311138
+	425774917 -> 23058017
+	425774917 -> 33355882
+	23058017 -> 895100808
+	33355882 -> 390571632
+	914311138 -> 617318073
+	914311138 -> 308681958
+	617318073 -> 892487439
+	308681958 -> 65450153
+	964694160 -> 828505360
+	964694160 -> 779561407
+	964694160 -> 475423685
+	828505360 -> 409182144
+	828505360 -> 274680612
+	409182144 -> 660058983
+	779561407 -> 871949811
+	779561407 -> 646226043
+	871949811 -> 476539627
+	475423685 -> 265627917
+	475423685 -> 940831708
+	265627917 -> 422695494
+	940831708 -> 515779261
+	729811999 -> 82309679
+	729811999 -> 212720952
+	729811999 -> 66220975
+	82309679 -> 241153706
+	82309679 -> 18443652
+	241153706 -> 851478721
+	212720952 -> 666926148
+	212720952 -> 809329369
+	666926148 -> 307672230
+	856174496 -> 71770432
+	856174496 -> 576370789
+	856174496 -> 289931492
+	856174496 -> 1048649453
+	71770432 -> 362645543
+	71770432 -> 217831708
+	71770432 -> 516981855
+	516981855 -> 106423603
+	516981855 -> 974699715
+	974699715 -> 498235431
+	576370789 -> 1021468208
+	576370789 -> 360507331
+	576370789 -> 382678049
+	1021468208 -> 943895988
+	1021468208 -> 18698747
+	943895988 -> 171146122
+	18698747 -> 977834571
+	382678049 -> 435923518
+	382678049 -> 928959953
+	928959953 -> 39490358
+	289931492 -> 701925668
+	289931492 -> 71903257
+	289931492 -> 765125184
+	701925668 -> 241394104
+	701925668 -> 549551988
+	241394104 -> 1053382232
+	765125184 -> 138027516
+	765125184 -> 1002748978
+	138027516 -> 970324561
+	1002748978 -> 581994010
+	1048649453 -> 718328539
+	1048649453 -> 478398405
+	1048649453 -> 689452750
+	718328539 -> 378399290
+	718328539 -> 605632647
+	378399290 -> 95963153
+	346320810 -> 876212802
+	346320810 -> 901201108
+	346320810 -> 463500673
+	346320810 -> 470974977
+	876212802 -> 1062702547
+	876212802 -> 489807724
+	876212802 -> 672343152
+	489807724 -> 889847850
+	489807724 -> 81195638
+	889847850 -> 578699333
+	81195638 -> 421725309
+	672343152 -> 907560025
+	672343152 -> 1043310365
+	907560025 -> 861419259
+	1043310365 -> 443754413
+	901201108 -> 555125244
+	901201108 -> 193062926
+	901201108 -> 886915638
+	555125244 -> 998497436
+	555125244 -> 789878462
+	998497436 -> 66106483
+	789878462 -> 847233327
+	193062926 -> 799796398
+	193062926 -> 1031962849
+	799796398 -> 519914014
+	1031962849 -> 598212198
+	886915638 -> 836861494
+	886915638 -> 291285863
+	836861494 -> 76354945
+	291285863 -> 429954539
+	463500673 -> 606397610
+	463500673 -> 296352401
+	463500673 -> 442185595
+	606397610 -> 66953052
+	606397610 -> 936169793
+	66953052 -> 25772647
+	442185595 -> 754160965
+	442185595 -> 564955627
+	754160965 -> 316337845
+	564955627 -> 120723853
+	470974977 -> 487301877
+	470974977 -> 241858899
+	470974977 -> 90255955
+	487301877 -> 717625969
+	487301877 -> 310669402
+	717625969 -> 105332954
+	90255955 -> 535012411
+	90255955 -> 287808529
+	535012411 -> 1052453165
+	287808529 -> 234189513
+	482556810 -> 431076687
+	482556810 -> 694249899
+	482556810 -> 300631683
+	482556810 -> 118459650
+	431076687 -> 803295956
+	431076687 -> 958688485
+	431076687 -> 780439695
+	958688485 -> 736744567
+	958688485 -> 479486160
+	736744567 -> 969113755
+	479486160 -> 982579489
+	780439695 -> 632745527
+	780439695 -> 495250725
+	632745527 -> 434186618
+	694249899 -> 1068328914
+	694249899 -> 1026314303
+	694249899 -> 428764245
+	1026314303 -> 135179279
+	1026314303 -> 965959747
+	135179279 -> 949760578
+	965959747 -> 1028422295
+	428764245 -> 409215064
+	428764245 -> 510627870
+	409215064 -> 289752097
+	510627870 -> 563181094
+	300631683 -> 836329981
+	300631683 -> 6552236
+	300631683 -> 8766574
+	8766574 -> 401279716
+	8766574 -> 754388158
+	754388158 -> 899847310
+	118459650 -> 495200545
+	118459650 -> 110834374
+	118459650 -> 348716497
+	348716497 -> 286676990
+	348716497 -> 1026591537
+	286676990 -> 198294077
+	1026591537 -> 369296720
+	1070031796 -> 808241409
+	1070031796 -> 824509813
+	1070031796 -> 275016665
+	1070031796 -> 1060079934
+	808241409 -> 856173703
+	808241409 -> 514608052
+	808241409 -> 1058280147
+	856173703 -> 175897326
+	856173703 -> 281987516
+	281987516 -> 920937832
+	514608052 -> 910930140
+	514608052 -> 223452284
+	910930140 -> 620596190
+	223452284 -> 782277693
+	1058280147 -> 950510115
+	1058280147 -> 68400750
+	950510115 -> 386615623
+	824509813 -> 309978708
+	824509813 -> 1057683329
+	824509813 -> 350520702
+	309978708 -> 1037089835
+	309978708 -> 84758656
+	1037089835 -> 770255406
+	84758656 -> 237200480
+	1057683329 -> 141283224
+	1057683329 -> 1043102437
+	141283224 -> 1023959328
+	1043102437 -> 535723745
+	350520702 -> 798026033
+	350520702 -> 590967690
+	798026033 -> 19866646
+	590967690 -> 381338595
+	275016665 -> 618630837
+	275016665 -> 541120746
+	275016665 -> 1027536012
+	618630837 -> 1020172545
+	618630837 -> 483437598
+	1020172545 -> 777212784
+	483437598 -> 201368914
+	541120746 -> 570934451
+	541120746 -> 163549177
+	163549177 -> 608058068
+	1027536012 -> 144196775
+	1027536012 -> 197087889
+	197087889 -> 366282325
+	1060079934 -> 847644220
+	1060079934 -> 363881740
+	1060079934 -> 995913100
+	847644220 -> 460526208
+	847644220 -> 221727515
+	460526208 -> 675308924
+	221727515 -> 1049449766
+	363881740 -> 556395560
+	363881740 -> 375510813
+	556395560 -> 374215133
+	375510813 -> 860859993
+	995913100 -> 865986639
+	995913100 -> 296280046
+	865986639 -> 324888039
+	296280046 -> 183243685
+}

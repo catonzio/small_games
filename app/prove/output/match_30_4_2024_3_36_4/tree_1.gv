@@ -1,0 +1,261 @@
+// The tree
+digraph {
+	133345194 [label="Max node (O)
+Depth: 0, Value: -8.0
+
+X | O |  
+X | X |  
+  |   | O"]
+	259235293 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O | O
+X | X |  
+  |   | O"]
+	23104233 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | O
+X | X | X
+  |   | O"]
+	392357735 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | O
+X | X |  
+X |   | O"]
+	796976469 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | O
+X | X |  
+  | X | O"]
+	892283692 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	368552094 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	83792697 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	887307952 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X | O
+  |   | O"]
+	814933293 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+X | X | O
+  |   | O"]
+	368187654 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	646028845 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	116476208 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	546532609 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	513978658 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X | O
+X |   | O"]
+	636277684 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O |  
+X | X | O
+  | X | O"]
+	472891366 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+X | X | O
+  | X | O"]
+	942602845 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	752007215 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	507518992 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X |  
+O |   | O"]
+	749715946 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | X
+X | X |  
+O |   | O"]
+	753273994 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X | O
+O |   | O"]
+	350959946 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	858500089 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	77746955 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X | X
+O |   | O"]
+	366837173 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O"]
+	902517782 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O"]
+	856452708 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+X | X | X
+O | X | O"]
+	142263589 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O"]
+	130924490 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O"]
+	644674451 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O |  
+X | X |  
+  | O | O"]
+	495584158 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | X
+X | X |  
+  | O | O"]
+	798865174 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+X | X | O
+  | O | O"]
+	996970958 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+X | O | O"]
+	509925967 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+X | X |  
+O | O | O"]
+	1016048003 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X | X
+  | O | O"]
+	1020250089 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X |  
+X | O | O"]
+	133345194 -> 259235293
+	133345194 -> 887307952
+	133345194 -> 507518992
+	133345194 -> 644674451
+	259235293 -> 23104233
+	259235293 -> 392357735
+	259235293 -> 796976469
+	796976469 -> 892283692
+	796976469 -> 368552094
+	368552094 -> 83792697
+	887307952 -> 814933293
+	887307952 -> 513978658
+	887307952 -> 636277684
+	814933293 -> 368187654
+	814933293 -> 116476208
+	368187654 -> 646028845
+	116476208 -> 546532609
+	636277684 -> 472891366
+	636277684 -> 942602845
+	942602845 -> 752007215
+	507518992 -> 749715946
+	507518992 -> 77746955
+	507518992 -> 366837173
+	749715946 -> 753273994
+	749715946 -> 858500089
+	753273994 -> 350959946
+	366837173 -> 902517782
+	366837173 -> 142263589
+	902517782 -> 856452708
+	142263589 -> 130924490
+	644674451 -> 495584158
+	644674451 -> 1016048003
+	644674451 -> 1020250089
+	495584158 -> 798865174
+	495584158 -> 509925967
+	798865174 -> 996970958
+}

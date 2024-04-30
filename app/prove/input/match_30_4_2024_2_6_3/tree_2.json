@@ -1,0 +1,39 @@
+{
+    "314038481": {
+        "id": 314038481,
+        "depth": 0,
+        "value": 0.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, , X, , X, X, O]",
+        "children": [
+            791425453,
+            118548846
+        ]
+    },
+    "791425453": {
+        "id": 791425453,
+        "depth": 1,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, O, O, X, , X, X, O]",
+        "children": [
+            435046765
+        ]
+    },
+    "435046765": {
+        "id": 435046765,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, O, O, X, X, X, X, O]",
+        "children": []
+    },
+    "118548846": {
+        "id": 118548846,
+        "depth": 1,
+        "value": 9.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, O, X, X, O]",
+        "children": []
+    }
+}

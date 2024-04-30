@@ -1,0 +1,30 @@
+// The tree
+digraph {
+	692493860 [label="Max node (O)
+Depth: 0, Value: 9.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	901936694 [label="Min node (X)
+Depth: 1, Value: 9.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	523971017 [label="Min node (X)
+Depth: 1, Value: -8.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	49898512 [label="Max node (O)
+Depth: 2, Value: -8.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	692493860 -> 901936694 [color=red]
+	692493860 -> 523971017 [color=red]
+	523971017 -> 49898512 [color=blue]
+}

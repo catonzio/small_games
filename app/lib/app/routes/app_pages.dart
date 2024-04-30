@@ -4,6 +4,8 @@ import '../modules/eight_puzzle/bindings/eight_puzzle_binding.dart';
 import '../modules/eight_puzzle/views/eight_puzzle_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
+import '../modules/pong/bindings/pong_binding.dart';
+import '../modules/pong/views/pong_view.dart';
 import '../modules/tic_tac_toe/bindings/tic_tac_toe_binding.dart';
 import '../modules/tic_tac_toe/views/tic_tac_toe_view.dart';
 
@@ -29,6 +31,11 @@ class AppPages {
       name: _Paths.ticTacToe,
       page: () => const TicTacToeView(),
       binding: TicTacToeBinding(),
+    ),
+    GetPage(
+      name: _Paths.PONG,
+      page: () => const PongView(),
+      binding: PongBinding(),
     ),
   ];
 }

@@ -11,6 +11,7 @@ abstract class Routes {
     eightPuzzle,
     ticTacToe,
   ];
+  static const PONG = _Paths.PONG;
 }
 
 abstract class _Paths {
@@ -18,4 +19,5 @@ abstract class _Paths {
   static const home = '/home';
   static const eightPuzzle = '/eight-puzzle';
   static const ticTacToe = '/tic-tac-toe';
+  static const PONG = '/pong';
 }

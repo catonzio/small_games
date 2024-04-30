@@ -1,0 +1,37 @@
+// The tree
+digraph {
+	1985673 [label="Max node (O)
+Depth: 0, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O"]
+	82218011 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O"]
+	105649731 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O"]
+	19730959 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O"]
+	414420806 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O"]
+	1985673 -> 82218011
+	1985673 -> 19730959
+	82218011 -> 105649731
+	19730959 -> 414420806
+}

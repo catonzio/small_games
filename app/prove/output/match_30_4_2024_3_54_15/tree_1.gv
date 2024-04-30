@@ -1,0 +1,429 @@
+// The tree
+strict digraph {
+	692493860 [label="Max node (O)
+Depth: 0, Value: 0.0
+
+X | O |  
+  | X |  
+  | X | O" color=green shape=box]
+	692493860 -> 882597740 [color=green]
+	692493860 -> 178279731 [color=green]
+	692493860 -> 783675852 [color=green]
+	692493860 -> 1001164216 [color=green]
+	882597740 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O | O
+  | X |  
+  | X | O" color=green shape=ellipse]
+	882597740 -> 772682096 [color=black]
+	882597740 -> 330735715 [color=green]
+	882597740 -> 175251959 [color=black]
+	772682096 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | O
+X | X |  
+  | X | O" color=green shape=box]
+	772682096 -> 401262765 [color=green]
+	772682096 -> 10381611 [color=black]
+	401262765 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	10381611 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	10381611 -> 273948733 [color=green]
+	273948733 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	330735715 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | O
+  | X | X
+  | X | O" color=green shape=box]
+	330735715 -> 867532642 [color=green]
+	330735715 -> 925947385 [color=black]
+	867532642 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	867532642 -> 494114081 [color=green]
+	494114081 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	925947385 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	925947385 -> 936990350 [color=green]
+	936990350 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	175251959 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O | O
+  | X |  
+X | X | O" color=green shape=box]
+	175251959 -> 66338611 [color=black]
+	175251959 -> 906203765 [color=green]
+	66338611 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	66338611 -> 865165044 [color=green]
+	865165044 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	906203765 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	178279731 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O |  
+O | X |  
+  | X | O" color=green shape=ellipse]
+	178279731 -> 738217208 [color=green]
+	178279731 -> 339842336 [color=green]
+	178279731 -> 481749866 [color=green]
+	738217208 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+O | X |  
+  | X | O" color=green shape=box]
+	738217208 -> 245301225 [color=black]
+	738217208 -> 217663611 [color=green]
+	245301225 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	245301225 -> 944845406 [color=green]
+	944845406 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	217663611 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	217663611 -> 373516336 [color=green]
+	373516336 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	339842336 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+O | X | X
+  | X | O" color=green shape=box]
+	339842336 -> 644114448 [color=green]
+	339842336 -> 987525883 [color=green]
+	644114448 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+O | X | X
+  | X | O" color=green shape=ellipse]
+	644114448 -> 987408414 [color=green]
+	987408414 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	987525883 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	987525883 -> 314674555 [color=green]
+	314674555 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	481749866 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+O | X |  
+X | X | O" color=green shape=box]
+	481749866 -> 456189508 [color=green]
+	481749866 -> 505063702 [color=black]
+	456189508 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | O
+O | X |  
+X | X | O" color=green shape=ellipse]
+	456189508 -> 238134835 [color=green]
+	238134835 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | O
+O | X | X
+X | X | O" color=green shape=box]
+	505063702 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	505063702 -> 540997933 [color=green]
+	540997933 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	783675852 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O |  
+  | X | O
+  | X | O" color=green shape=ellipse]
+	783675852 -> 756111042 [color=green]
+	783675852 -> 552594362 [color=black]
+	783675852 -> 184281446 [color=black]
+	756111042 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X | O
+  | X | O" color=green shape=box]
+	756111042 -> 633221769 [color=black]
+	756111042 -> 478976890 [color=green]
+	633221769 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | X
+O | X | O
+  | X | O" color=red shape=ellipse]
+	633221769 -> 401663848 [color=green]
+	401663848 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	478976890 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	478976890 -> 746245192 [color=green]
+	746245192 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	552594362 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O |  
+X | X | O
+  | X | O" color=green shape=box]
+	552594362 -> 941981428 [color=green]
+	552594362 -> 567779019 [color=black]
+	941981428 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+X | X | O
+  | X | O" color=green shape=ellipse]
+	567779019 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	567779019 -> 155610319 [color=green]
+	155610319 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	184281446 [label="Max node (O)
+Depth: 2, Value: 7.0
+
+X | O |  
+  | X | O
+X | X | O" color=green shape=box]
+	184281446 -> 828376946 [color=green]
+	184281446 -> 1032737188 [color=black]
+	828376946 [label="Min node (X)
+Depth: 3, Value: 7.0
+
+X | O | O
+  | X | O
+X | X | O" color=green shape=ellipse]
+	1032737188 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O |  
+O | X | O
+X | X | O" color=red shape=ellipse]
+	1032737188 -> 607028356 [color=green]
+	607028356 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | X
+O | X | O
+X | X | O" color=red shape=box]
+	1001164216 [label="Min node (X)
+Depth: 1, Value: 0.0
+
+X | O |  
+  | X |  
+O | X | O" color=green shape=ellipse]
+	1001164216 -> 193120869 [color=green]
+	1001164216 -> 380772009 [color=green]
+	1001164216 -> 879970133 [color=green]
+	193120869 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O | X
+  | X |  
+O | X | O" color=green shape=box]
+	193120869 -> 432629841 [color=green]
+	193120869 -> 340246609 [color=green]
+	432629841 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+O | X |  
+O | X | O" color=green shape=ellipse]
+	432629841 -> 577579624 [color=green]
+	577579624 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+	340246609 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O | X
+  | X | O
+O | X | O" color=green shape=ellipse]
+	340246609 -> 727272431 [color=green]
+	727272431 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	380772009 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+X | X |  
+O | X | O" color=green shape=box]
+	380772009 -> 234713320 [color=black]
+	380772009 -> 429822992 [color=green]
+	234713320 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+X | X |  
+O | X | O" color=red shape=ellipse]
+	234713320 -> 957945370 [color=green]
+	957945370 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	429822992 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+X | X | O
+O | X | O" color=green shape=ellipse]
+	429822992 -> 47710551 [color=green]
+	47710551 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+X | X | O
+O | X | O" color=green shape=box]
+	879970133 [label="Max node (O)
+Depth: 2, Value: 0.0
+
+X | O |  
+  | X | X
+O | X | O" color=green shape=box]
+	879970133 -> 1019127213 [color=black]
+	879970133 -> 981272233 [color=green]
+	1019127213 [label="Min node (X)
+Depth: 3, Value: -6.0
+
+X | O | O
+  | X | X
+O | X | O" color=red shape=ellipse]
+	1019127213 -> 388037113 [color=green]
+	388037113 [label="Max node (O)
+Depth: 4, Value: -6.0
+
+X | O | O
+X | X | X
+O | X | O" color=red shape=box]
+	981272233 [label="Min node (X)
+Depth: 3, Value: 0.0
+
+X | O |  
+O | X | X
+O | X | O" color=green shape=ellipse]
+	981272233 -> 417377434 [color=green]
+	417377434 [label="Max node (O)
+Depth: 4, Value: 0.0
+
+X | O | X
+O | X | X
+O | X | O" color=green shape=box]
+}

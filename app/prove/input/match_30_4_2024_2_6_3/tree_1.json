@@ -1,0 +1,587 @@
+{
+    "314038481": {
+        "id": 314038481,
+        "depth": 0,
+        "value": 0.0,
+        "isMaxNode": true,
+        "board": "[X, O, , , X, , , X, O]",
+        "children": [
+            405217857,
+            515570120,
+            1005320005,
+            208625409
+        ]
+    },
+    "405217857": {
+        "id": 405217857,
+        "depth": 1,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, , , X, O]",
+        "children": [
+            704949152,
+            112887958,
+            107742738
+        ]
+    },
+    "704949152": {
+        "id": 704949152,
+        "depth": 2,
+        "value": 7.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, X, X, , , X, O]",
+        "children": [
+            750914612,
+            774035973
+        ]
+    },
+    "750914612": {
+        "id": 750914612,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, X, X, O, , X, O]",
+        "children": []
+    },
+    "774035973": {
+        "id": 774035973,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, X, X, , O, X, O]",
+        "children": [
+            999936182
+        ]
+    },
+    "999936182": {
+        "id": 999936182,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, X, X, X, O, X, O]",
+        "children": []
+    },
+    "112887958": {
+        "id": 112887958,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, , X, X, , X, O]",
+        "children": [
+            779084851,
+            941592847
+        ]
+    },
+    "779084851": {
+        "id": 779084851,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, O, O, X, X, , X, O]",
+        "children": [
+            48072512
+        ]
+    },
+    "48072512": {
+        "id": 48072512,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, O, O, X, X, X, X, O]",
+        "children": []
+    },
+    "941592847": {
+        "id": 941592847,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, X, O, X, O]",
+        "children": [
+            737951400
+        ]
+    },
+    "737951400": {
+        "id": 737951400,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, X, X, X, O, X, O]",
+        "children": []
+    },
+    "107742738": {
+        "id": 107742738,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, , X, , X, X, O]",
+        "children": [
+            1009009069,
+            335113406
+        ]
+    },
+    "1009009069": {
+        "id": 1009009069,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, O, O, X, , X, X, O]",
+        "children": [
+            125969925
+        ]
+    },
+    "125969925": {
+        "id": 125969925,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, O, O, X, X, X, X, O]",
+        "children": []
+    },
+    "335113406": {
+        "id": 335113406,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, O, X, X, O]",
+        "children": []
+    },
+    "515570120": {
+        "id": 515570120,
+        "depth": 1,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, , O, X, , , X, O]",
+        "children": [
+            447026100,
+            522312374,
+            536989320
+        ]
+    },
+    "447026100": {
+        "id": 447026100,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, , , X, O]",
+        "children": [
+            992531676,
+            987875632
+        ]
+    },
+    "992531676": {
+        "id": 992531676,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, X, O, X, O, , X, O]",
+        "children": [
+            114875890
+        ]
+    },
+    "114875890": {
+        "id": 114875890,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, O, X, X, O]",
+        "children": []
+    },
+    "987875632": {
+        "id": 987875632,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, X, O, X, , O, X, O]",
+        "children": [
+            572250731
+        ]
+    },
+    "572250731": {
+        "id": 572250731,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, X, O, X, O]",
+        "children": []
+    },
+    "522312374": {
+        "id": 522312374,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, , O, X, X, , X, O]",
+        "children": [
+            284860740,
+            488815605
+        ]
+    },
+    "284860740": {
+        "id": 284860740,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, O, O, X, X, , X, O]",
+        "children": [
+            859664179
+        ]
+    },
+    "859664179": {
+        "id": 859664179,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, O, O, X, X, X, X, O]",
+        "children": []
+    },
+    "488815605": {
+        "id": 488815605,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, , O, X, X, O, X, O]",
+        "children": [
+            686309016
+        ]
+    },
+    "686309016": {
+        "id": 686309016,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, X, O, X, O]",
+        "children": []
+    },
+    "536989320": {
+        "id": 536989320,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, , O, X, , X, X, O]",
+        "children": [
+            972195291,
+            502157913
+        ]
+    },
+    "972195291": {
+        "id": 972195291,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, O, O, X, , X, X, O]",
+        "children": [
+            822508304
+        ]
+    },
+    "822508304": {
+        "id": 822508304,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, O, O, X, X, X, X, O]",
+        "children": []
+    },
+    "502157913": {
+        "id": 502157913,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, , O, X, O, X, X, O]",
+        "children": [
+            991851211
+        ]
+    },
+    "991851211": {
+        "id": 991851211,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, O, X, X, O]",
+        "children": []
+    },
+    "1005320005": {
+        "id": 1005320005,
+        "depth": 1,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, , , X, O, , X, O]",
+        "children": [
+            310752400,
+            653948075,
+            706373739
+        ]
+    },
+    "310752400": {
+        "id": 310752400,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, , X, O, , X, O]",
+        "children": [
+            796663164,
+            1002511567
+        ]
+    },
+    "796663164": {
+        "id": 796663164,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, X, O, X, O, , X, O]",
+        "children": [
+            694238601
+        ]
+    },
+    "694238601": {
+        "id": 694238601,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, O, X, X, O]",
+        "children": []
+    },
+    "1002511567": {
+        "id": 1002511567,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, X, , X, O, O, X, O]",
+        "children": [
+            980881136
+        ]
+    },
+    "980881136": {
+        "id": 980881136,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, X, X, O, O, X, O]",
+        "children": []
+    },
+    "653948075": {
+        "id": 653948075,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, , X, X, O, , X, O]",
+        "children": [
+            608581372,
+            216555781
+        ]
+    },
+    "608581372": {
+        "id": 608581372,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, X, X, O, , X, O]",
+        "children": []
+    },
+    "216555781": {
+        "id": 216555781,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, , X, X, O, O, X, O]",
+        "children": [
+            166472997
+        ]
+    },
+    "166472997": {
+        "id": 166472997,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, X, X, O, O, X, O]",
+        "children": []
+    },
+    "706373739": {
+        "id": 706373739,
+        "depth": 2,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, , , X, O, X, X, O]",
+        "children": [
+            11662013,
+            592516941
+        ]
+    },
+    "11662013": {
+        "id": 11662013,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, O, X, X, O]",
+        "children": []
+    },
+    "592516941": {
+        "id": 592516941,
+        "depth": 3,
+        "value": 7.0,
+        "isMaxNode": false,
+        "board": "[X, O, , O, X, O, X, X, O]",
+        "children": [
+            418797775
+        ]
+    },
+    "418797775": {
+        "id": 418797775,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, O, X, X, O]",
+        "children": []
+    },
+    "208625409": {
+        "id": 208625409,
+        "depth": 1,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, , , X, , O, X, O]",
+        "children": [
+            125428308,
+            378314488,
+            858337531
+        ]
+    },
+    "125428308": {
+        "id": 125428308,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, , X, , O, X, O]",
+        "children": [
+            467850739,
+            408554578
+        ]
+    },
+    "467850739": {
+        "id": 467850739,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, X, O, X, , O, X, O]",
+        "children": [
+            942489117
+        ]
+    },
+    "942489117": {
+        "id": 942489117,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, X, O, X, O]",
+        "children": []
+    },
+    "408554578": {
+        "id": 408554578,
+        "depth": 3,
+        "value": -Infinity,
+        "isMaxNode": false,
+        "board": "[X, O, X, , X, O, O, X, O]",
+        "children": [
+            709245523
+        ]
+    },
+    "709245523": {
+        "id": 709245523,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, X, X, O, O, X, O]",
+        "children": []
+    },
+    "378314488": {
+        "id": 378314488,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, , X, X, , O, X, O]",
+        "children": [
+            270592639,
+            602942164
+        ]
+    },
+    "270592639": {
+        "id": 270592639,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, X, X, , O, X, O]",
+        "children": [
+            130389925
+        ]
+    },
+    "130389925": {
+        "id": 130389925,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, X, X, X, O, X, O]",
+        "children": []
+    },
+    "602942164": {
+        "id": 602942164,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, , X, X, O, O, X, O]",
+        "children": [
+            21765393
+        ]
+    },
+    "21765393": {
+        "id": 21765393,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, X, X, O, O, X, O]",
+        "children": []
+    },
+    "858337531": {
+        "id": 858337531,
+        "depth": 2,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, , , X, X, O, X, O]",
+        "children": [
+            961282338,
+            787314010
+        ]
+    },
+    "961282338": {
+        "id": 961282338,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, O, , X, X, O, X, O]",
+        "children": [
+            31061913
+        ]
+    },
+    "31061913": {
+        "id": 31061913,
+        "depth": 4,
+        "value": -6.0,
+        "isMaxNode": true,
+        "board": "[X, O, O, X, X, X, O, X, O]",
+        "children": []
+    },
+    "787314010": {
+        "id": 787314010,
+        "depth": 3,
+        "value": -6.0,
+        "isMaxNode": false,
+        "board": "[X, O, , O, X, X, O, X, O]",
+        "children": [
+            130252806
+        ]
+    },
+    "130252806": {
+        "id": 130252806,
+        "depth": 4,
+        "value": -Infinity,
+        "isMaxNode": true,
+        "board": "[X, O, X, O, X, X, O, X, O]",
+        "children": []
+    }
+}

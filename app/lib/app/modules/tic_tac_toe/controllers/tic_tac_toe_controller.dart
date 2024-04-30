@@ -35,6 +35,7 @@ class TicTacToeController extends GetxController {
 
   void restartGame() {
     gridController.restart();
+    minimaxPlayer.restart();
     firstPlayerTurn = true;
   }
 
