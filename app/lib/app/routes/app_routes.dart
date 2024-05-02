@@ -6,12 +6,9 @@ abstract class Routes {
   static const home = _Paths.home;
   static const eightPuzzle = _Paths.eightPuzzle;
   static const ticTacToe = _Paths.ticTacToe;
+  static const pong = _Paths.pong;
 
-  static const List<String> games = [
-    eightPuzzle,
-    ticTacToe,
-  ];
-  static const PONG = _Paths.PONG;
+  static const List<String> games = [eightPuzzle, ticTacToe, pong];
 }
 
 abstract class _Paths {
@@ -19,5 +16,5 @@ abstract class _Paths {
   static const home = '/home';
   static const eightPuzzle = '/eight-puzzle';
   static const ticTacToe = '/tic-tac-toe';
-  static const PONG = '/pong';
+  static const pong = '/pong';
 }

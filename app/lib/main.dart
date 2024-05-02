@@ -1,8 +1,7 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:small_games/app/shared/custom_scroll_behavior.dart';
 import 'package:small_games/config/themes.dart';
 
 import 'app/routes/app_pages.dart';
@@ -31,12 +30,4 @@ class App extends StatelessWidget {
       getPages: AppPages.routes,
     );
   }
-}
-
-class CustomScrollBehavior extends MaterialScrollBehavior {
-  @override
-  Set<PointerDeviceKind> get dragDevices => {
-        PointerDeviceKind.touch,
-        PointerDeviceKind.mouse,
-      };
 }

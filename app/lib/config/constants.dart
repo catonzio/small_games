@@ -15,6 +15,9 @@ Developed by Danilo Catone <danilocatone@gmail.com>""";
   static const String ticTacToeDescription =
       """Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid.""";
 
+  static const String pongDescription =
+      """Pong is one of the earliest arcade video games. It is a table tennis sports game featuring simple two-dimensional graphics.""";
+
   static List<String> imagesList = [
     "assets/images/romance.png",
     "assets/images/adriana.png",

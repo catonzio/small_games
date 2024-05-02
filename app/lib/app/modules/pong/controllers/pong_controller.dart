@@ -1,23 +1,45 @@
+import 'dart:async';
+
 import 'package:get/get.dart';
+import 'package:small_games/app/modules/pong/controllers/pong_bar_controller.dart';
+import 'package:small_games/app/modules/pong/models/pong_ball.dart';
+
+const double FPS = 30;
+final int dt = (1 / FPS * 1000).toInt();
 
 class PongController extends GetxController {
-  //TODO: Implement PongController
+  static PongController get to => Get.find<PongController>();
 
-  final count = 0.obs;
+  final PongBall ball = PongBall();
+
+  final PongBarController playerController =
+      Get.put<PongBarController>(PongBarController(), tag: 'player');
+  final PongBarController computerController =
+      Get.put<PongBarController>(PongBarController(), tag: 'computer');
+
+  Timer? timer;
+
   @override
   void onInit() {
+    startGame();
     super.onInit();
   }
 
   @override
-  void onReady() {
-    super.onReady();
+  void dispose() {
+    stopGame();
+    super.dispose();
   }
 
-  @override
-  void onClose() {
-    super.onClose();
+  void startGame() {
+    timer = Timer.periodic(Duration(milliseconds: dt), (timer) {
+      ball.x = ball.x + ball.speed.dx * dt / 1000;
+      ball.y = ball.x + ball.speed.dy * dt / 1000;
+      print("${ball.x} ${ball.y}");
+    });
   }
 
-  void increment() => count.value++;
+  void stopGame() {
+    timer?.cancel();
+  }
 }

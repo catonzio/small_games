@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:small_games/app/modules/pong/views/desktop/pong_desktop.dart';
 
-import 'package:get/get.dart';
+import 'package:small_games/app/shared/responsive.dart';
+import 'package:small_games/app/shared/views/shared_view.dart';
+import 'package:small_games/config/constants.dart';
 
-import '../controllers/pong_controller.dart';
+class PongView extends StatelessWidget {
+  const PongView({super.key});
 
-class PongView extends GetView<PongController> {
-  const PongView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('PongView'),
-        centerTitle: true,
-      ),
-      body: const Center(
-        child: Text(
-          'PongView is working',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
-    );
+    return const SharedView(
+        title: 'Pong',
+        description: Constants.pongDescription,
+        body: Responsive(
+          mobile: PongDesktop(),
+          desktop: PongDesktop(),
+        ));
   }
 }

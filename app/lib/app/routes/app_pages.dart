@@ -33,7 +33,7 @@ class AppPages {
       binding: TicTacToeBinding(),
     ),
     GetPage(
-      name: _Paths.PONG,
+      name: _Paths.pong,
       page: () => const PongView(),
       binding: PongBinding(),
     ),
